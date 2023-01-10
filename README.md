@@ -566,3 +566,4 @@ Cada app custom debe mantener estilos base, es decir, estilos de espaciados, pos
 Documentación de referemcia: [Reglas de uso](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-5-defining-styles)
 
 Esto con el fin de mantener las apps custom agnósticas a cada lógica de negocio y proyecto en particular, con el fin de que sea reutilizable en diferentes proyectos.
+# store-theme-musimundo

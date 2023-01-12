@@ -2,7 +2,8 @@
   "responsive-layout.desktop#home__section-3": {
     "title": "Home Section 3 Desktop",
     "children": [
-      "flex-layout.row#home__section-3"
+      "flex-layout.row#home__section-3",
+      "flex-layout.row#home__section-4"
     ]
   }
 }

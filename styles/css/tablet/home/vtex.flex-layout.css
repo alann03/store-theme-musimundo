@@ -1,5 +1,7 @@
-/* Example Tablet:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
+/* .flexColChild--col-cards-2{
+    height: 500px;
 } */
+
+.flexColChild--col-cards-2 :global(.vtex-store-components-3-x-infoCardContainer--info-card__section-4){
+    height: 100%;
+}

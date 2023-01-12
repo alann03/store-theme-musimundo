@@ -32,7 +32,7 @@
   "info-card#home__section-3--card-2": {
     "title": "DESKTOP Info Card 2",
     "props": {
-      "id": "home__info-card-1",
+      "id": "home__info-card-2",
       "isFullModeStyle": true,
       "textPosition": "left",
       "callToActionMode": "link",
@@ -48,7 +48,7 @@
   "info-card#home__section-3--card-3": {
     "title": "DESKTOP Info Card 3",
     "props": {
-      "id": "home__info-card-1",
+      "id": "home__info-card-3",
       "isFullModeStyle": true,
       "textPosition": "left",
       "callToActionMode": "link",
@@ -64,7 +64,7 @@
   "info-card#home__section-3--card-4": {
     "title": "DESKTOP Info Card 4",
     "props": {
-      "id": "home__info-card-1",
+      "id": "home__info-card-4",
       "isFullModeStyle": true,
       "textPosition": "left",
       "callToActionMode": "link",

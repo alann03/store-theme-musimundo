@@ -1,6 +1,8 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "responsive-layout.desktop#home__section-3": {
+    "title": "Home Section 3 Desktop",
+    "children": [
+      "flex-layout.row#home__section-3"
+    ]
   }
 }

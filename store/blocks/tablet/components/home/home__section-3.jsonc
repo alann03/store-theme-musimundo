@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#tablet__home__section-3": {
+    "title": "TABLET Info Cards",
+    "children": [
+      "flex-layout.col#tablet__home__section-3--1",
+      "flex-layout.col#tablet__home__section-3--2"
+    ],
+    "props": {
+      "colGap": 7
+    }
+  },
+  "flex-layout.col#tablet__home__section-3--1": {
+    "title": "TABLET Col Info Cards 1",
+    "children": [
+      "info-card#tablet__home__section-3--card-1",
+      "info-card#tablet__home__section-3--card-2"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "info-card#tablet__home__section-3--card-1": {
+    "title": "TABLET Info Card 1",
+    "props": {
+      "id": "tablet__home__info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-1.jpg",
+      "headline": "Retiro",
+      "subhead": "en tienda",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tablet__home__section-3--card-2": {
+    "title": "TABLET Info Card 2",
+    "props": {
+      "id": "tablet__home__info-card-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-2.jpg",
+      "headline": "Crédito",
+      "subhead": "Musimundo",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#tablet__home__section-3--2": {
+    "title": "TABLET Col Info Cards 2",
+    "children": [
+      "info-card#tablet__home__section-3--card-3",
+      "info-card#tablet__home__section-3--card-4"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "info-card#tablet__home__section-3--card-3": {
+    "title": "TABLET Info Card 3",
+    "props": {
+      "id": "tablet__home__info-card-3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-3.jpg",
+      "headline": "Encontrá",
+      "subhead": "tu sucursal",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tablet__home__section-3--card-4": {
+    "title": "TABLET Info Card 4",
+    "props": {
+      "id": "tablet__home__info-card-4",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-4.jpg",
+      "headline": "Gaming",
+      "subhead": "League",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  }
+}

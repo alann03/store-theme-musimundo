@@ -1,6 +1,6 @@
 {
-  "vendor": "musimundo2",
-  "name": "store-theme-2",
+  "vendor": "musimundo",
+  "name": "store-theme",
   "version": "0.0.1",
   "builders": {
     "assets": "0.x",

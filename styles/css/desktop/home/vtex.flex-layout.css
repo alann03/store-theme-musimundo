@@ -1,3 +1,53 @@
+.flexRow--home__section-3--desktop {
+    background-color: #FFFFFF;
+}
+
+.flexRow--home__section-3--desktop :global(.vtex-store-components-3-x-container) {
+    max-width: 1300px;
+    padding: 0;
+}
+
+.flexRow--home__section-3--desktop :global(.vtex-store-components-3-x-infoCardContainer) {
+    height: 120px;
+}
+
+.flexRowContent--home__section-3--desktop :global(.vtex-store-components-3-x-infoCardTextContainer) {
+    height: 100%;
+    justify-content: center;
+}
+
+.flexRowContent--home__section-3--desktop :global(.vtex-store-components-3-x-infoCardHeadline) {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.flexRowContent--home__section-3--desktop :global(.vtex-store-components-3-x-infoCardSubhead) {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.flexRowContent--home__section-3--desktop :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+    margin: 10% 0;
+}
+
+.flexRowContent--home__section-3--desktop :global(.vtex-store-components-3-x-infoCardCallActionText) {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.flexRow--home__section-4--desktop :global(.vtex-store-components-3-x-container){
+    padding: 0;
+    max-width: 1300px;
+}
+
+
 .flexRowContent--row-cards-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     height: 700px;
 }

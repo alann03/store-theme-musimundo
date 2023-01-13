@@ -5,7 +5,7 @@
       "flex-layout.col#home__section--global-2"
     ],
     "props": {
-      "blockClass": "home__section--two"
+      "blockClass": "home__section-2--global"
     }
   },
   "flex-layout.col#home__section--global-2": {

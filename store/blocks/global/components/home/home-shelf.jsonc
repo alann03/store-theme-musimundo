@@ -25,6 +25,7 @@
       "product-summary.shelf"
     ],
     "props": {
+      "blockClass": "home__shelf",
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
@@ -43,6 +44,7 @@
       "product-summary.shelf"
     ],
     "props": {
+      "blockClass": "home__shelf",
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {

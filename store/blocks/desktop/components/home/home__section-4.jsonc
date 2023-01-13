@@ -3,7 +3,10 @@
     "title": "DESKTOP Cards News&Updates",
     "children": [
       "flex-layout.col#home__section-4"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-4--desktop"
+    }
   },
   "flex-layout.col#home__section-4": {
     "title": "DESKTOP Cards News&Updates COL",

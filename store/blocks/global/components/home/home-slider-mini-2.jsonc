@@ -35,7 +35,7 @@
         "timeout": 3000,
         "stopOnHover": true
       },
-      "blockClass": "home__slider"
+      "blockClass": "home__slider--global"
     }
   }
 }

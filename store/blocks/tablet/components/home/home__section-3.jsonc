@@ -6,7 +6,7 @@
       "flex-layout.col#tablet__home__section-3--2"
     ],
     "props": {
-      "colGap": 7
+      "blockClass": "home__section-3--tablet"
     }
   },
   "flex-layout.col#tablet__home__section-3--1": {
@@ -16,6 +16,7 @@
       "info-card#tablet__home__section-3--card-2"
     ],
     "props": {
+      "blockClass": "col-cards-left",
       "rowGap": 7
     }
   },
@@ -31,7 +32,7 @@
       "subhead": "en tienda",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-tablet",
       "textAlignment": "center"
     }
   },
@@ -47,7 +48,7 @@
       "subhead": "Musimundo",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-tablet",
       "textAlignment": "center"
     }
   },
@@ -58,6 +59,7 @@
       "info-card#tablet__home__section-3--card-4"
     ],
     "props": {
+      "blockClass": "col-cards-right",
       "rowGap": 7
     }
   },
@@ -73,7 +75,7 @@
       "subhead": "tu sucursal",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-tablet",
       "textAlignment": "center"
     }
   },
@@ -89,7 +91,7 @@
       "subhead": "League",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-tablet",
       "textAlignment": "center"
     }
   }

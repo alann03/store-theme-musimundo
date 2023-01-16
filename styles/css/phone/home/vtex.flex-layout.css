@@ -1,5 +1,6 @@
-/* Example Phone:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--home__section-3--phone {
+    background-color: #FFFFFF;
+    margin-top: 13%;
+    padding-top: 6%;
+    padding-bottom: 9%; 
+}

@@ -18,7 +18,8 @@
       "text": "\n# **AHORA EN MUSIMUNDO**\n#### Las últimas noticias y novedades",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "text-section-4-phone"
     }
   },
   "flex-layout.col#phone__home__section-4--cards": {
@@ -45,7 +46,7 @@
       "subhead": "Elegí cafeteras para disfrutar el tiempo en tu casa. Y molinillos para los más exigentes que buscan un sabor único.",
       "callToActionText": "COMPRAR",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-phone",
       "textAlignment": "center"
     }
   },
@@ -60,7 +61,7 @@
       "subhead": "¿Con ganas de actualizar tu PC? tenemos todos los componentes para armar tu nueva PC más potente y rápida.",
       "callToActionText": "CONOCELOS",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-phone",
       "textAlignment": "center"
     }
   },
@@ -75,7 +76,7 @@
       "subhead": "Conocé el nuevo Blog y enterate de todo lo nuevo, al alcance de un clic.",
       "callToActionText": "VISITAR",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-phone",
       "textAlignment": "center"
     }
   },
@@ -90,7 +91,7 @@
       "subhead": "Aires frío-calor y los mejores y más eficientes climatizadores ¡No vas a querer salir de tu casa!",
       "callToActionText": "COMPRÁ YA",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-phone",
       "textAlignment": "center"
     }
   }

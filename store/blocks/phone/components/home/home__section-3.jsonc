@@ -5,6 +5,7 @@
       "flex-layout.col#phone__home__section-3"
     ],
     "props": {
+      "blockClass": "home__section-3--phone",
       "marginTop": 9,
       "marginBottom": 10
     }
@@ -33,7 +34,7 @@
       "subhead": "en tienda",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-phone",
       "textAlignment": "center"
     }
   },
@@ -49,7 +50,7 @@
       "subhead": "Musimundo",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-phone",
       "textAlignment": "center"
     }
   },
@@ -65,7 +66,7 @@
       "subhead": "tu sucursal",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-phone",
       "textAlignment": "center"
     }
   },
@@ -81,7 +82,7 @@
       "subhead": "League",
       "callToActionText": "Ver más",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
+      "blockClass": "info-card-section-3-phone",
       "textAlignment": "center"
     }
   }

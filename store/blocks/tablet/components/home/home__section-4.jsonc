@@ -28,7 +28,7 @@
       "flex-layout.col#tablet__home__section-4--cards-2"
     ],
     "props": {
-      "colGap": 7
+      "blockClass": "row-cards-2-tablet"
     }
   },
   "flex-layout.col#tablet__home__section-4--cards-1": {
@@ -39,7 +39,7 @@
     ],
     "props": {
       "rowGap": 7,
-      "blockClass": "col-cards-2"
+      "blockClass": "col-cards-left"
     }
   },
   "flex-layout.col#tablet__home__section-4--cards-2": {
@@ -50,7 +50,7 @@
     ],
     "props": {
       "rowGap": 7,
-      "blockClass": "col-cards-2"
+      "blockClass": "col-cards-right"
     }
   },
   "info-card#tablet__home__section-4--card-5": {
@@ -64,7 +64,7 @@
       "subhead": "Elegí cafeteras para disfrutar el tiempo en tu casa. Y molinillos para los más exigentes que buscan un sabor único.",
       "callToActionText": "COMPRAR",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-tablet",
       "textAlignment": "center"
     }
   },
@@ -79,7 +79,7 @@
       "subhead": "¿Con ganas de actualizar tu PC? tenemos todos los componentes para armar tu nueva PC más potente y rápida.",
       "callToActionText": "CONOCELOS",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-tablet",
       "textAlignment": "center"
     }
   },
@@ -94,7 +94,7 @@
       "subhead": "Conocé el nuevo Blog y enterate de todo lo nuevo, al alcance de un clic.",
       "callToActionText": "VISITAR",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-tablet",
       "textAlignment": "center"
     }
   },
@@ -109,7 +109,7 @@
       "subhead": "Aires frío-calor y los mejores y más eficientes climatizadores ¡No vas a querer salir de tu casa!",
       "callToActionText": "COMPRÁ YA",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card__section-4",
+      "blockClass": "info-card__section-4-tablet",
       "textAlignment": "center"
     }
   }

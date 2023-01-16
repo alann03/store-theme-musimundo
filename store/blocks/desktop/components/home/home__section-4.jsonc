@@ -21,7 +21,8 @@
       "text": "\n# **AHORA EN MUSIMUNDO**\n#### Las últimas noticias y novedades",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "home__section-4--titles"
     }
   },
   "flex-layout.row#home__section-4--cards": {

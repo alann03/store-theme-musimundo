@@ -1,0 +1,30 @@
+{
+  "header-row#header__desktop-middle": {
+    "title": "Header Desktop Middle",
+    "children": [
+      "logo#header__desktop-logo",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__desktop-middle",
+      "sticky": true
+    }
+  },
+  "logo#header__desktop-logo": {
+    "title": "Header Desktop Logo",
+    "props": {
+      "url": "assets/img/musimundo-logo.jpg",
+      "href": "/"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "header-row#header__mobile-middle": {
+    "title": "Header Mobile Middle",
+    "children": [
+      "drawer#drawer__mobile",
+      "logo#header__mobile-logo",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__mobile-middle",
+      "sticky": true
+    }
+  },
+  "drawer#drawer__mobile": {
+    "title": "Mobile Drawer",
+    "children": [
+      "login"
+    ]
+  },
+  "logo#header__mobile-logo": {
+    "title": "Header Mobile Logo",
+    "props": {
+      "url": "assets/img/musimundo-logo.jpg",
+      "href": "/"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}

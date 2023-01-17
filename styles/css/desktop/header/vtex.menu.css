@@ -1,4 +1,15 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.menuContainerNav--header__desktop-bottom-menu {
+    height: 100%;
+}
+
+.menuContainer--header__desktop-bottom-menu {
+    background-color: #FF4338;
+    height: 100%;
+}
+
+.menuItem--desktop__category--menu-item-row {
+    border-left: 1px solid white;
+}
+.styledLinkContent--desktop__category--menu-item-row {
+    color: #FFFFFF;
+}

@@ -1,0 +1,8 @@
+.headerRowContentContainer {
+  max-width: 1300px;
+  align-items: stretch;
+}
+
+.headerRowBackground--header__desktop-bottom {
+  background-color: #FFFFFF;
+}

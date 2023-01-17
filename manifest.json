@@ -50,5 +50,8 @@
     "vtex.modal-layout": "0.x",
     "vtex.product-price": "1.x"
   },
+  "peerDependencies": {
+    "vtex.mega-menu": "2.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

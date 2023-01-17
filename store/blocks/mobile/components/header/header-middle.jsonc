@@ -4,6 +4,7 @@
     "children": [
       "drawer#drawer__mobile",
       "logo#header__mobile-logo",
+      "header-spacer",
       "minicart.v2"
     ],
     "props": {
@@ -16,6 +17,9 @@
     "children": [
       "login"
     ]
+    /* "props": {
+      "slideDirection": "horizontal"
+    } */
   },
   "logo#header__mobile-logo": {
     "title": "Header Mobile Logo",

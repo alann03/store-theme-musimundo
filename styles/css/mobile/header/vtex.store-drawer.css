@@ -1,0 +1,15 @@
+.drawer--drawer__mobile {
+  height: 60%;
+  max-width: 100% !important;
+}
+
+.childrenContainer--drawer__mobile {
+  margin-left: 4%;
+  flex-direction: column;
+}
+
+.drawer--drawer__mobile-2 {
+  height: 50%;
+  max-width: 100% !important;
+  top: 9%;
+}

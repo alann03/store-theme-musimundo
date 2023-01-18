@@ -1,0 +1,192 @@
+{
+  "menu#mobile__menu": {
+    "children": [
+      "menu-item#mobile__row-category-televisions",
+      "menu-item#mobile__row-category-cellphones",
+      "menu-item#mobile__row-category-airs",
+      "menu-item#mobile__row-category-notebooks",
+      "menu-item#mobile__row-category-refrigerators",
+      "menu-item#mobile__row-category-washingmachine",
+      "menu-item#mobile__row-category-tablets",
+      "menu-item#mobile__row-category-rodados",
+      "menu-item#mobile__row-category-offers",
+      "menu-item#mobile__row-category-carrito-de-compras",
+      "menu-item#mobile__row-category-favoritos",
+      "menu-item#mobile__row-category-sucursales",
+      "menu-item#mobile__row-category-centro-de-atencion-al-cliente"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__menu--item"
+    }
+  },
+  "menu-item#mobile__row-category-televisions": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/audio-tv-video/televisores/c/57",
+        "noFollow": false,
+        "text": "Televisores"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-cellphones": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/telefonia/telefonos-celulares/c/82",
+        "noFollow": false,
+        "text": "Celulares"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-airs": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/climatizacion/aire-acondicionado/c/21",
+        "noFollow": false,
+        "text": "Aires"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-notebooks": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/informatica/notebook/c/98",
+        "noFollow": false,
+        "text": "Notebooks"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-refrigerators": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/electrohogar/heladeras/c/140",
+        "noFollow": false,
+        "text": "Heladeras"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-washingmachine": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/electrohogar/lavarropas/c/147",
+        "noFollow": false,
+        "text": "Lavarropas"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-tablets": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/informatica/tablets/c/99",
+        "noFollow": false,
+        "text": "Tablets"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-rodados": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/rodados/c/9",
+        "noFollow": false,
+        "text": "Rodados"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-carrito-de-compras": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Carrito de compras"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-favoritos": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Favoritos"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-offers": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Super Ofertas"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-sucursales": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Sucursales"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  },
+  "menu-item#mobile__row-category-centro-de-atencion-al-cliente": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Atención al cliente"
+      },
+      "blockClass": "mobile__category--menu-item-row"
+    }
+  }
+}

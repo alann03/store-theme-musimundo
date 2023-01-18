@@ -15,11 +15,16 @@
   "drawer#drawer__mobile": {
     "title": "Mobile Drawer",
     "children": [
-      "login"
-    ]
-    /* "props": {
-      "slideDirection": "horizontal"
-    } */
+      "rich-text#drawer__mobile--title-login",
+      /* "rich-text#drawer__mobile--text-login", */
+      "login#mobile",
+      "menu#mobile__menu"
+    ],
+    "props": {
+      "blockClass": "drawer__mobile",
+      "isFullWidth": true,
+      "orientation": "vertical"
+    }
   },
   "logo#header__mobile-logo": {
     "title": "Header Mobile Logo",
@@ -28,7 +33,19 @@
       "href": "/"
     }
   },
-  "login": {
+  "rich-text#drawer__mobile--title-login": {
+    "title": "Login Mobile Title",
+    "props": {
+      "text": "**Hola**, Inicia tu sesión "
+    }
+  },
+  /* "rich-text#drawer__mobile--text-login": {
+    "title": "Login Mobile Text",
+    "props": {
+      "text": "\n Ingresá | Registrate"
+    }
+  }, */
+  "login#mobile": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",

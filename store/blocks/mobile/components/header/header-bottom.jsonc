@@ -17,7 +17,8 @@
       "drawer-trigger#mobile"
     ],
     "props": {
-      "isFullWidth": true
+      "isFullWidth": true,
+      "blockClass": "drawer__mobile-2"
     }
   },
   "drawer-trigger#mobile": {

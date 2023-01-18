@@ -1,15 +1,28 @@
-.menuContainerNav--header__desktop-bottom-menu {
+.menuContainerNav--header__desktop--menu {
+    background-color: #ff4338;
     height: 100%;
+    display: flex;
 }
 
-.menuContainer--header__desktop-bottom-menu {
-    background-color: #FF4338;
-    height: 100%;
+.menuContainer--header__desktop--menu {
+    align-items: center;
 }
 
-.menuItem--desktop__category--menu-item-row {
-    border-left: 1px solid white;
+.menuItem--desktop__menu-item {
+    border-right: 1px solid #FFFFFF;
+    /* width: 9%; */
 }
-.styledLinkContent--desktop__category--menu-item-row {
+
+.menuItem--desktop__menu-item-last {
+    /* width: 9%; */
+}
+
+.styledLink--desktop__menu-item {
     color: #FFFFFF;
+    /* font-size: 12px; */
+}
+
+.styledLink--desktop__menu-item-last {
+    color: #FFFFFF;
+    /* font-size: 12px; */
 }

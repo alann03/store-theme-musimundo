@@ -1,8 +1,9 @@
 {
-  "header-row#header__desktop-middle": {
+  "header-row#header__desktop--middle": {
     "title": "Header Desktop Middle",
     "children": [
-      "logo#header__desktop-logo",
+      "logo#header__desktop--logo",
+      "search-bar#desktop",
       "login",
       "minicart.v2"
     ],
@@ -11,13 +12,14 @@
       "sticky": true
     }
   },
-  "logo#header__desktop-logo": {
+  "logo#header__desktop--logo": {
     "title": "Header Desktop Logo",
     "props": {
       "url": "assets/img/musimundo-logo.jpg",
       "href": "/"
     }
   },
+  "search-bar#desktop": {},
   "login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",

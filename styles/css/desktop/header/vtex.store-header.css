@@ -1,8 +1,8 @@
 .headerRowContentContainer {
-  max-width: 1300px;
-  align-items: stretch;
+  max-width: 1280px;
+  height: 60px;
 }
 
-.headerRowBackground--header__desktop-bottom {
-  background-color: #FFFFFF;
+.headerRowBackground--header__desktop--bottom {
+  background: linear-gradient(90deg,#fff 50%,#ff4338 50%);
 }

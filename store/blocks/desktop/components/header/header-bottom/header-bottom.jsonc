@@ -1,0 +1,43 @@
+{
+  "header-row#header__desktop--bottom": {
+    "title": "Header Desktop Bottom",
+    "children": [
+      "overlay-trigger#header__desktop--mega-menu",
+      "menu#header__desktop--menu"
+    ],
+    "props": {
+      "blockClass": "header__desktop--bottom"
+    }
+  },
+  "overlay-trigger#header__desktop--mega-menu": {
+    "title": "Overlay Trigger MegaMenu Cont",
+    "children": [
+      "rich-text#header__desktop--mega-menu-title",
+      "overlay-layout#header__desktop--mega-menu"
+    ],
+    "props": {
+      "trigger": "hover",
+      "blockClass": "header__desktop--overlay-trigger"
+    }
+  },
+  "rich-text#header__desktop--mega-menu-title": {
+    "title": "MegaMenu Title",
+    "props": {
+      "text": "Comprar por \n **Categorias**",
+      "blockClass": "header__desktop--text-trigger"
+    }
+  },
+  "overlay-layout#header__desktop--mega-menu": {
+    "title": "Overlay layout MegaMenu Cont",
+    "children": [
+      "flex-layout.row#header__desktop--mega-menu-cont"
+    ],
+    "props": {
+      "placement": "bottom",
+      "offsets": {
+        "skidding": -7,
+        "distance": 0
+      }
+    }
+  }
+}

@@ -1,26 +1,22 @@
 {
   "menu#mobile__menu": {
     "children": [
-      "menu-item#mobile__row-category-televisions",
-      "menu-item#mobile__row-category-cellphones",
-      "menu-item#mobile__row-category-airs",
-      "menu-item#mobile__row-category-notebooks",
-      "menu-item#mobile__row-category-refrigerators",
-      "menu-item#mobile__row-category-washingmachine",
-      "menu-item#mobile__row-category-tablets",
-      "menu-item#mobile__row-category-rodados",
-      "menu-item#mobile__row-category-offers",
-      "menu-item#mobile__row-category-carrito-de-compras",
-      "menu-item#mobile__row-category-favoritos",
-      "menu-item#mobile__row-category-sucursales",
-      "menu-item#mobile__row-category-centro-de-atencion-al-cliente"
+      "menu-item#mobile__row--televisions",
+      "menu-item#mobile__row--cellphones",
+      "menu-item#mobile__row--airs",
+      "menu-item#mobile__row--notebooks",
+      "menu-item#mobile__row--refrigerators",
+      "menu-item#mobile__row--washingmachine",
+      "menu-item#mobile__row--tablets",
+      "menu-item#mobile__row--rodados",
+      "menu-item#mobile__row--offers"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "mobile__menu--item"
     }
   },
-  "menu-item#mobile__row-category-televisions": {
+  "menu-item#mobile__row--televisions": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -30,10 +26,14 @@
         "noFollow": false,
         "text": "Televisores"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-tv-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-cellphones": {
+  "menu-item#mobile__row--cellphones": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -43,10 +43,14 @@
         "noFollow": false,
         "text": "Celulares"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-phone-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-airs": {
+  "menu-item#mobile__row--airs": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -56,10 +60,14 @@
         "noFollow": false,
         "text": "Aires"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-air-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-notebooks": {
+  "menu-item#mobile__row--notebooks": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -69,10 +77,14 @@
         "noFollow": false,
         "text": "Notebooks"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-laptop-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-refrigerators": {
+  "menu-item#mobile__row--refrigerators": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -82,10 +94,14 @@
         "noFollow": false,
         "text": "Heladeras"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-refrigerator-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-washingmachine": {
+  "menu-item#mobile__row--washingmachine": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -95,10 +111,14 @@
         "noFollow": false,
         "text": "Lavarropas"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-washing-machine-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-tablets": {
+  "menu-item#mobile__row--tablets": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -108,10 +128,14 @@
         "noFollow": false,
         "text": "Tablets"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-tablet-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-rodados": {
+  "menu-item#mobile__row--rodados": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -121,36 +145,14 @@
         "noFollow": false,
         "text": "Rodados"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-wheel-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-carrito-de-compras": {
-    "props": {
-      "id": "menu-item-home",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
-        "noFollow": false,
-        "text": "Carrito de compras"
-      },
-      "blockClass": "mobile__category--menu-item-row"
-    }
-  },
-  "menu-item#mobile__row-category-favoritos": {
-    "props": {
-      "id": "menu-item-home",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
-        "noFollow": false,
-        "text": "Favoritos"
-      },
-      "blockClass": "mobile__category--menu-item-row"
-    }
-  },
-  "menu-item#mobile__row-category-offers": {
+  "menu-item#mobile__row--offers": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -160,10 +162,60 @@
         "noFollow": false,
         "text": "Super Ofertas"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-offer-mobile",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-sucursales": {
+  "menu#mobile__menu--2": {
+    "children": [
+      "menu-item#mobile__row--carrito-de-compras",
+      "menu-item#mobile__row--favoritos",
+      "menu-item#mobile__row--sucursales",
+      "menu-item#mobile__row--centro-de-atencion-al-cliente"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__menu--item-2"
+    }
+  },
+  "menu-item#mobile__row--carrito-de-compras": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Carrito de compras"
+      },
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-tv",
+        "size": 25
+      }
+    }
+  },
+  "menu-item#mobile__row--favoritos": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
+        "noFollow": false,
+        "text": "Favoritos"
+      },
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-tv",
+        "size": 25
+      }
+    }
+  },
+  "menu-item#mobile__row--sucursales": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -173,10 +225,14 @@
         "noFollow": false,
         "text": "Sucursales"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-tv",
+        "size": 25
+      }
     }
   },
-  "menu-item#mobile__row-category-centro-de-atencion-al-cliente": {
+  "menu-item#mobile__row--centro-de-atencion-al-cliente": {
     "props": {
       "id": "menu-item-home",
       "type": "custom",
@@ -186,7 +242,11 @@
         "noFollow": false,
         "text": "Atención al cliente"
       },
-      "blockClass": "mobile__category--menu-item-row"
+      "blockClass": "mobile__menu-item-1",
+      "iconProps": {
+        "id": "menu-tv",
+        "size": 25
+      }
     }
   }
 }

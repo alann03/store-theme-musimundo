@@ -3,6 +3,19 @@
   height: 60px;
 }
 
+.headerRowContainer--header__desktop--bottom {
+  justify-content: center;
+}
+
 .headerRowBackground--header__desktop--bottom {
   background: linear-gradient(90deg,#fff 50%,#ff4338 50%);
+}
+
+.headerRowBackground--header__desktop--top-cont {
+  background-color: #FFFFFF;
+  height: 28px;
+}
+
+.headerRowContentContainer--header__desktop--top-cont {
+  height: 100%;
 }

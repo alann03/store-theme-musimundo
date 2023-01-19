@@ -3,9 +3,14 @@
     "title": "Header Desktop Middle",
     "children": [
       "logo#header__desktop--logo",
+      "header-spacer",
       "search-bar#desktop",
-      "login",
-      "minicart.v2"
+      "header-spacer",
+      /* "rich-text#header__desktop--middle-login-title", */
+      "login#header__desktop",
+      "flex-layout.row#desktop__icon--favorites",
+      /* "icon#header__desktop--middle-favorites", */
+      "minicart.v2#desktop"
     ],
     "props": {
       "blockClass": "header__desktop-middle",
@@ -19,14 +24,50 @@
       "href": "/"
     }
   },
-  "search-bar#desktop": {},
-  "login": {
+  "search-bar#desktop": {
+    "title": "Search Bar Desktop",
+    "props": {
+      "maxWidth": 500,
+      "placeholder": "Encontrá lo que buscás"
+    }
+  },
+  /* "rich-text#header__desktop--middle-login-title": {
+    "title": "Header Desktop Title Login",
+    "props": {
+      "text": "**Hola** , Inicia tu sesión",
+      "blockClass": "header__desktop--middle-login-title"
+    }
+  }, */
+  "login#header__desktop": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Ingresá | Registrate",
+      "labelClasses": "header__desktop--middle-login"
+    }
+  },
+  "flex-layout.row#desktop__icon--favorites": {
+    "children": [
+      "icon#header__desktop--middle-favorites"
+    ],
+    "props": {
+      "blockClass": "icon-favorites"
+    }
+  },
+  "icon#header__desktop--middle-favorites": {
+    "title": "Icon Favorites",
+    "props": {
+      "id": "icon-favorites",
+      "size": 30
+    }
+  },
+  "minicart.v2#desktop": {
+    "title": "Mini Cart Desktop",
+    "props": {
+      "blockClass": "mini-cart-desktop"
     }
   }
 }

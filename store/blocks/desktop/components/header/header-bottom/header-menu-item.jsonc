@@ -28,7 +28,11 @@
         "tagTitle": "Televisores",
         "text": "Televisores"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-tv",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--cellphones": {
@@ -43,7 +47,11 @@
         "tagTitle": "Celulares",
         "text": "Celulares"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-phone",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--airs": {
@@ -58,7 +66,11 @@
         "tagTitle": "Aires",
         "text": "Aires"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-air",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--notebooks": {
@@ -73,7 +85,11 @@
         "tagTitle": "Notebooks",
         "text": "Notebooks"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-laptop",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--refrigerators": {
@@ -88,7 +104,11 @@
         "tagTitle": "Heladeras",
         "text": "Heladeras"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-refrigerator",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--washingmachine": {
@@ -103,7 +123,11 @@
         "tagTitle": "Lavarropas",
         "text": "Lavarropas"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-washing-machine",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--tablets": {
@@ -118,7 +142,11 @@
         "tagTitle": "Televisores",
         "text": "Televisores"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-tablet",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--rodados": {
@@ -133,7 +161,11 @@
         "tagTitle": "Tablets",
         "text": "Tablets"
       },
-      "blockClass": "desktop__menu-item"
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-wheel",
+        "size": 30
+      }
     }
   },
   "menu-item#desktop__row--offers": {
@@ -148,7 +180,11 @@
         "tagTitle": "Super ofertas",
         "text": "Super ofertas"
       },
-      "blockClass": "desktop__menu-item-last"
+      "blockClass": "desktop__menu-item-last",
+      "iconProps": {
+        "id": "menu-offer",
+        "size": 30
+      }
     }
   }
 }

@@ -2,14 +2,59 @@
   "header-row#header__desktop--bottom": {
     "title": "Header Desktop Bottom",
     "children": [
-      "overlay-trigger#header__desktop--mega-menu",
+      /* "overlay-trigger#header__desktop--mega-menu", */
+      "rich-text#header__desktop--mega-menu-title",
+      "flex-layout.row#header__desktop--mega-menu",
+      "flex-layout.row#mega-menu",
       "menu#header__desktop--menu"
     ],
     "props": {
       "blockClass": "header__desktop--bottom"
     }
   },
-  "overlay-trigger#header__desktop--mega-menu": {
+  "rich-text#header__desktop--mega-menu-title": {
+    "title": "Desktop Title Mega Menu",
+    "props": {
+      "text": "Comprar por \n **Categorias**",
+      "blockClass": "header__desktop--text-trigger"
+    }
+  },
+  "flex-layout.row#header__desktop--mega-menu": {
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+    ],
+    "props": {
+      "blockClass": "header__desktop--icon-mega-menu-cont"
+    }
+  },
+  "flex-layout.row#mega-menu": {
+    "children": [
+      "mega-menu#desktop"
+    ]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal",
+      "blockClass": "mega-menu__desktop"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "mega-menu-trigger-btn"
+    ]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer",
+      "id": "nav-caret--down",
+      "activeClassName": "nav-caret--down"
+    }
+  }
+}
+/* "overlay-trigger#header__desktop--mega-menu": {
     "title": "Overlay Trigger MegaMenu Cont",
     "children": [
       "rich-text#header__desktop--mega-menu-title",
@@ -39,5 +84,4 @@
         "distance": 0
       }
     }
-  }
-}
+  } */

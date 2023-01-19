@@ -1,3 +1,24 @@
 .styledLinkContent--mobile__category--menu-item-row {
   color: black;
 }
+
+.styledLinkContent--mobile__menu-item-1 {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.styledLinkIcon--mobile__menu-item-1 {
+  margin-right: 4%;
+}
+
+.menuContainerNav--mobile__menu--item {
+  border-top: 1px solid #dadada;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+
+.menuContainerNav--mobile__menu--item-2 {
+  border-top: 1px solid #dadada;
+  padding-top: 3.5%;
+}

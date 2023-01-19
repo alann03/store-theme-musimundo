@@ -1,15 +1,20 @@
 .drawer--drawer__mobile {
-  height: 60%;
+  background-color: #FFFFFF;
+  height: 88%;
   max-width: 100% !important;
 }
 
+.closeIconContainer--drawer__mobile {
+  justify-content: flex-end;
+}
+
 .childrenContainer--drawer__mobile {
-  margin-left: 4%;
+  /* margin-left: 4%; */
   flex-direction: column;
 }
 
 .drawer--drawer__mobile-2 {
   height: 50%;
   max-width: 100% !important;
-  top: 9%;
+  top: 20%;
 }

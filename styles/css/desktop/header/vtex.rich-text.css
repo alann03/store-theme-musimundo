@@ -1,3 +1,24 @@
 .container--header__desktop--text-trigger {
   align-items: center;
 }
+
+.paragraph--header__desktop--top-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container--header__desktop--top-text {
+  margin-left: 7%;
+}
+
+.paragraph--header__desktop--text-trigger {
+  font-size: 13px;
+}
+
+.strong--header__desktop--text-trigger {
+  font-size: 18px;
+}
+
+.wrapper--header__desktop--middle-login-title {
+  font-size: 12px;
+}

@@ -1,0 +1,8 @@
+{
+  "header-row#header__mobile--top": {
+    "title": "Header Mobile Top",
+    "props": {
+      "blockClass": "header__mobile--top"
+    }
+  }
+}

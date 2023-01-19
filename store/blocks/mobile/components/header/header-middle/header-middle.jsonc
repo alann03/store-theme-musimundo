@@ -1,11 +1,12 @@
 {
-  "header-row#header__mobile-middle": {
+  "header-row#header__mobile--middle": {
     "title": "Header Mobile Middle",
     "children": [
       "drawer#drawer__mobile",
       "logo#header__mobile-logo",
       "header-spacer",
-      "minicart.v2"
+      "search-bar#mobile",
+      "minicart.v2#mobile"
     ],
     "props": {
       "blockClass": "header__mobile-middle",
@@ -18,7 +19,8 @@
       "rich-text#drawer__mobile--title-login",
       /* "rich-text#drawer__mobile--text-login", */
       "login#mobile",
-      "menu#mobile__menu"
+      "menu#mobile__menu",
+      "menu#mobile__menu--2"
     ],
     "props": {
       "blockClass": "drawer__mobile",
@@ -30,13 +32,16 @@
     "title": "Header Mobile Logo",
     "props": {
       "url": "assets/img/musimundo-logo.jpg",
-      "href": "/"
+      "href": "/",
+      "mobileWidth": 136,
+      "mobileHeight": 38
     }
   },
   "rich-text#drawer__mobile--title-login": {
     "title": "Login Mobile Title",
     "props": {
-      "text": "**Hola**, Inicia tu sesión "
+      "text": "**Hola**, Inicia tu sesión",
+      "blockClass": "header__mobile--menu-text-login"
     }
   },
   /* "rich-text#drawer__mobile--text-login": {
@@ -52,6 +57,18 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "search-bar#mobile": {
+    "title": "SearchBar Mobile",
+    "props": {
+      "maxWidth": 90
+    }
+  },
+  "minicart.v2#mobile": {
+    "title": "Mini Cart Mobile",
+    "props": {
+      "blockClass": "mini-cart-mobile"
     }
   }
 }

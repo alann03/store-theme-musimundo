@@ -1,5 +1,5 @@
 {
-  "header-row#header__mobile-bottom": {
+  "header-row#header__mobile--bottom": {
     "title": "Header Mobile Bottom",
     "children": [
       "drawer#drawer__mobile-2"

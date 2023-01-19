@@ -1,3 +1,35 @@
 {
-  "header-row#header__desktop--top": {}
+  "header-row#header__desktop--top": {
+    "title": "Header Desktop Top",
+    "children": [
+      "rich-text#header__desktop--top-1",
+      "header-spacer",
+      "rich-text#header__desktop--top-2",
+      "rich-text#header__desktop--top-3"
+    ],
+    "props": {
+      "blockClass": "header__desktop--top-cont"
+    }
+  },
+  "rich-text#header__desktop--top-1": {
+    "title": "Header Top Text 1",
+    "props": {
+      "text": "Estoy navegando desde: Buenos Aires",
+      "blockClass": "header__desktop--top-text"
+    }
+  },
+  "rich-text#header__desktop--top-2": {
+    "title": "Header Top Text 2",
+    "props": {
+      "text": "Sucursales",
+      "blockClass": "header__desktop--top-text"
+    }
+  },
+  "rich-text#header__desktop--top-3": {
+    "title": "Header Top Text 3",
+    "props": {
+      "text": "Centro de atención al cliente",
+      "blockClass": "header__desktop--top-text"
+    }
+  }
 }

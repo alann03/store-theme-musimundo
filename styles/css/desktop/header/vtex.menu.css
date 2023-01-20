@@ -17,22 +17,17 @@
     width: 115px;
 }
 
-.styledLink--desktop__menu-item {
-    color: #FFFFFF;
-    /* font-size: 12px; */
-}
-
-.styledLinkContent--desktop__menu-item {
-    flex-direction: column;
-    align-items: center;
-    font-size: 13px;
-}
-
+.styledLink--desktop__menu-item,
 .styledLink--desktop__menu-item-last {
     color: #FFFFFF;
-    /* font-size: 12px; */
 }
 
+.styledLink--desktop__menu-item:hover,
+.styledLink--desktop__menu-item-last:hover {
+    opacity: 0.6;
+}
+
+.styledLinkContent--desktop__menu-item, 
 .styledLinkContent--desktop__menu-item-last {
     flex-direction: column;
     align-items: center;

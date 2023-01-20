@@ -1,0 +1,20 @@
+.link--header__desktop--top-link {
+  display: flex;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+  margin-left: 7%;
+}
+
+.link--header__desktop--top-link:hover,
+.label--header__desktop--top-link:hover {
+  color: #ff4338;
+  transition: 0.5s;
+}
+
+.label--header__desktop--top-link {
+  display: flex;
+  align-items: center;
+}

@@ -6,10 +6,8 @@
       "header-spacer",
       "search-bar#desktop",
       "header-spacer",
-      /* "rich-text#header__desktop--middle-login-title", */
       "login#header__desktop",
-      "flex-layout.row#desktop__icon--favorites",
-      /* "icon#header__desktop--middle-favorites", */
+      "link#desktop__favorites",
       "minicart.v2#desktop"
     ],
     "props": {
@@ -28,7 +26,8 @@
     "title": "Search Bar Desktop",
     "props": {
       "maxWidth": 500,
-      "placeholder": "Encontrá lo que buscás"
+      "placeholder": "Encontrá lo que buscás",
+      "blockClass": "searchbar-desktop"
     }
   },
   /* "rich-text#header__desktop--middle-login-title": {
@@ -49,6 +48,15 @@
       "labelClasses": "header__desktop--middle-login"
     }
   },
+  "link#desktop__favorites": {
+    "title": "Desktop Favorites Link",
+    "children": [
+      "flex-layout.row#desktop__icon--favorites"
+    ],
+    "props": {
+      "href": "#"
+    }
+  },
   "flex-layout.row#desktop__icon--favorites": {
     "children": [
       "icon#header__desktop--middle-favorites"
@@ -62,12 +70,6 @@
     "props": {
       "id": "icon-favorites",
       "size": 30
-    }
-  },
-  "minicart.v2#desktop": {
-    "title": "Mini Cart Desktop",
-    "props": {
-      "blockClass": "mini-cart-desktop"
     }
   }
 }

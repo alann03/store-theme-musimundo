@@ -4,11 +4,45 @@
     "children": [
       "rich-text#header__desktop--top-1",
       "header-spacer",
-      "rich-text#header__desktop--top-2",
-      "rich-text#header__desktop--top-3"
+      "link#header__desktop--sucursales",
+      "link#header__desktop--atencion-cliente"
     ],
     "props": {
       "blockClass": "header__desktop--top-cont"
+    }
+  },
+  "link#header__desktop--sucursales": {
+    "props": {
+      "href": "#",
+      "label": "Sucursales",
+      "blockClass": "header__desktop--top-link"
+    },
+    "children": [
+      "icon#desktop__sucursales"
+    ]
+  },
+  "icon#desktop__sucursales": {
+    "title": "Icon Sucursales",
+    "props": {
+      "id": "icon-marker",
+      "size": 20
+    }
+  },
+  "link#header__desktop--atencion-cliente": {
+    "props": {
+      "href": "#",
+      "label": "Centro de atención al cliente",
+      "blockClass": "header__desktop--top-link"
+    },
+    "children": [
+      "icon#desktop__atencion-cliente"
+    ]
+  },
+  "icon#desktop__atencion-cliente": {
+    "title": "Icon Atencion Cliente",
+    "props": {
+      "id": "icon-hand",
+      "size": 20
     }
   },
   "rich-text#header__desktop--top-1": {

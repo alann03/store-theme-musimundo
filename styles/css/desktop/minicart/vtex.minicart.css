@@ -1,4 +1,27 @@
-/* Example desktop:
-.minicartTitle {
-    display: none;
-} */
+.openIconContainer--mini-cart-desktop {
+    padding: 0;
+}
+  
+.minicartIconContainer--mini-cart-desktop {
+    background-color: #00c0ff;
+    border-radius: 10px;
+    padding: 12px;
+}
+  
+.minicartIconContainer--mini-cart-desktop:hover {
+    background-color: #009ACC;
+    transition: 0.5s;
+}
+  
+.cartIcon--mini-cart-desktop {
+    width: 25px;
+    height: 25px;
+    color: #FFFFFF
+}
+
+.minicartQuantityBadge--mini-cart-desktop {
+    position: absolute;
+    top: 9%;
+    right: 8%;
+    background-color: black;
+}

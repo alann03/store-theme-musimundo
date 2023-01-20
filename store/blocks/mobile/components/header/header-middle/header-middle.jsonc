@@ -17,7 +17,6 @@
     "title": "Mobile Drawer",
     "children": [
       "rich-text#drawer__mobile--title-login",
-      /* "rich-text#drawer__mobile--text-login", */
       "login#mobile",
       "menu#mobile__menu",
       "menu#mobile__menu--2"
@@ -34,7 +33,8 @@
       "url": "assets/img/musimundo-logo.jpg",
       "href": "/",
       "mobileWidth": 136,
-      "mobileHeight": 38
+      "mobileHeight": 38,
+      "blockClass": "logo-mobile"
     }
   },
   "rich-text#drawer__mobile--title-login": {
@@ -44,25 +44,21 @@
       "blockClass": "header__mobile--menu-text-login"
     }
   },
-  /* "rich-text#drawer__mobile--text-login": {
-    "title": "Login Mobile Text",
-    "props": {
-      "text": "\n Ingresá | Registrate"
-    }
-  }, */
   "login#mobile": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Ingresá | Registrate",
+      "labelClasses": "header__mobile--middle-login"
     }
   },
   "search-bar#mobile": {
     "title": "SearchBar Mobile",
     "props": {
-      "maxWidth": 90
+      "maxWidth": 130
     }
   },
   "minicart.v2#mobile": {

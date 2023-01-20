@@ -139,8 +139,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Televisores",
-        "text": "Televisores"
+        "tagTitle": "Tablets",
+        "text": "Tablets"
       },
       "blockClass": "desktop__menu-item",
       "iconProps": {
@@ -158,8 +158,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Tablets",
-        "text": "Tablets"
+        "tagTitle": "Rodados",
+        "text": "Rodados"
       },
       "blockClass": "desktop__menu-item",
       "iconProps": {

@@ -7,7 +7,9 @@
 .label {
   color: #ff4338;
   font-size: 10px;
-}:hover {
+}
+
+.label:hover {
   color: black;
   transition: 0.5s;
 }

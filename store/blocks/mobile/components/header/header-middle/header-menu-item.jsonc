@@ -18,7 +18,7 @@
   },
   "menu-item#mobile__row--televisions": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -35,7 +35,7 @@
   },
   "menu-item#mobile__row--cellphones": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -52,7 +52,7 @@
   },
   "menu-item#mobile__row--airs": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -69,7 +69,7 @@
   },
   "menu-item#mobile__row--notebooks": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -86,7 +86,7 @@
   },
   "menu-item#mobile__row--refrigerators": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -103,7 +103,7 @@
   },
   "menu-item#mobile__row--washingmachine": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -120,7 +120,7 @@
   },
   "menu-item#mobile__row--tablets": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -137,7 +137,7 @@
   },
   "menu-item#mobile__row--rodados": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -154,7 +154,7 @@
   },
   "menu-item#mobile__row--offers": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -183,7 +183,7 @@
   },
   "menu-item#mobile__row--carrito-de-compras": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -193,14 +193,14 @@
       },
       "blockClass": "mobile__menu-item-1",
       "iconProps": {
-        "id": "menu-tv",
+        "id": "icon-cart-mobile",
         "size": 25
       }
     }
   },
   "menu-item#mobile__row--favoritos": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -210,14 +210,14 @@
       },
       "blockClass": "mobile__menu-item-1",
       "iconProps": {
-        "id": "menu-tv",
+        "id": "icon-favorites-mobile",
         "size": 25
       }
     }
   },
   "menu-item#mobile__row--sucursales": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -227,24 +227,24 @@
       },
       "blockClass": "mobile__menu-item-1",
       "iconProps": {
-        "id": "menu-tv",
+        "id": "icon-marker-mobile",
         "size": 25
       }
     }
   },
   "menu-item#mobile__row--centro-de-atencion-al-cliente": {
     "props": {
-      "id": "menu-item-home",
+      "id": "menu-item-mobile",
       "type": "custom",
       "itemProps": {
         "type": "internal",
         "href": "https://www.musimundo.com/super-ofertas/c/superofertas",
         "noFollow": false,
-        "text": "Atención al cliente"
+        "text": "Ayuda"
       },
       "blockClass": "mobile__menu-item-1",
       "iconProps": {
-        "id": "menu-tv",
+        "id": "icon-hand-mobile",
         "size": 25
       }
     }

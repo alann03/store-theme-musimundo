@@ -1,0 +1,190 @@
+{
+  "menu#header__desktop--menu": {
+    "title": "Desktop Menu Item",
+    "children": [
+      "menu-item#desktop__row--televisions",
+      "menu-item#desktop__row--cellphones",
+      "menu-item#desktop__row--airs",
+      "menu-item#desktop__row--notebooks",
+      "menu-item#desktop__row--refrigerators",
+      "menu-item#desktop__row--washingmachine",
+      "menu-item#desktop__row--tablets",
+      "menu-item#desktop__row--rodados",
+      "menu-item#desktop__row--offers"
+    ],
+    "props": {
+      "blockClass": "header__desktop--menu"
+    }
+  },
+  "menu-item#desktop__row--televisions": {
+    "props": {
+      "id": "menu-item-televisions",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Televisores",
+        "text": "Televisores"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-tv",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--cellphones": {
+    "props": {
+      "id": "menu-item-celulares",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-phone",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--airs": {
+    "props": {
+      "id": "menu-item-aires",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Aires",
+        "text": "Aires"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-air",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--notebooks": {
+    "props": {
+      "id": "menu-item-notebooks",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-laptop",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--refrigerators": {
+    "props": {
+      "id": "menu-item-heladeras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Heladeras",
+        "text": "Heladeras"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-refrigerator",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--washingmachine": {
+    "props": {
+      "id": "menu-item-lavarropas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavarropas",
+        "text": "Lavarropas"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-washing-machine",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--tablets": {
+    "props": {
+      "id": "menu-item-tablets",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tablets",
+        "text": "Tablets"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-tablet",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--rodados": {
+    "props": {
+      "id": "menu-item-televisions",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Rodados",
+        "text": "Rodados"
+      },
+      "blockClass": "desktop__menu-item",
+      "iconProps": {
+        "id": "menu-wheel",
+        "size": 30
+      }
+    }
+  },
+  "menu-item#desktop__row--offers": {
+    "props": {
+      "id": "menu-item-offers",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Super ofertas",
+        "text": "Super ofertas"
+      },
+      "blockClass": "desktop__menu-item-last",
+      "iconProps": {
+        "id": "menu-offer",
+        "size": 30
+      }
+    }
+  }
+}

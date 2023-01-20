@@ -1,0 +1,42 @@
+{
+  "header-row#header__mobile--bottom": {
+    "title": "Header Mobile Bottom",
+    "children": [
+      "drawer#drawer__mobile-2"
+    ],
+    "props": {
+      "blockClass": "header__mobile-bottom"
+    }
+  },
+  "drawer#drawer__mobile-2": {
+    "title": "Drawer Mobile 2",
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-trigger#mobile"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "blockClass": "drawer__mobile-2"
+    }
+  },
+  "drawer-trigger#mobile": {
+    "children": [
+      "rich-text#open-drawer-mobile"
+    ]
+  },
+  "rich-text#open-drawer-mobile": {
+    "title": "Drawer Mobile 2 Text",
+    "props": {
+      "text": "Comprar por **Categorias**",
+      "blockClass": "text-drawer-mega-menu"
+    }
+  },
+  "mega-menu#mobile": {
+    "title": "Mega Menu Mobile",
+    "props": {
+      "openOnly": "vertical"
+    }
+  }
+}

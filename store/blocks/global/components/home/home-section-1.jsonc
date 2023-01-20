@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#home__section--global": {
+    "title": "Global Section 1",
+    "children": [
+      "flex-layout.col#home__section--global"
+    ],
+    "props": {
+      "blockClass": "home__section-1--global",
+      "marginBottom": 7
+      /* "horizontalAlign": "center" */
+    }
+  },
+  "flex-layout.col#home__section--global": {
+    "title": "Col Global Section",
+    "children": [
+      "list-context.image-list#home__slider--global",
+      "image#home__image--global"
+    ],
+    "props": {
+      /* "width": "85%", */
+      "rowGap": 1
+    }
+  }
+}

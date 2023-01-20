@@ -1,5 +1,17 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRow--home__section-3--desktop {
+    background-color: #FFFFFF;
+}
+
+.flexRow--home__section-3--desktop :global(.vtex-store-components-3-x-container) {
+    max-width: 1300px;
+    padding: 0;
+}
+
+.flexRow--home__section-4--desktop :global(.vtex-store-components-3-x-container){
+    padding: 0;
+    max-width: 1300px;
+}
+
+.flexRowContent--row-cards-2 {
+    margin-top: 0;
+}

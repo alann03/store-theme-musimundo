@@ -1,0 +1,17 @@
+{
+  "image#home__image--global": {
+    "title": "Home Image",
+    "props": {
+      "src": "assets/img/home__image--section-1.jpg",
+      /* "maxWidth": 600, */
+      "width": "100%",
+      "title": "B2B Commerce",
+      "blockClass": "home__image--global",
+      "link": {
+        "url": "https://www.google.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#tablet__home__section-4": {
+    "title": "TABLET Cards News&Updates",
+    "children": [
+      "flex-layout.col#tablet__home__section-4"
+    ]
+  },
+  "flex-layout.col#tablet__home__section-4": {
+    "title": "TABLET Cards News&Updates COL",
+    "children": [
+      "rich-text#tablet__home__section-4--title",
+      "flex-layout.row#tablet__home__section-4--cards"
+    ]
+  },
+  "rich-text#tablet__home__section-4--title": {
+    "title": "TABLET Cards News&Updates Title",
+    "props": {
+      "text": "\n# **AHORA EN MUSIMUNDO**\n#### Las últimas noticias y novedades",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "flex-layout.row#tablet__home__section-4--cards": {
+    "title": "TABLET Cards News&Updates ROW",
+    "children": [
+      "flex-layout.col#tablet__home__section-4--cards-1",
+      "flex-layout.col#tablet__home__section-4--cards-2"
+    ],
+    "props": {
+      "blockClass": "row-cards-2-tablet"
+    }
+  },
+  "flex-layout.col#tablet__home__section-4--cards-1": {
+    "title": "TABLET Cards News&Updates (Cards cont 1)",
+    "children": [
+      "info-card#tablet__home__section-4--card-5",
+      "info-card#tablet__home__section-4--card-6"
+    ],
+    "props": {
+      "rowGap": 7,
+      "blockClass": "col-cards-left"
+    }
+  },
+  "flex-layout.col#tablet__home__section-4--cards-2": {
+    "title": "TABLET Cards News&Updates (Cards cont 2)",
+    "children": [
+      "info-card#tablet__home__section-4--card-7",
+      "info-card#tablet__home__section-4--card-8"
+    ],
+    "props": {
+      "rowGap": 7,
+      "blockClass": "col-cards-right"
+    }
+  },
+  "info-card#tablet__home__section-4--card-5": {
+    "title": "TABLET Info Card 5",
+    "props": {
+      "id": "home__info-card-5",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-5.jpg",
+      "headline": "Tu mejor desayuno",
+      "subhead": "Elegí cafeteras para disfrutar el tiempo en tu casa. Y molinillos para los más exigentes que buscan un sabor único.",
+      "callToActionText": "COMPRAR",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4-tablet",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tablet__home__section-4--card-6": {
+    "title": "TABLET Info Card 6",
+    "props": {
+      "id": "home__info-card-6",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-6.jpg",
+      "headline": "Renová tu PC",
+      "subhead": "¿Con ganas de actualizar tu PC? tenemos todos los componentes para armar tu nueva PC más potente y rápida.",
+      "callToActionText": "CONOCELOS",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4-tablet",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tablet__home__section-4--card-7": {
+    "title": "TABLET Info Card 7",
+    "props": {
+      "id": "home__info-card-7",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-7.jpg",
+      "headline": "Nuestro Blog",
+      "subhead": "Conocé el nuevo Blog y enterate de todo lo nuevo, al alcance de un clic.",
+      "callToActionText": "VISITAR",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4-tablet",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tablet__home__section-4--card-8": {
+    "title": "TABLET Info Card 8",
+    "props": {
+      "id": "home__info-card-8",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-8.jpg",
+      "headline": "Creá tu clima",
+      "subhead": "Aires frío-calor y los mejores y más eficientes climatizadores ¡No vas a querer salir de tu casa!",
+      "callToActionText": "COMPRÁ YA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4-tablet",
+      "textAlignment": "center"
+    }
+  }
+}

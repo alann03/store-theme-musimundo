@@ -1,0 +1,70 @@
+{
+  "header-row#header__mobile--middle": {
+    "title": "Header Mobile Middle",
+    "children": [
+      "drawer#drawer__mobile",
+      "logo#header__mobile-logo",
+      "header-spacer",
+      "search-bar#mobile",
+      "minicart.v2#mobile"
+    ],
+    "props": {
+      "blockClass": "header__mobile-middle",
+      "sticky": true
+    }
+  },
+  "drawer#drawer__mobile": {
+    "title": "Mobile Drawer",
+    "children": [
+      "rich-text#drawer__mobile--title-login",
+      "login#mobile",
+      "menu#mobile__menu",
+      "menu#mobile__menu--2"
+    ],
+    "props": {
+      "blockClass": "drawer__mobile",
+      "isFullWidth": true,
+      "orientation": "vertical"
+    }
+  },
+  "logo#header__mobile-logo": {
+    "title": "Header Mobile Logo",
+    "props": {
+      "url": "assets/img/musimundo-logo.jpg",
+      "href": "/",
+      "mobileWidth": 136,
+      "mobileHeight": 38,
+      "blockClass": "logo-mobile"
+    }
+  },
+  "rich-text#drawer__mobile--title-login": {
+    "title": "Login Mobile Title",
+    "props": {
+      "text": "**Hola**, Inicia tu sesión",
+      "blockClass": "header__mobile--menu-text-login"
+    }
+  },
+  "login#mobile": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Ingresá | Registrate",
+      "labelClasses": "header__mobile--middle-login"
+    }
+  },
+  "search-bar#mobile": {
+    "title": "SearchBar Mobile",
+    "props": {
+      "maxWidth": 130
+    }
+  },
+  "minicart.v2#mobile": {
+    "title": "Mini Cart Mobile",
+    "props": {
+      "blockClass": "mini-cart-mobile"
+    }
+  }
+}

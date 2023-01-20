@@ -1,4 +1,35 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.menuContainerNav--header__desktop--menu {
+    background-color: #ff4338;
+    height: 100%;
+    display: flex;
+}
+
+.menuContainer--header__desktop--menu {
+    align-items: center;
+}
+
+.menuItem--desktop__menu-item {
+    border-right: 1px solid #FFFFFF;
+    width: 115px;
+}
+
+.menuItem--desktop__menu-item-last {
+    width: 115px;
+}
+
+.styledLink--desktop__menu-item,
+.styledLink--desktop__menu-item-last {
+    color: #FFFFFF;
+}
+
+.styledLink--desktop__menu-item:hover,
+.styledLink--desktop__menu-item-last:hover {
+    opacity: 0.6;
+}
+
+.styledLinkContent--desktop__menu-item, 
+.styledLinkContent--desktop__menu-item-last {
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}

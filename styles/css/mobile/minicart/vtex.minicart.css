@@ -1,4 +1,9 @@
-/* Example Mobile:
-.minicartTitle {
-    display: none;
-} */
+.openIconContainer--mini-cart-mobile {
+    padding: 0;
+}
+
+.cartIcon--mini-cart-mobile {
+    width: 26px;
+    height: 26px;
+    color: #5D5D5D;
+}

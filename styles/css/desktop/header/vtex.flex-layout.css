@@ -1,0 +1,22 @@
+.flexRowContent--desktop__mega-menu--cont {
+  height: 500px;
+  width: 195px;
+}
+
+.flexRow--header__desktop--icon-mega-menu-cont {
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.flexRow--icon-favorites {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  height: 49px;
+  width: 49px;
+  display: flex;
+  align-items: center;
+}
+/* .flexRow--header__desktop--middle-row-cart-favs {
+  height: 100%;
+  overflow: hidden;
+} */

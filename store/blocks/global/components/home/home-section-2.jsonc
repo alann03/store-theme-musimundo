@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#home__section--global-2": {
+    "title": "Global Section 2",
+    "children": [
+      "flex-layout.col#home__section--global-2"
+    ],
+    "props": {
+      "blockClass": "home__section-2--global"
+    }
+  },
+  "flex-layout.col#home__section--global-2": {
+    "children": [
+      "shelf#home__section--global",
+      "list-context.image-list#home__slider--list-mini",
+      "shelf#home__section--global-2",
+      "shelf#home__section--global-3",
+      "list-context.image-list#home__slider--list-mini-2",
+      "search-result-layout.customQuery#home__search"
+    ]
+  }
+}

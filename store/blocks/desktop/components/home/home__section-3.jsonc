@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#home__section-3": {
+    "title": "DESKTOP Info Cards",
+    "children": [
+      "info-card#home__section-3--card-1",
+      "info-card#home__section-3--card-2",
+      "info-card#home__section-3--card-3",
+      "info-card#home__section-3--card-4"
+    ],
+    "props": {
+      "blockClass": "home__section-3--desktop",
+      "marginTop": 8,
+      "paddingTop": 7,
+      "paddingBottom": 9,
+      "colGap": 7
+    }
+  },
+  "info-card#home__section-3--card-1": {
+    "title": "DESKTOP Info Card 1",
+    "props": {
+      "id": "home__info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-1.jpg",
+      "headline": "Retiro",
+      "subhead": "en tienda",
+      "callToActionText": "Ver más »",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__section-3--card-2": {
+    "title": "DESKTOP Info Card 2",
+    "props": {
+      "id": "home__info-card-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-2.jpg",
+      "headline": "Crédito",
+      "subhead": "Musimundo",
+      "callToActionText": "Ver más »",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__section-3--card-3": {
+    "title": "DESKTOP Info Card 3",
+    "props": {
+      "id": "home__info-card-3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-3.jpg",
+      "headline": "Encontrá",
+      "subhead": "tu sucursal",
+      "callToActionText": "Ver más »",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__section-3--card-4": {
+    "title": "DESKTOP Info Card 4",
+    "props": {
+      "id": "home__info-card-4",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-4.jpg",
+      "headline": "Gaming",
+      "subhead": "League",
+      "callToActionText": "Ver más »",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3",
+      "textAlignment": "center"
+    }
+  }
+}

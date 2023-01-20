@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#home__section-4": {
+    "title": "DESKTOP Cards News&Updates",
+    "children": [
+      "flex-layout.col#home__section-4"
+    ],
+    "props": {
+      "blockClass": "home__section-4--desktop"
+    }
+  },
+  "flex-layout.col#home__section-4": {
+    "title": "DESKTOP Cards News&Updates COL",
+    "children": [
+      "rich-text#home__section-4--title",
+      "flex-layout.row#home__section-4--cards"
+    ]
+  },
+  "rich-text#home__section-4--title": {
+    "title": "DESKTOP Cards News&Updates Title",
+    "props": {
+      "text": "\n# **AHORA EN MUSIMUNDO**\n#### Las últimas noticias y novedades",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "home__section-4--titles"
+    }
+  },
+  "flex-layout.row#home__section-4--cards": {
+    "title": "DESKTOP Cards News&Updates (Cards cont)",
+    "children": [
+      "info-card#home__section-4--card-5",
+      "info-card#home__section-4--card-6",
+      "info-card#home__section-4--card-7",
+      "info-card#home__section-4--card-8"
+    ],
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 10,
+      "colGap": 7,
+      "blockClass": "row-cards-2"
+    }
+  },
+  "info-card#home__section-4--card-5": {
+    "title": "DESKTOP Info Card 5",
+    "props": {
+      "id": "home__info-card-5",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-5.jpg",
+      "headline": "Tu mejor desayuno",
+      "subhead": "Elegí cafeteras para disfrutar el tiempo en tu casa. Y molinillos para los más exigentes que buscan un sabor único.",
+      "callToActionText": "COMPRAR",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__section-4--card-6": {
+    "title": "DESKTOP Info Card 6",
+    "props": {
+      "id": "home__info-card-6",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-6.jpg",
+      "headline": "Renová tu PC",
+      "subhead": "¿Con ganas de actualizar tu PC? tenemos todos los componentes para armar tu nueva PC más potente y rápida.",
+      "callToActionText": "CONOCELOS",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__section-4--card-7": {
+    "title": "DESKTOP Info Card 7",
+    "props": {
+      "id": "home__info-card-7",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-7.jpg",
+      "headline": "Nuestro Blog",
+      "subhead": "Conocé el nuevo Blog y enterate de todo lo nuevo, al alcance de un clic.",
+      "callToActionText": "VISITAR",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__section-4--card-8": {
+    "title": "DESKTOP Info Card 8",
+    "props": {
+      "id": "home__info-card-8",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home__infocard-8.jpg",
+      "headline": "Creá tu clima",
+      "subhead": "Aires frío-calor y los mejores y más eficientes climatizadores ¡No vas a querer salir de tu casa!",
+      "callToActionText": "COMPRÁ YA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card__section-4",
+      "textAlignment": "center"
+    }
+  }
+}

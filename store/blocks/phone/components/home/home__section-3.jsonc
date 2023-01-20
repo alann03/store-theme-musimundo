@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#phone__home__section-3": {
+    "title": "PHONE Info Cards",
+    "children": [
+      "flex-layout.col#phone__home__section-3"
+    ],
+    "props": {
+      "blockClass": "home__section-3--phone",
+      "marginTop": 9,
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#phone__home__section-3": {
+    "title": "PHONE COL Info Cards",
+    "children": [
+      "info-card#phone__home__section-3--card-1",
+      "info-card#phone__home__section-3--card-2",
+      "info-card#phone__home__section-3--card-3",
+      "info-card#phone__home__section-3--card-4"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "info-card#phone__home__section-3--card-1": {
+    "title": "PHONE Info Card 1",
+    "props": {
+      "id": "home__info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-1.jpg",
+      "headline": "Retiro",
+      "subhead": "en tienda",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3-phone",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#phone__home__section-3--card-2": {
+    "title": "PHONE Info Card 2",
+    "props": {
+      "id": "home__info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-2.jpg",
+      "headline": "Crédito",
+      "subhead": "Musimundo",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3-phone",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#phone__home__section-3--card-3": {
+    "title": "PHONE Info Card 3",
+    "props": {
+      "id": "home__info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-3.jpg",
+      "headline": "Encontrá",
+      "subhead": "tu sucursal",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3-phone",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#phone__home__section-3--card-4": {
+    "title": "PHONE Info Card 4",
+    "props": {
+      "id": "home__info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "callToActionMode": "link",
+      "imageUrl": "assets/img/home__infocard-4.jpg",
+      "headline": "Gaming",
+      "subhead": "League",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-section-3-phone",
+      "textAlignment": "center"
+    }
+  }
+}

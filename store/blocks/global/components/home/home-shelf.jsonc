@@ -1,0 +1,60 @@
+{
+  "shelf#home__section--global": {
+    "title": "Shelf 1",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "blockClass": "home__shelf",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "gap": "ph0",
+        "arrows": true,
+        "titleText": "#LOS MAS VENDIDOS"
+      }
+    }
+  },
+  "shelf#home__section--global-2": {
+    "title": "Shelf 2",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "blockClass": "home__shelf",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "#LOS MAS VISTOS"
+      }
+    }
+  },
+  "shelf#home__section--global-3": {
+    "title": "Shelf 3",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "blockClass": "home__shelf",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "#APROVECHA LOS MEJORES TV"
+      }
+    }
+  }
+}

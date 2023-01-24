@@ -30,6 +30,7 @@
     ]
   },
   "rich-text#footer__desktop--middle-text-1": {
+    "title": "Desktop Middle Top Title Item 1",
     "props": {
       "text": "**Compra telefónica** \n 0810-888-5555",
       "blockClass": "footer__desktop--middle-text"
@@ -73,6 +74,7 @@
     ]
   },
   "rich-text#footer__desktop--middle-text-2": {
+    "title": "Desktop Middle Top Title Item 2",
     "props": {
       "text": "**Atención al cliente** \n 0800-444-0601 \n migestion@emusimundo.com",
       "blockClass": "footer__desktop--middle-text"
@@ -116,6 +118,7 @@
     ]
   },
   "rich-text#footer__desktop--middle-text-3": {
+    "title": "Desktop Middle Top Title Item 3",
     "props": {
       "text": "**Sucursales** \n Encontrá la más cercana",
       "blockClass": "footer__desktop--middle-text"
@@ -159,6 +162,7 @@
     ]
   },
   "rich-text#footer__desktop--middle-text-4": {
+    "title": "Desktop Middle Top Title Item 4",
     "props": {
       "text": "**Defensa de las y los consumidores** \n Para reclamos ingrese aquí",
       "blockClass": "footer__desktop--middle-text"

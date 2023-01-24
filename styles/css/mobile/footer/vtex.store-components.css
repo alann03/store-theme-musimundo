@@ -1,0 +1,42 @@
+.label--footer__mobile--newsletter {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.newsletter--footer__mobile--newsletter {
+  padding-top: 5%;
+}
+
+.buttonContainer--footer__mobile--newsletter {
+  margin-top: 2%;
+}
+
+.buttonContainer--footer__mobile--newsletter :global(.vtex-button) {
+  border-radius: 20px;
+  background-color: #5d5d5d;
+  border: none;
+  font-size: 14px;
+  font-weight: bolder;
+  min-height: auto;
+  padding: 0 15px;
+  height: 30px
+}
+
+.inputGroup--footer__mobile--newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup--footer__mobile--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
+.inputGroup--footer__mobile--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) {
+  border-radius: 0;
+  height: 30px;
+  border: none;
+}
+
+.inputGroup--footer__mobile--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+  font-size: 14px;
+  padding-left: 8px;
+  box-shadow: inset 2px 3px 10px -4px black;
+}

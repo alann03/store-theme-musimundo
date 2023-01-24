@@ -32,6 +32,13 @@
         "tagTitle": "EMSA",
         "text": "EMSA S.A. - Formulario 960/D -Data fiscal-"
       },
+      "iconProps": {
+        "id": "data-fiscal",
+        "size": 28,
+        "viewBox": "0 0 16 22",
+        "activeClassName": "data-fiscal-icon",
+        "mutedClassName": "c-action-primary"
+      },
       "blockClass": "footer__bottom--menu-item"
     }
   },
@@ -91,6 +98,13 @@
         "noFollow": false,
         "tagTitle": "CARSA",
         "text": "CARSA S.A. - Formulario 960/D -Data fiscal-"
+      },
+      "iconProps": {
+        "id": "data-fiscal",
+        "size": 28,
+        "viewBox": "0 0 16 22",
+        "activeClassName": "data-fiscal-icon",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "footer__bottom--menu-item"
     }

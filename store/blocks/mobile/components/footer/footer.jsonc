@@ -1,32 +1,23 @@
 {
   "flex-layout.row#footer-mobile": {
+    "title": "Footer Mobile Row Main",
     "children": [
-      /* "social-networks",
-      "accepted-payment-methods",
-      "powered-by" */
-    ]
-  }
-  /* "social-networks": {
+      "flex-layout.col#footer__mobile--col-main"
+    ],
     "props": {
-      "socialNetworks": [
-        {
-          "url": "https://facebook.com/foo",
-          "name": "Facebook"
-        },
-        {
-          "url": "https://twitter.com/foo",
-          "name": "Twitter"
-        }
-      ]
+      "blockClass": "mobile__footer--container-row"
     }
   },
-  "accepted-payment-methods": {
+  "flex-layout.col#footer__mobile--col-main": {
+    "title": "Footer Mobile Col Main",
+    "children": [
+      "flex-layout.row#footer__mobile--top",
+      "flex-layout.row#footer__mobile--middle-top",
+      "flex-layout.row#footer__mobile--middle-bottom",
+      "flex-layout.row#footer__mobile--bottom"
+    ],
     "props": {
-      "paymentMethods": [
-        "mastercard",
-        "visa",
-        "diners club"
-      ]
+      "blockClass": "mobile__footer--container"
     }
-  } */
+  }
 }

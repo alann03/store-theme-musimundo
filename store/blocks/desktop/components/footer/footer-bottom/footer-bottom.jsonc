@@ -1,0 +1,98 @@
+{
+  "flex-layout.row#footer__desktop--bottom": {
+    "title": "Desktop Footer Bottom Cont",
+    "props": {
+      "blockClass": "footer__desktop--bottom-cont"
+    },
+    "children": [
+      "menu#footer__desktop--bottom-menu"
+    ]
+  },
+  "menu#footer__desktop--bottom-menu": {
+    "children": [
+      "menu-item#desktop__footer--EMSA",
+      "menu-item#desktop__footer--terminos-condiciones",
+      "menu-item#desktop__footer--bases",
+      "menu-item#desktop__footer--politicas",
+      "menu-item#desktop__footer--CARSA"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--bottom-menu"
+    }
+  },
+  "menu-item#desktop__footer--EMSA": {
+    "props": {
+      "id": "footer-menu-item-EMSA",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "EMSA",
+        "text": "EMSA S.A. - Formulario 960/D -Data fiscal-"
+      },
+      "blockClass": "footer__bottom--menu-item"
+    }
+  },
+  "menu-item#desktop__footer--terminos-condiciones": {
+    "props": {
+      "id": "footer-menu-item-EMSA",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "terminos-condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "footer__bottom--menu-item"
+    }
+  },
+  "menu-item#desktop__footer--bases": {
+    "props": {
+      "id": "footer-menu-item-bases",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bases-condiciones",
+        "text": "Bases y condiciones"
+      },
+      "blockClass": "footer__bottom--menu-item"
+    }
+  },
+  "menu-item#desktop__footer--politicas": {
+    "props": {
+      "id": "footer-menu-item-politicas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Políticas",
+        "text": "Políticas de privacidad"
+      },
+      "blockClass": "footer__bottom--menu-item"
+    }
+  },
+  "menu-item#desktop__footer--CARSA": {
+    "props": {
+      "id": "footer-menu-item-EMSA",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CARSA",
+        "text": "CARSA S.A. - Formulario 960/D -Data fiscal-"
+      },
+      "blockClass": "footer__bottom--menu-item"
+    }
+  }
+}

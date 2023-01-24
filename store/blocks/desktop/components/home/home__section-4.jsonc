@@ -35,7 +35,7 @@
     ],
     "props": {
       "marginTop": 9,
-      "marginBottom": 10,
+      "marginBottom": 8,
       "colGap": 7,
       "blockClass": "row-cards-2"
     }

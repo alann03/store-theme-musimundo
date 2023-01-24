@@ -1,0 +1,217 @@
+{
+  "flex-layout.row#footer__desktop--middle-item-1": {
+    "title": "Desktop Middle Top Item 1",
+    "children": [
+      "flex-layout.col#footer__desktop--middle-icon-cont-1",
+      "link#footer__desktop--middle-item-text-1"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-item"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-icon-cont-1": {
+    "title": "Desktop Middle Top Icon 1 Cont",
+    "children": [
+      "icon#footer__desktop--middle-icon-1"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-icon-cont",
+      "width": "30%"
+    }
+  },
+  "link#footer__desktop--middle-item-text-1": {
+    "title": "Desktop Middle Top Text Item 1",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__desktop--middle-text-item"
+    },
+    "children": [
+      "rich-text#footer__desktop--middle-text-1"
+    ]
+  },
+  "rich-text#footer__desktop--middle-text-1": {
+    "props": {
+      "text": "**Compra telefónica** \n 0810-888-5555",
+      "blockClass": "footer__desktop--middle-text"
+    }
+  },
+  "icon#footer__desktop--middle-icon-1": {
+    "title": "Desktop Middle Top Icon 1",
+    "props": {
+      "id": "minicart-footer",
+      "size": 35
+    }
+  },
+  "flex-layout.row#footer__desktop--middle-item-2": {
+    "title": "Desktop Middle Top Item 2",
+    "children": [
+      "flex-layout.col#footer__desktop--middle-icon-cont-2",
+      "link#footer__desktop--middle-item-text-2"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-item"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-icon-cont-2": {
+    "title": "Desktop Middle Top Icon 2 Cont",
+    "children": [
+      "icon#footer__desktop--middle-icon-2"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-icon-cont",
+      "width": "30%"
+    }
+  },
+  "link#footer__desktop--middle-item-text-2": {
+    "title": "Desktop Middle Top Text Item 2",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__desktop--middle-text-item"
+    },
+    "children": [
+      "rich-text#footer__desktop--middle-text-2"
+    ]
+  },
+  "rich-text#footer__desktop--middle-text-2": {
+    "props": {
+      "text": "**Atención al cliente** \n 0800-444-0601 \n migestion@emusimundo.com",
+      "blockClass": "footer__desktop--middle-text"
+    }
+  },
+  "icon#footer__desktop--middle-icon-2": {
+    "title": "Desktop Middle Top Icon 2",
+    "props": {
+      "id": "phone-footer",
+      "size": 35
+    }
+  },
+  "flex-layout.row#footer__desktop--middle-item-3": {
+    "title": "Desktop Middle Top Item 3",
+    "children": [
+      "flex-layout.col#footer__desktop--middle-icon-cont-3",
+      "link#footer__desktop--middle-item-text-3"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-item"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-icon-cont-3": {
+    "title": "Desktop Middle Top Icon 3 Cont",
+    "children": [
+      "icon#footer__desktop--middle-icon-3"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-icon-cont",
+      "width": "30%"
+    }
+  },
+  "link#footer__desktop--middle-item-text-3": {
+    "title": "Desktop Middle Top Text Item 3",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__desktop--middle-text-item"
+    },
+    "children": [
+      "rich-text#footer__desktop--middle-text-3"
+    ]
+  },
+  "rich-text#footer__desktop--middle-text-3": {
+    "props": {
+      "text": "**Sucursales** \n Encontrá la más cercana",
+      "blockClass": "footer__desktop--middle-text"
+    }
+  },
+  "icon#footer__desktop--middle-icon-3": {
+    "title": "Desktop Middle Top Icon 3",
+    "props": {
+      "id": "marker-footer",
+      "size": 35
+    }
+  },
+  "flex-layout.row#footer__desktop--middle-item-4": {
+    "title": "Desktop Middle Top Item 4",
+    "children": [
+      "flex-layout.col#footer__desktop--middle-icon-cont-4",
+      "link#footer__desktop--middle-item-text-4"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-item"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-icon-cont-4": {
+    "title": "Desktop Middle Top Icon 4 Cont",
+    "children": [
+      "icon#footer__desktop--middle-icon-4"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-icon-cont",
+      "width": "30%"
+    }
+  },
+  "link#footer__desktop--middle-item-text-4": {
+    "title": "Desktop Middle Top Text Item 4",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__desktop--middle-text-item"
+    },
+    "children": [
+      "rich-text#footer__desktop--middle-text-4"
+    ]
+  },
+  "rich-text#footer__desktop--middle-text-4": {
+    "props": {
+      "text": "**Defensa de las y los consumidores** \n Para reclamos ingrese aquí",
+      "blockClass": "footer__desktop--middle-text"
+    }
+  },
+  "icon#footer__desktop--middle-icon-4": {
+    "title": "Desktop Middle Top Icon 4",
+    "props": {
+      "id": "people-footer",
+      "size": 35
+    }
+  },
+  "flex-layout.row#footer__desktop--middle-item-5": {
+    "title": "Desktop Middle Top Item 5",
+    "children": [
+      "flex-layout.col#footer__desktop--middle-icon-cont-5",
+      "link#footer__desktop--middle-item-text-5"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-item"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-icon-cont-5": {
+    "title": "Desktop Middle Top Icon 5 Cont",
+    "children": [
+      "icon#footer__desktop--middle-icon-5"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-icon-cont-last",
+      "width": "30%"
+    }
+  },
+  "link#footer__desktop--middle-item-text-5": {
+    "title": "Desktop Middle Top Text Item 5",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__desktop--middle-text-item"
+    },
+    "children": [
+      "rich-text#footer__desktop--middle-text-5"
+    ]
+  },
+  "rich-text#footer__desktop--middle-text-5": {
+    "props": {
+      "text": "**Botón de arrepentimiento** \n Hacé click acá",
+      "blockClass": "footer__desktop--middle-text"
+    }
+  },
+  "icon#footer__desktop--middle-icon-5": {
+    "title": "Desktop Middle Top Icon 5",
+    "props": {
+      "id": "left-arrow-footer",
+      "size": 35
+    }
+  }
+}

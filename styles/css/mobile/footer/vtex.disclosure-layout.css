@@ -1,0 +1,9 @@
+.trigger--footer__mobile--middle-disclosure-trigger {
+  width: 100%;
+  background-color: #FF4338;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid black;;
+  border-bottom: 1px solid black;
+}
+

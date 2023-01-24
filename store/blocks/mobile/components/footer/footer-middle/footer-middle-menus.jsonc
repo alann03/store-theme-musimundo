@@ -1,0 +1,327 @@
+{
+  "menu#footer__mobile--disclosure-menu-1": {
+    "title": "Footer Mobile Middle Disclosure Menu 1",
+    "children": [
+      "menu-item#footer__mobile--menu-item-1",
+      "menu-item#footer__mobile--menu-item-2",
+      "menu-item#footer__mobile--menu-item-3",
+      "menu-item#footer__mobile--menu-item-4",
+      "menu-item#footer__mobile--menu-item-5",
+      "menu-item#footer__mobile--menu-item-6"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--middle-disclosure-menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-1": {
+    "title": "Footer Mobile Middle Item 1",
+    "props": {
+      "id": "menu-item-mobile-1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de",
+        "text": "Acerca de"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-2": {
+    "title": "Footer Mobile Middle Item 2",
+    "props": {
+      "id": "menu-item-mobile-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Términos y Condiciones",
+        "text": "Términos y Condiciones"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-3": {
+    "title": "Footer Mobile Middle Item 3",
+    "props": {
+      "id": "menu-item-mobile-3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "M! Promociones",
+        "text": "M! Promociones"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-4": {
+    "title": "Footer Mobile Middle Item 4",
+    "props": {
+      "id": "menu-item-mobile-4",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trabajá con nosotros",
+        "text": "Trabajá con nosotros"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-5": {
+    "title": "Footer Mobile Middle Item 5",
+    "props": {
+      "id": "menu-item-mobile-5",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Registrate como proovedor de servicios",
+        "text": "Registrate como proovedor de servicios"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-6": {
+    "title": "Footer Mobile Middle Item 6",
+    "props": {
+      "id": "menu-item-mobile-6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Realidad Aumentada",
+        "text": "Realidad Aumentada"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu#footer__mobile--disclosure-menu-2": {
+    "title": "Footer Mobile Middle Disclosure Menu 2",
+    "children": [
+      "menu-item#footer__mobile--menu-item-7",
+      "menu-item#footer__mobile--menu-item-8",
+      "menu-item#footer__mobile--menu-item-9"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--middle-disclosure-menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-7": {
+    "title": "Footer Mobile Middle Item 7",
+    "props": {
+      "id": "menu-item-mobile-7",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Crédito Musimundo",
+        "text": "Crédito Musimundo"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-8": {
+    "title": "Footer Mobile Middle Item 8",
+    "props": {
+      "id": "menu-item-mobile-8",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "M! Servicios",
+        "text": "M! Servicios"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-9": {
+    "title": "Footer Mobile Middle Item 9",
+    "props": {
+      "id": "menu-item-mobile-9",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ventas Coorporativas",
+        "text": "Ventas Coorporativas"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu#footer__mobile--disclosure-menu-3": {
+    "title": "Footer Mobile Middle Disclosure Menu 3",
+    "children": [
+      "menu-item#footer__mobile--menu-item-10",
+      "menu-item#footer__mobile--menu-item-11",
+      "menu-item#footer__mobile--menu-item-12"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--middle-disclosure-menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-10": {
+    "title": "Footer Mobile Middle Item 10",
+    "props": {
+      "id": "menu-item-mobile-10",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-11": {
+    "title": "Footer Mobile Middle Item 11",
+    "props": {
+      "id": "menu-item-mobile-11",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-12": {
+    "title": "Footer Mobile Middle Item 12",
+    "props": {
+      "id": "menu-item-mobile-12",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Planes Ahora",
+        "text": "Planes Ahora"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu#footer__mobile--disclosure-menu-4": {
+    "title": "Footer Mobile Middle Disclosure Menu 4",
+    "children": [
+      "menu-item#footer__mobile--menu-item-13",
+      "menu-item#footer__mobile--menu-item-14",
+      "menu-item#footer__mobile--menu-item-15",
+      "menu-item#footer__mobile--menu-item-16",
+      "menu-item#footer__mobile--menu-item-17"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--middle-disclosure-menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-13": {
+    "title": "Footer Mobile Middle Item 13",
+    "props": {
+      "id": "menu-item-mobile-13",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hot Sale",
+        "text": "Hot Sale"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-14": {
+    "title": "Footer Mobile Middle Item 14",
+    "props": {
+      "id": "menu-item-mobile-14",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cyber Monday",
+        "text": "Cyber Monday"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-15": {
+    "title": "Footer Mobile Middle Item 15",
+    "props": {
+      "id": "menu-item-mobile-15",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Electro Fans",
+        "text": "Electro Fans"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-16": {
+    "title": "Footer Mobile Middle Item 16",
+    "props": {
+      "id": "menu-item-mobile-16",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  },
+  "menu-item#footer__mobile--menu-item-17": {
+    "title": "Footer Mobile Middle Item 17",
+    "props": {
+      "id": "menu-item-mobile-17",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Somos Responsables",
+        "text": "Somos Responsables"
+      },
+      "blockClass": "footer__mobile--middle-disclosure-menu-item"
+    }
+  }
+}

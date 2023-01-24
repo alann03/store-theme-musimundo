@@ -1,0 +1,109 @@
+{
+  "flex-layout.row#footer__mobile--middle-top": {
+    "title": "Mobile Footer Middle Cont Top",
+    "children": [
+      "flex-layout.col#footer__mobile--middle-top-col"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--middle-top-cont"
+    }
+  },
+  "flex-layout.col#footer__mobile--middle-top-col": {
+    "title": "Mobile Footer Middle Top Col",
+    "children": [
+      "link#footer__mobile--middle-top-link-1",
+      "link#footer__mobile--middle-top-link-2",
+      "link#footer__mobile--middle-top-link-3",
+      "link#footer__mobile--middle-top-link-4",
+      "link#footer__mobile--middle-top-link-5"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--middle-top-col"
+    }
+  },
+  "link#footer__mobile--middle-top-link-1": {
+    "title": "Mobile Middle Top Item 1",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__mobile--middle-top-link"
+    },
+    "children": [
+      "rich-text#footer__mobile--middle-top-item-1"
+    ]
+  },
+  "rich-text#footer__mobile--middle-top-item-1": {
+    "title": "Desktop Middle Top Title Item 1",
+    "props": {
+      "text": "**Compra telefónica** \n 0810-888-5555",
+      "blockClass": "footer__mobile--middle-top-item"
+    }
+  },
+  "link#footer__mobile--middle-top-link-2": {
+    "title": "Mobile Middle Top Item 2",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__mobile--middle-top-link"
+    },
+    "children": [
+      "rich-text#footer__mobile--middle-top-item-2"
+    ]
+  },
+  "rich-text#footer__mobile--middle-top-item-2": {
+    "title": "Desktop Middle Top Title Item 2",
+    "props": {
+      "text": "**Atención al cliente** \n 0800-444-0601 \n migestion@emusimundo.com",
+      "blockClass": "footer__mobile--middle-top-item"
+    }
+  },
+  "link#footer__mobile--middle-top-link-3": {
+    "title": "Mobile Middle Top Item 3",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__mobile--middle-top-link"
+    },
+    "children": [
+      "rich-text#footer__mobile--middle-top-item-3"
+    ]
+  },
+  "rich-text#footer__mobile--middle-top-item-3": {
+    "title": "Desktop Middle Top Title Item 3",
+    "props": {
+      "text": "**Sucursales** \n Encontrá la más cercana",
+      "blockClass": "footer__mobile--middle-top-item"
+    }
+  },
+  "link#footer__mobile--middle-top-link-4": {
+    "title": "Mobile Middle Top Item 4",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__mobile--middle-top-link"
+    },
+    "children": [
+      "rich-text#footer__mobile--middle-top-item-4"
+    ]
+  },
+  "rich-text#footer__mobile--middle-top-item-4": {
+    "title": "Desktop Middle Top Title Item 4",
+    "props": {
+      "text": "**Defensa de las y los consumidores** \n Para reclamos ingrese aquí",
+      "blockClass": "footer__mobile--middle-top-item"
+    }
+  },
+  "link#footer__mobile--middle-top-link-5": {
+    "title": "Mobile Middle Top Item 5",
+    "props": {
+      "href": "#",
+      "blockClass": "footer__mobile--middle-top-link"
+    },
+    "children": [
+      "rich-text#footer__mobile--middle-top-item-5"
+    ]
+  },
+  "rich-text#footer__mobile--middle-top-item-5": {
+    "title": "Desktop Middle Top Title Item 5",
+    "props": {
+      "text": "**Botón de arrepentimiento** \n Hacé click acá",
+      "blockClass": "footer__mobile--middle-top-item"
+    }
+  }
+}

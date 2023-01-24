@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#footer__desktop--middle-bottom": {
+    "title": "Desktop Footer Middle Cont Bottom",
+    "children": [
+      "flex-layout.col#footer__desktop--middle-col-1",
+      "flex-layout.col#footer__desktop--middle-col-2",
+      "flex-layout.col#footer__desktop--middle-col-3",
+      "flex-layout.col#footer__desktop--middle-col-4"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-cont-bottom"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-col-1": {
+    "title": "Desktop Footer Middle Bottom Col 1",
+    "children": [
+      "rich-text#footer__desktop--middle-bottom-title-1",
+      "menu#footer__desktop--middle-bottom-menu-1"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-bottom-col"
+    }
+  },
+  "rich-text#footer__desktop--middle-bottom-title-1": {
+    "title": "Desktop Footer Middle Bottom Title 1",
+    "props": {
+      "text": "**Musimundo**",
+      "blockClass": "footer__desktop--middle-bottom-title"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-col-2": {
+    "title": "Desktop Footer Middle Bottom Col 2",
+    "children": [
+      "rich-text#footer__desktop--middle-bottom-title-2",
+      "menu#footer__desktop--middle-bottom-menu-2"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-bottom-col"
+    }
+  },
+  "rich-text#footer__desktop--middle-bottom-title-2": {
+    "title": "Desktop Footer Middle Bottom Title 2",
+    "props": {
+      "text": "**Servicios**",
+      "blockClass": "footer__desktop--middle-bottom-title"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-col-3": {
+    "title": "Desktop Footer Middle Bottom Col 3",
+    "children": [
+      "rich-text#footer__desktop--middle-bottom-title-3",
+      "menu#footer__desktop--middle-bottom-menu-3"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-bottom-col"
+    }
+  },
+  "rich-text#footer__desktop--middle-bottom-title-3": {
+    "title": "Desktop Footer Middle Bottom Title 3",
+    "props": {
+      "text": "**Ayuda**",
+      "blockClass": "footer__desktop--middle-bottom-title"
+    }
+  },
+  "flex-layout.col#footer__desktop--middle-col-4": {
+    "title": "Desktop Footer Middle Bottom Col 4",
+    "children": [
+      "rich-text#footer__desktop--middle-bottom-title-4",
+      "menu#footer__desktop--middle-bottom-menu-4"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--middle-bottom-col"
+    }
+  },
+  "rich-text#footer__desktop--middle-bottom-title-4": {
+    "title": "Desktop Footer Middle Bottom Title 4",
+    "props": {
+      "text": "**Eventos especiales**",
+      "blockClass": "footer__desktop--middle-bottom-title"
+    }
+  }
+}

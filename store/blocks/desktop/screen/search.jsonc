@@ -1,0 +1,9 @@
+{
+  "search-result-layout.desktop": {
+    "title": "Search Result Layout Desktop",
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#searchresult__row"
+    ]
+  }
+}

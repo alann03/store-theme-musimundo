@@ -1,0 +1,64 @@
+{
+  /*
+  "search-result-layout.desktop#department": {
+    "title": "Search Layout Department Desktop",
+    "children": [
+      "flex-layout.row#department__breadcrumb"
+    ]
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "Search Layout Department Breadcrumb Row",
+    "children": [
+      "flex-layout.col#department__breadcrumb"
+    ]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title": "Search Layout Department Breadcrumb Col",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "search-result-layout.mobile#department": {
+    "title": "Search Layout Department Mobile",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ]
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department Results",
+    "children": [
+      "gallery-layout-switcher" //cambiar cantidad de vitrinas entre una vista y otra (mostrar dos productos por fila o uno)
+      "search-content#phone"  
+    ]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-column"
+    ]
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "props": {
+      "name": "grid-two-columns",
+      "blockClass": "grid__selector--two-columns"
+    }
+  },
+  "gallery-layout-option#grid__one-column": {
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one-column"
+    }
+  } */
+  /* "search-content#phone": {} */
+  /* "rich-text#desktop-response-department": {
+    "props": {
+      "text": "Desktop Search Department"
+    }
+  },
+  "rich-text#mobile-response-department": {
+    "props": {
+      "text": "Mobile Search Department"
+    }
+  } */
+}

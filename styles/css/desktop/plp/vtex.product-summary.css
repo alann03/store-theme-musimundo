@@ -1,0 +1,43 @@
+.containerNormal--desktop__searchresult--summary-shelf {
+  background: #FFFFFF;
+  border: 1px solid #dadada;
+  border-radius: 0;
+}
+
+.containerNormal--desktop__searchresult--summary-shelf:hover {
+  outline: 2px solid #5d5d5d;
+}
+
+.element--desktop__searchresult--summary-shelf {
+  padding: 20px 15px;
+  position: relative;
+}
+
+.element--desktop__searchresult--summary-shelf :global(.vtex-button) {
+  border-radius: 50px;
+  margin-top: 5%;
+}
+
+.imageWrapper--desktop__searchresult--summary-img {
+  max-height: 30%;
+  min-height: 30%;
+}
+
+.imageContainer--desktop__searchresult--summary-img {
+  height: 100%;
+  max-width: 50%;
+}
+
+.image--desktop__searchresult--summary-img {
+  height: 100%;
+}
+
+.productBrand--desktop__searchresult--product-name {
+  font-size: 14.4px;
+  text-transform: uppercase;
+  color: #5d5d5d;
+}
+
+.nameContainer--desktop__searchresult--product-name {
+  padding: 6% 0;
+}

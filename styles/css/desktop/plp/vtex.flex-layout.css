@@ -1,0 +1,22 @@
+.flexRow--desktop__searchresult--row {
+  border-top: 2px solid #dadada;
+}
+
+.flexRowContent--desktop__searchresult--row-1 {
+  padding-left: 4%;
+}
+
+.flexRowContent--desktop__searchresult--row-1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--desktop__searchresult--row-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+
+.flexRowContent--desktop__searchresult--row-2 {
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 0 2%;
+}
+
+.flexCol--desktop__searchresult--col {
+  padding-left: 3%;
+}

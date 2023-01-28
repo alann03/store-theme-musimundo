@@ -116,13 +116,13 @@
   "product-summary.shelf#searchresult": {
     "title": "Search Result Shelf",
     "children": [
+      "flex-layout.row#searchresult__saving--label",
+      "flex-layout.row#searchresult__share--label",
       "product-summary-image#searchresult",
       "rich-text#product__brand--name",
       "product-summary-name#searchresult",
       "rich-text#product__code",
-      "product-list-price#searchresult",
-      "product-price-savings#searchresult",
-      "product-selling-price#searchresult",
+      "flex-layout.row#searchresult__prices--cont",
       "product-installments#searchresult",
       "add-to-cart-button#searchresult",
       "add-to-list-btn#searchresult",
@@ -130,6 +130,26 @@
     ],
     "props": {
       "blockClass": "desktop__searchresult--summary-shelf"
+    }
+  },
+  "flex-layout.row#searchresult__prices--cont": {
+    "title": "Search Result Poduct Prices Cont",
+    "children": [
+      "flex-layout.col#searchresult__prices--cont-col"
+    ],
+    "props": {
+      "blockClass": "desktop__searchresult--product-prices"
+    }
+  },
+  "flex-layout.col#searchresult__prices--cont-col": {
+    "title": "Search Result Poduct Prices Cont Col",
+    "children": [
+      "product-list-price#searchresult",
+      "product-price-savings#searchresult",
+      "product-selling-price#searchresult"
+    ],
+    "props": {
+      "blockClass": "desktop__searchresult--product-prices-col"
     }
   },
   "product-summary-image#searchresult": {
@@ -211,6 +231,48 @@
     "title": "Product Button Wish List",
     "props": {
       "blockClass": "searchresult__product--button-wish"
+    }
+  },
+  "flex-layout.row#searchresult__saving--label": {
+    "title": "Product Saving Label",
+    "children": [
+      "product-price-savings#searchresult__saving--label"
+    ],
+    "props": {
+      "blockClass": "searchresult__product--saving-label"
+    }
+  },
+  "flex-layout.row#searchresult__share--label": {
+    "title": "Product Share Label",
+    "children": [
+      "product-installments#searchresult__share--label",
+      "rich-text#searchresult__share--label-text"
+    ],
+    "props": {
+      "blockClass": "searchresult__product--share-label"
+    }
+  },
+  "product-price-savings#searchresult__saving--label": {
+    "title": "Product Saving Label Text",
+    "props": {
+      "message": "Ahorro {savingsValue}",
+      "blockClass": "searchresult__product--share-saving-text"
+    }
+  },
+  "product-installments#searchresult__share--label": {
+    "title": "Product Share Label Number",
+    "props": {
+      "message": "{installmentsNumber}",
+      "width": "40%",
+      "blockClass": "searchresult__product--share-label-number"
+    }
+  },
+  "rich-text#searchresult__share--label-text": {
+    "title": "Product Share Label Text",
+    "props": {
+      "text": "**Cuotas** \n sin interés",
+      "width": "60%",
+      "blockClass": "searchresult__product--share-label-text"
     }
   }
 }

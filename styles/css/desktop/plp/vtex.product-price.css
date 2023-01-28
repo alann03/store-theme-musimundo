@@ -21,6 +21,7 @@
   text-align: left;
   margin-top: 4%;
   padding-left: 2%;
+  text-align: center;
 }
 
 .installmentsNumber--searchresult__product--installments {
@@ -62,4 +63,21 @@
   padding-left: 2%;
   display: flex;
   justify-content: space-between;
+}
+
+.savings--searchresult__product--share-saving-text {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.currencyContainer--searchresult__product--share-saving-text {
+  font-size: 18px;
+}
+
+.installments--searchresult__product--share-label-number{
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF
 }

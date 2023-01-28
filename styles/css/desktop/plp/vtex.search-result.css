@@ -14,3 +14,7 @@
 .gallery--desktop__searchresult--gallery--general-grid {
   padding-top: 4%;
 }
+
+.gallery--desktop__searchresult--gallery {
+  padding: 5% 0 10% 0;
+}

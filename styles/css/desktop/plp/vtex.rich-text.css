@@ -1,6 +1,6 @@
 .container--desktop__searchresult--text-brand {
   justify-content: center;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 
 .paragraph--desktop__searchresult--text-brand {
@@ -15,5 +15,21 @@
 
 .container--desktop__searchresult--text-code {
   padding: 2%;
-  margin-bottom: 4%;
+}
+
+.paragraph--searchresult__product--share-label-text {
+  color: #FFFFFF;
+  font-size: 9.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.strong--searchresult__product--share-label-text {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.container--searchresult__product--share-label-text {
+  align-items: center;
+  justify-content: center;
 }

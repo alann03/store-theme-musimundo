@@ -1,0 +1,20 @@
+.container--layout--desktop__searchresult--main {
+  max-width: 1250px;
+}
+
+.totalProducts--layout {
+  align-items: center;
+  display: flex;
+}
+
+.orderByButton--desktop__searchresult--order-by {
+  background-color: #FFFFFF;
+}
+
+.gallery--desktop__searchresult--gallery--general-grid {
+  padding-top: 4%;
+}
+
+.gallery--desktop__searchresult--gallery {
+  padding: 5% 0 10% 0;
+}

@@ -1,0 +1,13 @@
+{
+  "search-result-layout.desktop": {
+    "title": "Search Result Layout Desktop",
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#searchresult__row"
+    ],
+    "props": {
+      "blockClass": "desktop__searchresult--main",
+      "showFacetQuantity": true
+    }
+  }
+}

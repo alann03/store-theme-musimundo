@@ -1,0 +1,83 @@
+.sellingPrice--searchresult__product--selling-price {
+  color: #5D5D5D;
+  font-size: 12px;
+  border-bottom: 2px #d4d4d4 solid;
+  padding: 2% 0 4% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellingPriceValue--searchresult__product--selling-price {
+  font-size: 14.4px;
+  color: #1D1D1D;
+  font-weight: 700;
+  margin-right: 15%;
+}
+
+.installments--searchresult__product--installments {
+  font-size: 18px;
+  color: #ff4338;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 4%;
+  padding-left: 2%;
+  text-align: center;
+}
+
+.installmentsNumber--searchresult__product--installments {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.installmentValue--searchresult__product--installments {
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 30%;
+}
+
+.savings--searchresult__product--discount-price {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 2%;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF4338;
+  border-radius: 3px;
+}
+
+.currencyContainer--searchresult__product--list-price {
+  color: #1D1D1D;
+  font-weight: 700;
+}
+
+.savingsValue--searchresult__product--discount-price,
+.listPriceValue--searchresult__product--list-price {
+  margin-right: 15%;
+}
+
+.listPrice--searchresult__product--list-price {
+  color: #5D5D5D;
+  font-size: 12px;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.savings--searchresult__product--share-saving-text {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.currencyContainer--searchresult__product--share-saving-text {
+  font-size: 18px;
+}
+
+.installments--searchresult__product--share-label-number{
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF
+}

@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#footer__desktop--top": {
+    "title": "Desktop Footer Top Cont",
+    "children": [
+      "newsletter#footer__top--newsletter",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--top-cont"
+    }
+  },
+  "newsletter#footer__top--newsletter": {
+    "title": "Desktop Footer Newsletter",
+    "props": {
+      "label": "ENTERATE DE LAS MEJORES OFERTAS",
+      "submit": "SUSCRIBITE AHORA",
+      "blockClass": "footer__desktop--newsletter",
+      "width": "75%"
+    }
+  },
+  "social-networks": {
+    "title": "Desktop Footer Social Networks",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://instagram.com/foo",
+          "name": "Instagram"
+        }
+      ],
+      "showInColor": true,
+      "blockClass": "footer__desktop--social-networks",
+      "width": "25%"
+    }
+  }
+}

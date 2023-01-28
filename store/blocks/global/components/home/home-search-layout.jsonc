@@ -1,5 +1,5 @@
 {
-  "search-result-layout.customQuery#home__search": {
+  /* "search-result-layout.customQuery#home__search": {
     "props": {
       "querySchema": {
         "skusFilter": "ALL_AVAILABLE",
@@ -48,5 +48,5 @@
     "props": {
       "text": "prueba"
     }
-  }
+  } */
 }

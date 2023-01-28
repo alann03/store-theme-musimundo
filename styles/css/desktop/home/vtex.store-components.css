@@ -44,6 +44,7 @@
   width: 75%;
   margin: 0;
   align-items: center;
+  position: relative;
 }
 
 .infoCardHeadline--info-card__section-4 {
@@ -57,7 +58,7 @@
   font-size: 14px;
 }
 
-/* .infoCardCallActionContainer--info-card__section-4 {
+.infoCardCallActionContainer--info-card__section-4 {
   position: absolute;
-  top: 10
-} */
+  bottom: 20px;
+}

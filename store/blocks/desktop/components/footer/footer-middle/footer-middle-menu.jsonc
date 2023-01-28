@@ -1,0 +1,310 @@
+{
+  "menu#footer__desktop--middle-bottom-menu-1": {
+    "title": "Desktop Footer Menu Item 1",
+    "children": [
+      "menu-item#desktop__footer--acerca",
+      "menu-item#desktop__footer--terminos",
+      "menu-item#desktop__footer--promociones",
+      "menu-item#desktop__footer--nosotros",
+      "menu-item#desktop__footer--proovedor",
+      "menu-item#desktop__footer--realidad"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#desktop__footer--acerca": {
+    "props": {
+      "id": "footer-menu-item-acerca-de",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de",
+        "text": "Acerca de"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--terminos": {
+    "props": {
+      "id": "footer-menu-item-terminos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Terminos y condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--promociones": {
+    "props": {
+      "id": "footer-menu-item-promo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "M! Promociones"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--nosotros": {
+    "props": {
+      "id": "footer-menu-item-trabaja",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trabaja con nosotros",
+        "text": "Trabajá con nosotros"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--proovedor": {
+    "props": {
+      "id": "footer-menu-item-proovedor",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Proovedor",
+        "text": "Registrate como proovedor de servicios"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--realidad": {
+    "props": {
+      "id": "footer-menu-item-realidad-aumentada",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Realidad aumentada",
+        "text": "Realidad aumentada"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu#footer__desktop--middle-bottom-menu-2": {
+    "title": "Desktop Footer Menu Item 2",
+    "children": [
+      "menu-item#desktop__footer--credito",
+      "menu-item#desktop__footer--servicios",
+      "menu-item#desktop__footer--ventas"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#desktop__footer--credito": {
+    "props": {
+      "id": "footer-menu-item-credito",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Credito musimundo",
+        "text": "Crédito Musimundo"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--servicios": {
+    "props": {
+      "id": "footer-menu-item-servicios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Servicios",
+        "text": "M! Servicios"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--ventas": {
+    "props": {
+      "id": "footer-menu-item-ventas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ventas coorporativas",
+        "text": "Ventas coorporativas"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu#footer__desktop--middle-bottom-menu-3": {
+    "title": "Desktop Footer Menu Item 3",
+    "children": [
+      "menu-item#desktop__footer--sucursales",
+      "menu-item#desktop__footer--preguntas",
+      "menu-item#desktop__footer--planes"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#desktop__footer--sucursales": {
+    "props": {
+      "id": "footer-menu-item-sucursales",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--preguntas": {
+    "props": {
+      "id": "footer-menu-item-preguntas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas Frecuentes"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--planes": {
+    "props": {
+      "id": "footer-menu-item-planes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Planes Ahora",
+        "text": "Planes Ahora"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu#footer__desktop--middle-bottom-menu-4": {
+    "title": "Desktop Footer Menu Item 4",
+    "children": [
+      "menu-item#desktop__footer--hot-sale",
+      "menu-item#desktop__footer--cyber-monday",
+      "menu-item#desktop__footer--fans",
+      "menu-item#desktop__footer--black-friday",
+      "menu-item#desktop__footer--responsables"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--menu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#desktop__footer--hot-sale": {
+    "props": {
+      "id": "footer-menu-item-hot-sale",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hot Sale",
+        "text": "Hot Sale"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--cyber-monday": {
+    "props": {
+      "id": "footer-menu-item-cyber-monday",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cyber Monday",
+        "text": "Cyber Monday"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--fans": {
+    "props": {
+      "id": "footer-menu-item-fans",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Electro Fans",
+        "text": "Electro Fans"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--black-friday": {
+    "props": {
+      "id": "footer-menu-item-black-friday",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#desktop__footer--responsables": {
+    "props": {
+      "id": "footer-menu-item-responsables",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Somos responsables",
+        "text": "Somos responsables"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  }
+}

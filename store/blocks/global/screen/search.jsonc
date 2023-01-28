@@ -1,0 +1,38 @@
+{
+  "store.search": {
+    "title": "Search",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "title": "Search Department",
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "store.search#category": {
+    "title": "Search Category",
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "store.search#subcategory": {
+    "title": "Search Subcategory",
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "store.search#brand": {
+    "title": "Search Brand",
+    "blocks": [
+      "search-result-layout"
+    ]
+  }
+}

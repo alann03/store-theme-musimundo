@@ -1,0 +1,50 @@
+.container--desktop__searchresult--summary-shelf {
+  overflow: visible;
+  min-height: 580px;
+}
+
+.containerNormal--desktop__searchresult--summary-shelf {
+  background: #FFFFFF;
+  border: 1px solid #dadada;
+  border-radius: 0;
+}
+
+.containerNormal--desktop__searchresult--summary-shelf:hover {
+  outline: 2px solid #5d5d5d;
+}
+
+.element--desktop__searchresult--summary-shelf {
+  padding: 20px 15px;
+  position: relative;
+  padding-top: 20%;
+}
+
+.element--desktop__searchresult--summary-shelf :global(.vtex-button) {
+  border-radius: 50px;
+  margin-top: 5%;
+}
+
+.imageWrapper--desktop__searchresult--summary-img {
+  max-height: 30%;
+  min-height: 30%;
+}
+
+.imageContainer--desktop__searchresult--summary-img {
+  height: 100%;
+  max-width: 50%;
+}
+
+.image--desktop__searchresult--summary-img {
+  height: 100%;
+}
+
+.productBrand--desktop__searchresult--product-name {
+  font-size: 14.4px;
+  text-transform: uppercase;
+  color: #5d5d5d;
+  font-weight: 600;
+}
+
+.nameContainer--desktop__searchresult--product-name {
+  padding: 4% 0;
+}

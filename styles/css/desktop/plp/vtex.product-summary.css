@@ -3,6 +3,23 @@
   min-height: 580px;
 }
 
+@media (max-width: 1000px) {
+  .container--desktop__searchresult--summary-shelf {
+    max-width: none !important;
+  }
+  .nameContainer--desktop__searchresult--product-name {
+    padding: 2% 0 3px 2% !important;
+    justify-content: start !important;
+  }
+  .productBrand--desktop__searchresult--product-name {
+    font-size: 19px !important;
+  }
+  /* .element--desktop__searchresult--summary-shelf {
+    min-height: 710px;
+    padding-top: 10% !important;
+  } */
+}
+
 .containerNormal--desktop__searchresult--summary-shelf,
 .containerNormal--desktop__searchresult--summary-shelf-list {
   background: #FFFFFF;

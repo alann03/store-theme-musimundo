@@ -121,3 +121,18 @@
   font-size: 32px;
   color: #FFFFFF
 }
+
+
+@media (max-width: 1000px) {
+  .installmentValue--searchresult__product--installments {
+    margin-right: 5% !important;
+  }
+  .listPrice--searchresult__product--list-price,
+  .savings--searchresult__product--discount-price,
+  .sellingPrice--searchresult__product--selling-price {
+    font-size: 16px !important;
+  }
+  .sellingPriceValue--searchresult__product--selling-price {
+    font-size: 19px !important;
+  }
+}

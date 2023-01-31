@@ -19,6 +19,7 @@
   "flex-layout.col#searchresult__col": {
     "title": "Search Result Layout Desktop Col",
     "children": [
+      "shelf#searchresult",
       "flex-layout.row#searchresult__row-1",
       "flex-layout.row#searchresult__row-2",
       "search-content"
@@ -104,7 +105,7 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 3,
-            "tablet": 2,
+            "tablet": 1,
             "phone": 1
           }
         },
@@ -117,6 +118,26 @@
       "GridSummary": "product-summary.shelf#searchresult__summary--grid",
       "ListSummary": "product-summary.shelf#searchresult__summary--list",
       "blockClass": "desktop__searchresult--gallery"
+    }
+  },
+  "shelf#searchresult": {
+    "title": "Shelf Searchresult",
+    "blocks": [
+      "product-summary.shelf#searchresult__summary--grid"
+    ],
+    "props": {
+      "blockClass": "searchresult__shelf",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "gap": "ph2",
+        "arrows": true,
+        "titleText": "#MEJORES OFERTAS"
+      }
     }
   }
 }

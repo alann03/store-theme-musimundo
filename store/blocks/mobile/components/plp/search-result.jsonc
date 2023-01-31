@@ -37,6 +37,7 @@
   "flex-layout.col#searchresult__col--mobile": {
     "title": "Search Result Layout Desktop Col",
     "children": [
+      "shelf#searchresult",
       "flex-layout.row#searchresult__row--mobile-3",
       "order-by.v2#mobile",
       "search-content"

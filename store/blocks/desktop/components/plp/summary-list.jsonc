@@ -1,0 +1,204 @@
+{
+  "product-summary.shelf#searchresult__summary--list": {
+    "title": "Search Result Shelf List",
+    "children": [
+      "flex-layout.row#searchresult__saving--label-list",
+      "flex-layout.row#searchresult__share--label-list",
+      "flex-layout.row#searchresult__summary--container-list"
+    ],
+    "props": {
+      "blockClass": "desktop__searchresult--summary-shelf-list"
+    }
+  },
+  "flex-layout.row#searchresult__summary--container-list": {
+    "title": "Summary List Container",
+    "children": [
+      "flex-layout.col#searchresult__summary--list-col-1",
+      "flex-layout.col#searchresult__summary--list-col-2",
+      "flex-layout.col#searchresult__summary--list-col-3"
+    ],
+    "props": {
+      "blockClass": "searchresult__summary--list-container"
+    }
+  },
+  "flex-layout.col#searchresult__summary--list-col-1": {
+    "title": "Summary List Col 1",
+    "children": [
+      "product-summary-image#searchresult__summary--list-img-cont"
+    ],
+    "props": {
+      "width": "25%",
+      "blockClass": "searchresult__summary--list-col-1"
+    }
+  },
+  "flex-layout.col#searchresult__summary--list-col-2": {
+    "title": "Summary List Col 2",
+    "children": [
+      "rich-text#product__list--brand-name",
+      "product-summary-name#searchresult__summary--list",
+      "rich-text#product__list--code",
+      "image#searchresult__list--image-24"
+    ],
+    "props": {
+      "width": "grow",
+      "blockClass": "searchresult__summary--list-col-2"
+    }
+  },
+  "flex-layout.col#searchresult__summary--list-col-3": {
+    "title": "Summary List Col 3",
+    "children": [
+      "flex-layout.row#searchresult__list--prices-cont",
+      "product-installments#searchresult__list",
+      "add-to-cart-button#searchresult__list",
+      "add-to-list-btn#searchresult__list"
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "searchresult__summary--list-col-3"
+    }
+  },
+  "product-summary-image#searchresult__summary--list-img-cont": {
+    "title": "Search Result Poduct Summary Image",
+    "props": {
+      "showBadge": false,
+      "blockClass": "searchresult__summary--list-img"
+    }
+  },
+  "rich-text#product__list--brand-name": {
+    "title": "Product List Brand Name Example",
+    "props": {
+      "text": "MARCA",
+      "blockClass": "desktop__searchresult--list-text-brand"
+    }
+  },
+  "product-summary-name#searchresult__summary--list": {
+    "title": "Search Result Poduct Summary List Name",
+    "props": {
+      "tag": "h3",
+      "blockClass": "desktop__searchresult--list-product-name"
+    }
+  },
+  "rich-text#product__list--code": {
+    "title": "Product List Code Example",
+    "props": {
+      "text": "CODE00000000",
+      "blockClass": "desktop__searchresult--list-text-code"
+    }
+  },
+  "image#searchresult__list--image-24": {
+    "title": "Product list Image Ahora 24",
+    "props": {
+      "src": "assets/img/searchresult__cuotas.jpg",
+      "maxHeight": 65,
+      "maxWidth": 65,
+      "blockClass": "searchresult__product--list-image-cuotas"
+    }
+  },
+  "flex-layout.row#searchresult__saving--label-list": {
+    "title": "Product List Saving Label",
+    "children": [
+      "product-price-savings#searchresult__list--saving-label"
+    ],
+    "props": {
+      "blockClass": "searchresult__list--product-saving-label"
+    }
+  },
+  "product-price-savings#searchresult__list--saving-label": {
+    "title": "Product List Saving Label Text",
+    "props": {
+      "message": "Ahorro {savingsValue}",
+      "blockClass": "searchresult__product--share-saving-text"
+    }
+  },
+  "flex-layout.row#searchresult__share--label-list": {
+    "title": "Product List Share Label",
+    "children": [
+      "product-installments#searchresult__list--share-label",
+      "rich-text#searchresult__list--share-label-text"
+    ],
+    "props": {
+      "blockClass": "searchresult__list--product-share-label"
+    }
+  },
+  "product-installments#searchresult__list--share-label": {
+    "title": "Product List Share Label Number",
+    "props": {
+      "message": "{installmentsNumber}",
+      "width": "40%",
+      "blockClass": "searchresult__product--share-label-number"
+    }
+  },
+  "rich-text#searchresult__list--share-label-text": {
+    "title": "Product List Share Label Text",
+    "props": {
+      "text": "**Cuotas** \n sin interés",
+      "width": "60%",
+      "blockClass": "searchresult__product--share-label-text"
+    }
+  },
+  "add-to-list-btn#searchresult__list": {
+    "title": "Product List Button Wish List",
+    "props": {
+      "blockClass": "searchresult__list--product-button-wish"
+    }
+  },
+  "product-installments#searchresult__list": {
+    "title": "Product List Installments",
+    "props": {
+      "message": "{installmentsNumber} X {installmentValue} CUOTAS SIN INTERÉS",
+      "blockClass": "searchresult__list--product-installments"
+    }
+  },
+  "add-to-cart-button#searchresult__list": {
+    "title": "Product List Button Cart",
+    "props": {
+      "text": "Agregar al carro",
+      "blockClass": "searchresult__list--product-button-cart"
+    }
+  },
+  "flex-layout.row#searchresult__list--prices-cont": {
+    "title": "Search Result List Poduct Prices Cont",
+    "children": [
+      "flex-layout.col#searchresult__list--prices-cont-col"
+    ],
+    "props": {
+      "blockClass": "desktop__searchresult--list-product-prices"
+    }
+  },
+  "flex-layout.col#searchresult__list--prices-cont-col": {
+    "title": "Search Result List Poduct Prices Cont Col",
+    "children": [
+      "product-list-price#searchresult__list",
+      "product-price-savings#searchresult__list",
+      "product-selling-price#searchresult__list"
+    ],
+    "props": {
+      "height": "30%",
+      "blockClass": "desktop__searchresult--list-product-prices-col"
+    }
+  },
+  "product-list-price#searchresult__list": {
+    "title": "Product List Price",
+    "props": {
+      "message": "Precio contado: {listPriceValue}",
+      "blockClass": "searchresult__list--product-list-price"
+    }
+  },
+  "product-price-savings#searchresult__list": {
+    "title": "Product List Discount Price",
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "message": "Ahorro: {savingsValue}",
+      "blockClass": "searchresult__list--product-discount-price"
+    }
+  },
+  "product-selling-price#searchresult__list": {
+    "title": "Product List Selling Price",
+    "props": {
+      "message": "Precio online: {sellingPriceValue}",
+      "blockClass": "searchresult__list--product-selling-price"
+    }
+  }
+}

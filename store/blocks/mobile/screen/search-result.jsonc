@@ -1,0 +1,13 @@
+{
+  "search-result-layout.mobile": {
+    "title": "Search Layout Mobile",
+    "children": [
+      "flex-layout.row#searchresult__row--mobile-1",
+      "flex-layout.row#searchresult__row--mobile-2"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--main",
+      "showFacetQuantity": true
+    }
+  }
+}

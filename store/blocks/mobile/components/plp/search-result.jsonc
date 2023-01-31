@@ -1,0 +1,104 @@
+{
+  "flex-layout.row#searchresult__row--mobile-1": {
+    "title": "Search Result Layout Mobile Row 1",
+    "children": [
+      "breadcrumb.search#mobile",
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--row-1"
+    }
+  },
+  "breadcrumb.search#mobile": {
+    "title": "Bread Crumb Mobile",
+    "props": {
+      "showOnMobile": true,
+      "blockClass": "mobile__searchresult--breadcrumb"
+    }
+  },
+  "filter-navigator.v3": {
+    "title": "Filters Mobile",
+    "blocks": [
+      "sidebar-close-button"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--filters"
+    }
+  },
+  "flex-layout.row#searchresult__row--mobile-2": {
+    "title": "Search Result Layout Mobile Row 2",
+    "children": [
+      "flex-layout.col#searchresult__col--mobile"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--row-2"
+    }
+  },
+  "flex-layout.col#searchresult__col--mobile": {
+    "title": "Search Result Layout Desktop Col",
+    "children": [
+      "flex-layout.row#searchresult__row--mobile-3",
+      "order-by.v2#mobile",
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--col"
+    }
+  },
+  "flex-layout.row#searchresult__row--mobile-3": {
+    "title": "Search Result Layout Mobile Row 3",
+    "children": [
+      "search-title.v2#mobile",
+      "total-products.v2#mobile"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--row-3"
+    }
+  },
+  "search-title.v2#mobile": {
+    "title": "Search Result Title Mobile",
+    "props": {
+      "blockClass": "mobile__searchresult--title"
+    }
+  },
+  "total-products.v2#mobile": {
+    "title": "Search Result Total Products Mobile",
+    "props": {
+      "blockClass": "mobile__searchresult--total-products"
+    }
+  },
+  "order-by.v2#mobile": {
+    "title": "Search Result Order By Mobile",
+    "props": {
+      "blockClass": "mobile__searchresult--order-by"
+    }
+  }
+  /* "search-content#mobile": {
+    "title": "Search Content Mobile",
+    "blocks": [
+      "gallery#mobile",
+      "not-found"
+    ],
+    "props": {
+      "blockClass": "mobile__searchresult--search-content"
+    }
+  },
+  "gallery#mobile": {
+    "title": "Search Products Gallery Mobile",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#searchresult",
+      "blockClass": "mobile__searchresult--gallery"
+    }
+  } */
+}

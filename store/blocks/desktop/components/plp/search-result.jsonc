@@ -19,6 +19,7 @@
   "flex-layout.col#searchresult__col": {
     "title": "Search Result Layout Desktop Col",
     "children": [
+      "shelf#searchresult",
       "flex-layout.row#searchresult__row-1",
       "flex-layout.row#searchresult__row-2",
       "search-content"
@@ -32,14 +33,14 @@
     "title": "Search Result Row 1",
     "children": [
       "search-title.v2",
-      "total-products.v2"
+      "total-products.v2#desktop"
     ],
     "props": {
       "blockClass": "desktop__searchresult--row-1"
     }
   },
-  "total-products.v2": {
-    "title": "Search Result Total Products",
+  "total-products.v2#desktop": {
+    "title": "Search Result Total Products Desktop",
     "props": {
       "blockClass": "desktop__searchresult--total-products"
     }
@@ -47,15 +48,15 @@
   "flex-layout.row#searchresult__row-2": {
     "title": "Search Result Row 2",
     "children": [
-      "order-by.v2",
+      "order-by.v2#desktop",
       "gallery-layout-switcher"
     ],
     "props": {
       "blockClass": "desktop__searchresult--row-2"
     }
   },
-  "order-by.v2": {
-    "title": "Search Result Order By",
+  "order-by.v2#desktop": {
+    "title": "Search Result Order By Desktop",
     "props": {
       "blockClass": "desktop__searchresult--order-by"
     }
@@ -100,179 +101,43 @@
     "props": {
       "layouts": [
         {
-          "name": "general-grid",
-          "component": "GeneralGrid",
+          "name": "grid",
+          "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 3,
-            "tablet": 2,
+            "tablet": 1,
             "phone": 1
           }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
         }
       ],
-      "GeneralGrid": "product-summary.shelf#searchresult",
+      "GridSummary": "product-summary.shelf#searchresult__summary--grid",
+      "ListSummary": "product-summary.shelf#searchresult__summary--list",
       "blockClass": "desktop__searchresult--gallery"
     }
   },
-  "product-summary.shelf#searchresult": {
-    "title": "Search Result Shelf",
-    "children": [
-      "flex-layout.row#searchresult__saving--label",
-      "flex-layout.row#searchresult__share--label",
-      "product-summary-image#searchresult",
-      "rich-text#product__brand--name",
-      "product-summary-name#searchresult",
-      "rich-text#product__code",
-      "flex-layout.row#searchresult__prices--cont",
-      "product-installments#searchresult",
-      "add-to-cart-button#searchresult",
-      "add-to-list-btn#searchresult",
-      "image#searchresult__image--24"
+  "shelf#searchresult": {
+    "title": "Shelf Searchresult",
+    "blocks": [
+      "product-summary.shelf#searchresult__summary--grid"
     ],
     "props": {
-      "blockClass": "desktop__searchresult--summary-shelf"
-    }
-  },
-  "flex-layout.row#searchresult__prices--cont": {
-    "title": "Search Result Poduct Prices Cont",
-    "children": [
-      "flex-layout.col#searchresult__prices--cont-col"
-    ],
-    "props": {
-      "blockClass": "desktop__searchresult--product-prices"
-    }
-  },
-  "flex-layout.col#searchresult__prices--cont-col": {
-    "title": "Search Result Poduct Prices Cont Col",
-    "children": [
-      "product-list-price#searchresult",
-      "product-price-savings#searchresult",
-      "product-selling-price#searchresult"
-    ],
-    "props": {
-      "blockClass": "desktop__searchresult--product-prices-col"
-    }
-  },
-  "product-summary-image#searchresult": {
-    "title": "Search Result Poduct Summary Image",
-    "props": {
-      "showBadge": false,
-      "blockClass": "desktop__searchresult--summary-img"
-    }
-  },
-  "rich-text#product__brand--name": {
-    "title": "Product Brand Name Example",
-    "props": {
-      "text": "MARCA",
-      "blockClass": "desktop__searchresult--text-brand"
-    }
-  },
-  "product-summary-name#searchresult": {
-    "title": "Search Result Poduct Summary Name",
-    "props": {
-      "tag": "h3",
-      "blockClass": "desktop__searchresult--product-name"
-    }
-  },
-  "rich-text#product__code": {
-    "title": "Product Code Example",
-    "props": {
-      "text": "CODE00000000",
-      "blockClass": "desktop__searchresult--text-code"
-    }
-  },
-  "product-list-price#searchresult": {
-    "title": "Product List Price",
-    "props": {
-      "message": "Precio contado: {listPriceValue}",
-      "blockClass": "searchresult__product--list-price"
-    }
-  },
-  "product-price-savings#searchresult": {
-    "title": "Product Discount Price",
-    "props": {
-      "markers": [
-        "discount"
-      ],
-      "message": "Ahorro: {savingsValue}",
-      "blockClass": "searchresult__product--discount-price"
-    }
-  },
-  "product-selling-price#searchresult": {
-    "title": "Product Selling Price",
-    "props": {
-      "message": "Precio online: {sellingPriceValue}",
-      "blockClass": "searchresult__product--selling-price"
-    }
-  },
-  "product-installments#searchresult": {
-    "title": "Product Installments",
-    "props": {
-      "message": "{installmentsNumber} X {installmentValue} CUOTAS SIN INTERÉS",
-      "blockClass": "searchresult__product--installments"
-    }
-  },
-  "image#searchresult__image--24": {
-    "title": "Product Image Ahora 24",
-    "props": {
-      "src": "assets/img/searchresult__cuotas.jpg",
-      "maxHeight": 65,
-      "maxWidth": 65,
-      "blockClass": "searchresult__product--image-cuotas"
-    }
-  },
-  "add-to-cart-button#searchresult": {
-    "title": "Product Button Cart",
-    "props": {
-      "text": "Agregar al carro",
-      "blockClass": "searchresult__product--button-cart"
-    }
-  },
-  "add-to-list-btn#searchresult": {
-    "title": "Product Button Wish List",
-    "props": {
-      "blockClass": "searchresult__product--button-wish"
-    }
-  },
-  "flex-layout.row#searchresult__saving--label": {
-    "title": "Product Saving Label",
-    "children": [
-      "product-price-savings#searchresult__saving--label"
-    ],
-    "props": {
-      "blockClass": "searchresult__product--saving-label"
-    }
-  },
-  "flex-layout.row#searchresult__share--label": {
-    "title": "Product Share Label",
-    "children": [
-      "product-installments#searchresult__share--label",
-      "rich-text#searchresult__share--label-text"
-    ],
-    "props": {
-      "blockClass": "searchresult__product--share-label"
-    }
-  },
-  "product-price-savings#searchresult__saving--label": {
-    "title": "Product Saving Label Text",
-    "props": {
-      "message": "Ahorro {savingsValue}",
-      "blockClass": "searchresult__product--share-saving-text"
-    }
-  },
-  "product-installments#searchresult__share--label": {
-    "title": "Product Share Label Number",
-    "props": {
-      "message": "{installmentsNumber}",
-      "width": "40%",
-      "blockClass": "searchresult__product--share-label-number"
-    }
-  },
-  "rich-text#searchresult__share--label-text": {
-    "title": "Product Share Label Text",
-    "props": {
-      "text": "**Cuotas** \n sin interés",
-      "width": "60%",
-      "blockClass": "searchresult__product--share-label-text"
+      "blockClass": "searchresult__shelf",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "gap": "ph2",
+        "arrows": true,
+        "titleText": "#MEJORES OFERTAS"
+      }
     }
   }
 }

@@ -1,0 +1,11 @@
+.flexColChild--mobile__searchresult--col :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  font-size: 23px;
+}
+
+.flexRowContent--mobile__searchresult--row-3 {
+  display: flex;
+}
+
+.flexRowContent--mobile__searchresult--row-3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}

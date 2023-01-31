@@ -2,7 +2,7 @@
   "shelf#home__section--global": {
     "title": "Shelf 1",
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#searchresult__summary--grid"
     ],
     "props": {
       "blockClass": "home__shelf",
@@ -22,7 +22,7 @@
   "shelf#home__section--global-2": {
     "title": "Shelf 2",
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#searchresult__summary--grid"
     ],
     "props": {
       "blockClass": "home__shelf",
@@ -41,7 +41,7 @@
   "shelf#home__section--global-3": {
     "title": "Shelf 3",
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#searchresult__summary--grid"
     ],
     "props": {
       "blockClass": "home__shelf",

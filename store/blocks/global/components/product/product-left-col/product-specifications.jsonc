@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#product__specifications": {
+    "title": "Product Detail Specifications Cont",
+    "children": [
+      "rich-text#specifications__text",
+      "rich-text#specifications__text"
+    ],
+    "props": {
+      "marginBottom": 9,
+      "blockClass": "product__specifications--cont"
+    }
+  },
+  "rich-text#specifications__text": {
+    "title": "Product Detail Specifications Text 1",
+    "props": {
+      "text": "**✔ㅤPropiedad: Valor**\n**✔ㅤPropiedad: Valor**\n**✔ㅤPropiedad: Valor**",
+      "blockClass": "product__specifications--text"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "store.product": {
+    "title": "Product Detail",
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__main",
+      "flex-layout.row#product__related"
+    ],
+    "props": {
+      "blockClass": "product__detail--main"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.flexRow--product__main--cont :global(.vtex-store-components-3-x-container){
+  max-width: 1160px;
+}
+
+.flexRow--product__title--cont,
+.flexRow--product__specifications--cont {
+  padding-left: 2%;
+}
+
+.flexRow--product__images--cont {
+  border-bottom: 1px solid #929292;
+  padding-bottom: 5%;
+}
+
+.flexRow--product__info--tabs-cont {
+  background-color: #EDEDED;
+}
+
+
+.flexRowContent--product__detail--tab-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+
+
+.flexRowContent--product__detail--tab-row {
+  justify-content: center;
+  padding: 2% 0px;
+}
+
+
+.flexRowContent--product__detail--tab-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  margin-right: 4%;
+}
+
+.flexRow--product__main--cont {
+  background-color: white;
+}

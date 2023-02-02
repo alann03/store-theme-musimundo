@@ -1,0 +1,26 @@
+.productBrandName--product__detail--brand {
+  font-size: 12px;
+    color: #5D5D5D;
+    text-transform: uppercase;
+}
+
+.productBrand--product__detail--name {
+  font-size: 24px;
+    color: #1D1D1D;
+    text-transform: uppercase;
+}
+
+.carouselGaleryThumbs--product__images {
+  width: 10% !important;
+}
+
+.productImageTag--product__images {
+  width: auto !important;
+  max-height: 500px !important;
+  padding: 8% 0 !important;
+}
+
+.figure--product__images {
+  padding: 15%;
+  border: 1px solid #d5d5d5;
+}

@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#product__main": {
+    "title": "Product Detail Main",
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product__main--cont"
+    },
+    "children": [
+      "flex-layout.col#product__left--col",
+      "flex-layout.col#product__right--col"
+    ]
+  },
+  "flex-layout.col#product__left--col": {
+    "title": "Product Detail Left Col",
+    "children": [
+      "flex-layout.row#product__title",
+      "flex-layout.row#product__specifications",
+      "flex-layout.row#product__image",
+      "flex-layout.row#product__info"
+    ],
+    "props": {
+      "marginRight": 6,
+      "width": "70%",
+      "blockClass": "product__left--col"
+    }
+  },
+  "flex-layout.col#product__right--col": {
+    "title": "Product Detail Right Col",
+    "props": {
+      "marginLeft": 6,
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "product__right--col"
+    },
+    "children": [
+      "flex-layout.row#product__prices",
+      "flex-layout.row#product__payment--installments",
+      "flex-layout.row#product__cards--shipping"
+    ]
+  }
+}

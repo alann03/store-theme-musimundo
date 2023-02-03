@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#product__prices": {
+    "title": "Product Detail Prices And Add To Cart",
+    "children": [
+      "flex-layout.col#product__prices"
+    ],
+    "props": {
+      "marginBottom": 9,
+      "blockClass": "product__prices--cont"
+    }
+  },
+  "flex-layout.col#product__prices": {
+    "title": "Product Detail Prices And Add To Cart Col",
+    "children": [
+      "flex-layout.row#product__price",
+      "product-installments#product__detail",
+      "rich-text#product__detail--installments-text",
+      "buy-button#product__detail",
+      "image#product__detail--installments-24"
+    ],
+    "props": {
+      "rowGap": 2,
+      "blockClass": "product__prices--cont-col"
+    }
+  },
+  "flex-layout.row#product__price": {
+    "title": "Product Detail Prices",
+    "children": [
+      "flex-layout.col#product__price"
+    ],
+    "props": {
+      "blockClass": "product__prices"
+    }
+  },
+  "flex-layout.col#product__price": {
+    "title": "Product Detail Prices Col",
+    "children": [
+      "product-list-price#product__detail",
+      "product-price-savings#product__detail",
+      "product-selling-price#product__detail"
+    ],
+    "props": {
+      "blockClass": "product__prices--col"
+    }
+  },
+  "product-list-price#product__detail": {
+    "title": "Product Detail List Price",
+    "props": {
+      "message": "Precio contado: {listPriceValue}",
+      "blockClass": "product__detail--list-price"
+    }
+  },
+  "product-price-savings#product__detail": {
+    "title": "Product Detail Discount Price",
+    "props": {
+      "message": "Ahorro: {savingsValue}",
+      "blockClass": "product__detail--savings-price"
+    }
+  },
+  "product-selling-price#product__detail": {
+    "title": "Product Detail Selling Price",
+    "props": {
+      "message": "Precio online: {sellingPriceValue}",
+      "blockClass": "product__detail--selling-price"
+    }
+  },
+  "product-installments#product__detail": {
+    "title": "Product Detail Installments",
+    "props": {
+      "message": "{installmentsNumber} x {installmentValue}",
+      "blockClass": "product__detail--installments"
+    }
+  },
+  "rich-text#product__detail--installments-text": {
+    "title": "Product Detail Installments Text",
+    "props": {
+      "text": "CUOTAS SIN INTERÉS",
+      "blockClass": "product__detail--installments-text"
+    }
+  },
+  "buy-button#product__detail": {
+    "title": "Product Detail Buy Button",
+    "props": {
+      "blockClass": "product__detail--buy-button"
+    }
+  },
+  "image#product__detail--installments-24": {
+    "title": "Product Detail Image Installemnts 24",
+    "props": {
+      "src": "assets/img/searchresult__cuotas.jpg",
+      "maxHeight": 65,
+      "maxWidth": 65,
+      "blockClass": "product__detail--installments-24"
+    }
+  }
+}

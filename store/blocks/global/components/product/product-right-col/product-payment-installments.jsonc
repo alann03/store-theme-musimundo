@@ -1,0 +1,197 @@
+{
+  "flex-layout.row#product__payment--installments": {
+    "title": "Product Detail Payment Installments Cont",
+    "children": [
+      "flex-layout.col#product__payment--installments"
+    ],
+    "props": {
+      "marginTop": 8,
+      "blockClass": "product__payment--installments-cont"
+    }
+  },
+  "flex-layout.col#product__payment--installments": {
+    "title": "Product Detail Payment Installments Cont Col",
+    "children": [
+      "flex-layout.row#product__payment--installments-title-cont",
+      "flex-layout.row#product__payment--installments-inputs",
+      "flex-layout.row#product__payment--installments-price-cont"
+    ],
+    "props": {
+      "blockClass": "product__payment--installments-cont-col"
+    }
+  },
+  "flex-layout.row#product__payment--installments-title-cont": {
+    "title": "Product Detail Payment Installments Title",
+    "children": [
+      "image#product__payment--installments-title",
+      "rich-text#product__payment--installments-title"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "product__payment--installments-title"
+    }
+  },
+  "image#product__payment--installments-title": {
+    "title": "Product Detail Payment Installments Title Image",
+    "props": {
+      "src": "assets/img/product__detail--image-payments.jpg",
+      "maxHeight": 35,
+      "maxWidth": 28,
+      "blockClass": "product__payment--installments-title-image"
+    }
+  },
+  "rich-text#product__payment--installments-title": {
+    "title": "Product Detail Payment Installments Title Text",
+    "props": {
+      "text": "**COMPRA EN MUCHAS CUOTAS** \n CON TU TARJETA",
+      "blockClass": "product__payment--installments-title-text"
+    }
+  },
+  "flex-layout.row#product__payment--installments-inputs": {
+    "title": "Product Detail Payment Installments Inputs",
+    "children": [
+      "flex-layout.col#product__payment--installments-inputs"
+    ],
+    "props": {
+      "blockClass": "product__payment--installments-inputs-cont"
+    }
+  },
+  "flex-layout.col#product__payment--installments-inputs": {
+    "title": "Product Detail Payment Installments Inputs",
+    "children": [
+      "flex-layout.row#product__payment--installments-input-one",
+      "flex-layout.row#product__payment--installments-input-two",
+      "flex-layout.row#product__payment--installments-input-three"
+    ],
+    "props": {
+      "blockClass": "product__payment--installments-inputs-col"
+    }
+  },
+  "flex-layout.row#product__payment--installments-input-one": {
+    "title": "Product Detail Payment Installments Input One",
+    "children": [
+      "rich-text#product__payment--installments-input-one",
+      "icon#product__payment--installments-input"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-input"
+    }
+  },
+  "rich-text#product__payment--installments-input-one": {
+    "title": "Product Detail Payment Installments Input One Text",
+    "props": {
+      "text": "Visa",
+      "blockClass": "product__payment--installments-input-text"
+    }
+  },
+  "flex-layout.row#product__payment--installments-input-two": {
+    "title": "Product Detail Payment Installments Input Two",
+    "children": [
+      "rich-text#product__payment--installments-input-two",
+      "icon#product__payment--installments-input"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-input"
+    }
+  },
+  "rich-text#product__payment--installments-input-two": {
+    "title": "Product Detail Payment Installments Input Two Text",
+    "props": {
+      "text": "3 cuotas SIN INTERÉS",
+      "blockClass": "product__payment--installments-input-text"
+    }
+  },
+  "flex-layout.row#product__payment--installments-input-three": {
+    "title": "Product Detail Payment Installments Input Three",
+    "children": [
+      "rich-text#product__payment--installments-input-three"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-input"
+    }
+  },
+  "rich-text#product__payment--installments-input-three": {
+    "title": "Product Detail Payment Installments Input Three Text",
+    "props": {
+      "text": "3 cuotas",
+      "blockClass": "product__payment--installments-input-text"
+    }
+  },
+  "icon#product__payment--installments-input": {
+    "title": "Product Detail Payment Installments Input Arrow",
+    "props": {
+      "id": "nav-caret--down",
+      "size": 10
+    }
+  },
+  "flex-layout.row#product__payment--installments-price-cont": {
+    "title": "Product Detail Payment Installments Price Cont",
+    "children": [
+      "flex-layout.col#product__payment--installments-price"
+    ],
+    "props": {
+      "blockClass": "product__payment--installments-price-cont"
+    }
+  },
+  "flex-layout.col#product__payment--installments-price": {
+    "title": "Product Detail Installments Price Cont Col",
+    "children": [
+      "flex-layout.row#product__payment--installments-total-price-cont",
+      "product-installments#product__payment--installments",
+      "rich-text#product__payment--installments-percentages"
+    ],
+    "props": {
+      "blockClass": "product__payment--installments-price-col"
+    }
+  },
+  "flex-layout.row#product__payment--installments-total-price-cont": {
+    "title": "Product Detail Installments Total Price Cont",
+    "children": [
+      "rich-text#product__payment--installments-total-price-text",
+      "product-selling-price#product__payment--installments"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-total-price-cont"
+    }
+  },
+  "rich-text#product__payment--installments-total-price-text": {
+    "title": "Product Detail Installments Total Price Text",
+    "props": {
+      "text": "Visa",
+      "blockClass": "product__payment--installments-total-price-text"
+    }
+  },
+  "product-selling-price#product__payment--installments": {
+    "title": "Product Detail Installments Total Price Value",
+    "props": {
+      "message": "Total: {sellingPriceValue}",
+      "blockClass": "product__payment--installments-total-price-value"
+    }
+  },
+  "product-installments#product__payment--installments": {
+    "title": "Product Detail Installments Value",
+    "props": {
+      "message": "{installmentsNumber} CUOTAS DE {installmentValue}",
+      "blockClass": "product__payment--installments-value"
+    }
+  },
+  "rich-text#product__payment--installments-percentages": {
+    "title": "Product Detail Installments Percentages",
+    "props": {
+      "text": "**CFT: 0%** \n TNA:0%TEA:0%",
+      "blockClass": "product__payment--installments-percentages"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#product__cards--shipping": {
+    "title": "Product Detail Cards Shipping Cont",
+    "children": [
+      "flex-layout.col#product__cards--shipping"
+    ],
+    "props": {
+      "blockClass": "product__cards--shipping-cont"
+    }
+  },
+  "flex-layout.col#product__cards--shipping": {
+    "title": "Product Detail Cards Shipping Cont",
+    "children": [
+      "flex-layout.row#product__cards--shipping-card-one",
+      "flex-layout.row#product__cards--shipping-card-two"
+    ],
+    "props": {
+      "blockClass": "product__cards--shipping-cont"
+    }
+  },
+  "flex-layout.row#product__cards--shipping-card-one": {
+    "title": "Product Detail Cards Shipping Card One",
+    "children": [
+      "image#product__cards--shipping-card-one",
+      "rich-text#product__cards--shipping-card-one"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "product__cards--shipping-card"
+    }
+  },
+  "image#product__cards--shipping-card-one": {
+    "title": "Product Detail Cards Shipping Card One Image",
+    "props": {
+      "src": "assets/img/product__detail--card-one.jpg",
+      "maxHeight": 35,
+      "maxWidth": 35,
+      "blockClass": "product__cards--shipping-card-image"
+    }
+  },
+  "rich-text#product__cards--shipping-card-one": {
+    "title": "Product Detail Cards Shipping Card One Text",
+    "props": {
+      "text": "**RETIRA GRATIS TU COMPRA** \n En nuestras sucursales",
+      "blockClass": "product__cards--shipping-card-text"
+    }
+  },
+  "flex-layout.row#product__cards--shipping-card-two": {
+    "title": "Product Detail Cards Shipping Card Two",
+    "children": [
+      "image#product__cards--shipping-card-two",
+      "rich-text#product__cards--shipping-card-two"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "product__cards--shipping-card"
+    }
+  },
+  "image#product__cards--shipping-card-two": {
+    "title": "Product Detail Cards Shipping Card Two Image",
+    "props": {
+      "src": "assets/img/product__detail--card-two.jpg",
+      "maxHeight": 35,
+      "maxWidth": 35,
+      "blockClass": "product__cards--shipping-card-image"
+    }
+  },
+  "rich-text#product__cards--shipping-card-two": {
+    "title": "Product Detail Cards Shipping Card Two Text",
+    "props": {
+      "text": "**¿TE LO ENVIAMOS?** \n Envíos a todo el país",
+      "blockClass": "product__cards--shipping-card-text"
+    }
+  }
+}

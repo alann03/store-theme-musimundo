@@ -34,8 +34,8 @@
 @media (max-width: 1000px) {
   .flexRow--searchresult__product--share-label,
   .flexRow--searchresult__product--saving-label {
-    width: 20% !important;
-    height: 7% !important;
+    width: 40% !important;
+    height: 13% !important;
     top: -1.5% !important;
   }
 }
@@ -161,3 +161,11 @@
 .flexRowContent--mobile__searchresult--row-3 {
   padding-left: 2%;
 }
+
+/* @media (min-width: 495px) and  (max-width: 1150px) {
+  .flexRow--searchresult__product--saving-label {
+    width        : 40% !important;
+    height       : 10% !important;
+    top          : -2% !important;
+  }
+} */

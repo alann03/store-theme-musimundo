@@ -84,3 +84,30 @@
   color: #1D1D1D;
   font-family: 'Roboto-Light';
 }
+
+@media (max-width: 639px) {
+  .paragraph--product__payment--installments-title-text {
+    font-size: 15px;
+    width: 120%;
+  }
+
+  .strong--product__payment--installments-title-text {
+    font-size: 17px;
+  }
+
+  .paragraph--product__payment--installments-total-price-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 465px) {
+.paragraph--product__detail--tab-text {
+  font-size: 13px;
+}
+}
+
+@media (max-width: 360px) {
+.paragraph--product__detail--tab-text {
+  font-size: 11px;
+}
+}

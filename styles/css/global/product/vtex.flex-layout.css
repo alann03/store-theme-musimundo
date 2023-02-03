@@ -147,3 +147,93 @@
   font-weight: 800;
   padding-left: 1%;
 }
+
+.flexRow--product__detail--installments-label-row {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .flexRowContent--product__main--cont {
+    padding: 2% !important;
+  }
+
+  .flexCol--product__prices--cont-col {
+    padding: 3%;
+  }
+
+  .flexCol--product__left--col {
+    margin-right: 0;
+  }
+
+  .flexCol--product__right--col {
+    margin-left: 0;
+    flex-direction: column-reverse;
+  }
+
+  .flexRow--product__title--cont,
+  .flexRow--product__specifications--cont {
+  padding-left: 3%;
+  }
+
+  .flexRowContent--product__detail--tab-row,
+  .flexRowContent--product__detail--tab-row-last {
+    display: flex;
+    align-items: center;
+  }
+
+  .flexCol--product__payment--installments-cont-col {
+    padding: 3%;
+  }
+
+  .flexRow--product__cards--shipping-cont {
+    display: none;
+  }
+
+  .flexRowContent--product__payment--installments-total-price-cont {
+    margin-bottom: 2%;
+  }
+
+  .flexColChild--product__prices--cont-col :global(.vtex-button) {
+    display: none;
+  }
+
+  .flexRowContent--product__prices--cont {
+    margin: 0;
+  }
+
+  .flexCol--product__prices--col {
+    min-height: 80px !important;
+    justify-content: flex-end;
+    margin-bottom: 3%;
+  }
+
+  .flexRow--product__prices--cont {
+    margin-top: 15%;
+    min-height: fit-content;
+  }
+
+  .flexRowContent--product__related--cont {
+    margin-top: -8%;
+  }
+
+  .flexColChild--product__detail--installments-label-col {
+    justify-content: center;
+    display: flex;
+  }
+
+  .flexRow--product__detail--installments-label-row {
+    display: block;
+    width: 100%;
+    z-index: 100;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 7px 11px 6px rgb(0 0 0 / 55%);
+    padding: 1% 10% 4% 10%;
+  }
+
+  .flexColChild--product__detail--installments-label-col :global(.vtex-button){
+    border-radius: 50px;
+    padding: 2.5% 0%;
+  }
+}

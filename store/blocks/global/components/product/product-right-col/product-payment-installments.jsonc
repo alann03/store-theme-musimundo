@@ -27,6 +27,7 @@
       "rich-text#product__payment--installments-title"
     ],
     "props": {
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "blockClass": "product__payment--installments-title"
     }
@@ -74,6 +75,7 @@
       "icon#product__payment--installments-input"
     ],
     "props": {
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "horizontalAlign": "between",
       "blockClass": "product__payment--installments-input"
@@ -93,6 +95,7 @@
       "icon#product__payment--installments-input"
     ],
     "props": {
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "horizontalAlign": "between",
       "blockClass": "product__payment--installments-input"
@@ -157,6 +160,7 @@
       "product-selling-price#product__payment--installments"
     ],
     "props": {
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "horizontalAlign": "between",
       "blockClass": "product__payment--installments-total-price-cont"

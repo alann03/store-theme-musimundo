@@ -16,22 +16,134 @@
   background-color: #EDEDED;
 }
 
-
-.flexRowContent--product__detail--tab-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--product__detail--tab-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--product__detail--tab-row-last :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: auto !important;
 }
 
-
-.flexRowContent--product__detail--tab-row {
+.flexRowContent--product__detail--tab-row,
+.flexRowContent--product__detail--tab-row-last {
   justify-content: center;
-  padding: 2% 0px;
+  margin: 2% 0px;
 }
 
+.flexRowContent--product__detail--tab-row {
+  border-right: 1px solid #DADADA;
+}
 
-.flexRowContent--product__detail--tab-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--product__detail--tab-row:hover,
+.flexRowContent--product__detail--tab-row-last:hover {
+  background-color: #FFFFFF;
+}
+
+.flexRowContent--product__detail--tab-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--product__detail--tab-row-last :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   margin-right: 4%;
 }
 
 .flexRow--product__main--cont {
   background-color: white;
+}
+
+.flexRow--product__prices--cont {
+  border: 1px solid #d5d5d5;
+  min-height: 330px;
+}
+
+.flexCol--product__prices--cont-col {
+  padding: 5% 10%;
+}
+
+.flexCol--product__prices--cont-col :first-child {
+  min-height: 30%;
+}
+
+.flexRow--product__prices {
+  height: 100%;
+  display: flex;
+  border-bottom: 2px solid #dadada;
+}
+
+.flexRowContent--product__prices--cont {
+  height: 100%;
+}
+
+.flexColChild--product__prices--cont-col :global(.vtex-button){
+  border-radius: 50px;
+  padding: 2.5%;
+}
+
+.flexCol--product__payment--installments-cont-col {
+  background-color: #EDEDED;
+  padding: 6% 15%;
+}
+
+.flexRow--product__payment--installments-input {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1% 2%;
+  margin-bottom: 5%;
+}
+
+.flexCol--product__payment--installments-inputs-col {
+  border-bottom: 1px solid #dadada;
+}
+
+.flexRow--product__payment--installments-title {
+  margin-bottom: 5%;
+}
+
+.flexCol--product__payment--installments-price-col {
+  margin-top: 3.5%;
+}
+
+.flexCol--product__cards--shipping-cont {
+  padding: 8% 0% 6% 15%;
+}
+
+.flexRowContent--product__cards--shipping-card {
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.flexRowContent--product__info--tabs-cont,
+.flexCol--product__info--general-icon-cont {
+  justify-content: center;
+}
+
+.flexColChild--product__info--general-icon-cont {
+  height: fit-content !important;
+}
+
+.flexRowContent--product__info--general-cont {
+  padding: 3%;
+  border: 1px solid #DADADA;
+}
+
+.flexRow--product__info--general-title-cont {
+  margin-bottom: 3%;
+}
+
+.flexRow--product__breadcrumb--cont {
+  background-color: #FFFFFF;
+  margin: -12px 0;
+}
+
+.flexRow--product__breadcrumb--cont :global(.vtex-store-components-3-x-container){
+  max-width: 1300px;
+  border-bottom: 2px solid #DADADA;
+}
+
+.flexRow--product__related--cont {
+  background-color: #FFFFFF;
+  margin-top: -6%;
+}
+
+.flexRowContent--product__related--cont :global(.vtex-shelf-1-x-title){
+  font-size: 20px;
+  color: #1D1D1D;
+  justify-content: flex-start;
+  font-family: inherit;
+  font-weight: 800;
+  padding-left: 1%;
 }

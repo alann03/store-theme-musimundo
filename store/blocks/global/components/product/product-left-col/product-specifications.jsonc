@@ -7,6 +7,7 @@
     ],
     "props": {
       "marginBottom": 9,
+      "preserveLayoutOnMobile": true,
       "blockClass": "product__specifications--cont"
     }
   },

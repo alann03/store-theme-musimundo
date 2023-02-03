@@ -5,9 +5,7 @@
       "flex-layout.col#product__prices"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 2,
-      "borderColor": "black",
+      "marginBottom": 9,
       "blockClass": "product__prices--cont"
     }
   },
@@ -21,9 +19,7 @@
       "image#product__detail--installments-24"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "yellow",
+      "rowGap": 2,
       "blockClass": "product__prices--cont-col"
     }
   },
@@ -33,9 +29,6 @@
       "flex-layout.col#product__price"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "blue",
       "blockClass": "product__prices"
     }
   },
@@ -47,9 +40,6 @@
       "product-selling-price#product__detail"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "red",
       "blockClass": "product__prices--col"
     }
   },
@@ -77,7 +67,7 @@
   "product-installments#product__detail": {
     "title": "Product Detail Installments",
     "props": {
-      "message": "{installmentsNumber} X {installmentValue}",
+      "message": "{installmentsNumber} x {installmentValue}",
       "blockClass": "product__detail--installments"
     }
   },
@@ -91,7 +81,6 @@
   "buy-button#product__detail": {
     "title": "Product Detail Buy Button",
     "props": {
-      "large": false,
       "blockClass": "product__detail--buy-button"
     }
   },

@@ -23,7 +23,7 @@
     ],
     "props": {
       "marginRight": 6,
-      "width": "70%",
+      "width": "67%",
       "blockClass": "product__left--col"
     }
   },
@@ -31,7 +31,7 @@
     "title": "Product Detail Right Col",
     "props": {
       "marginLeft": 6,
-      "width": "30%",
+      "width": "33%",
       "preventVerticalStretch": true,
       "rowGap": 0,
       "blockClass": "product__right--col"

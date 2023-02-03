@@ -5,10 +5,7 @@
       "flex-layout.col#product__info"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "black",
-      "marginTop": 7,
+      "marginTop": 8,
       "blockClass": "product__info--cont"
     }
   },
@@ -17,7 +14,8 @@
     "children": [
       "flex-layout.row#product__info--tabs",
       "flex-layout.row#product__info--general",
-      "flex-layout.row#product__info--especifications"
+      "flex-layout.row#product__info--specifications",
+      "flex-layout.row#product__info--reviews"
     ],
     "props": {
       "blockClass": "product__info--cont-col"
@@ -31,6 +29,8 @@
       "flex-layout.col#product__info--tab-col-three"
     ],
     "props": {
+      "marginBottom": 7,
+      "preserveLayoutOnMobile": true,
       "blockClass": "product__info--tabs-cont"
     }
   },
@@ -66,7 +66,7 @@
     "title": "Product Detail Info Tab One Icon",
     "props": {
       "id": "hamburguer-menu",
-      "size": 25
+      "size": 23
     }
   },
   "rich-text#product__detail--tab-one": {
@@ -108,7 +108,7 @@
     "title": "Product Detail Info Tab Two Icon",
     "props": {
       "id": "check-list",
-      "size": 25
+      "size": 23
     }
   },
   "rich-text#product__detail--tab-two": {
@@ -143,14 +143,14 @@
       "rich-text#product__detail--tab-three"
     ],
     "props": {
-      "blockClass": "product__detail--tab-row"
+      "blockClass": "product__detail--tab-row-last"
     }
   },
   "icon#product__detail--tab-three": {
     "title": "Product Detail Info Tab Three Icon",
     "props": {
       "id": "speech-bubble",
-      "size": 25
+      "size": 23
     }
   },
   "rich-text#product__detail--tab-three": {
@@ -163,25 +163,190 @@
   "flex-layout.row#product__info--general": {
     "title": "Product Detail Info General",
     "children": [
-      "product-description"
+      "flex-layout.col#product__info--general"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "blue",
+      "marginBottom": 7,
       "blockClass": "product__info--general-cont"
     }
   },
-  "flex-layout.row#product__info--especifications": {
-    "title": "Product Detail Info Especifications",
+  "flex-layout.col#product__info--general": {
+    "title": "Product Detail Info General Col",
     "children": [
-      "product-specifications"
+      "flex-layout.row#product__info--general-title-cont",
+      "product-description#product__info"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "blue",
-      "blockClass": "product__info--especifications-cont"
+      "blockClass": "product__info--general-cont-col"
+    }
+  },
+  "flex-layout.row#product__info--general-title-cont": {
+    "title": "Product Detail Info General Title Cont",
+    "children": [
+      "flex-layout.col#product__info--general-icon-cont",
+      "rich-text#product__info--general-title"
+    ],
+    "props": {
+      "colGap": 5,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "product__info--general-title-cont"
+    }
+  },
+  "flex-layout.col#product__info--general-icon-cont": {
+    "title": "Product Detail Info General Icon Cont",
+    "children": [
+      "icon#product__info--general-title"
+    ],
+    "props": {
+      "blockClass": "product__info--general-icon-cont"
+    }
+  },
+  "rich-text#product__info--general-title": {
+    "title": "Product Detail Info General Title",
+    "props": {
+      "text": "General",
+      "blockClass": "product__info--general-title"
+    }
+  },
+  "icon#product__info--general-title": {
+    "title": "Product Detail Info General Title Icon",
+    "props": {
+      "id": "hamburguer-menu",
+      "size": 31
+    }
+  },
+  "product-description#product__info": {
+    "title": "Product Detail Info Description",
+    "props": {
+      "showTitle": false,
+      "blockClass": "product__info--description"
+    }
+  },
+  "flex-layout.row#product__info--specifications": {
+    "title": "Product Detail Specifications",
+    "children": [
+      "flex-layout.col#product__info--specifications"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "product__info--general-cont"
+    }
+  },
+  "flex-layout.col#product__info--specifications": {
+    "title": "Product Detail Specifications Cont Col",
+    "children": [
+      "flex-layout.row#product__info--specifications-title-cont",
+      "product-specifications#product__detail"
+    ],
+    "props": {
+      "blockClass": "product__info--general-cont-col"
+    }
+  },
+  "flex-layout.row#product__info--specifications-title-cont": {
+    "title": "Product Detail Specifications Title Cont",
+    "children": [
+      "flex-layout.col#product__info--specifications-icon-cont",
+      "rich-text#product__info--specifications-title"
+    ],
+    "props": {
+      "colGap": 5,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "product__info--general-title-cont"
+    }
+  },
+  "flex-layout.col#product__info--specifications-icon-cont": {
+    "title": "Product Detail Specifications Icon Cont",
+    "children": [
+      "icon#product__info--specifications-title"
+    ],
+    "props": {
+      "blockClass": "product__info--general-icon-cont"
+    }
+  },
+  "rich-text#product__info--specifications-title": {
+    "title": "Product Detail Specifications Title",
+    "props": {
+      "text": "Ficha Técnica",
+      "blockClass": "product__info--general-title"
+    }
+  },
+  "icon#product__info--specifications-title": {
+    "title": "Product Detail Specifications Title Icon",
+    "props": {
+      "id": "check-list",
+      "size": 31
+    }
+  },
+  "product-specifications#product__detail": {
+    "title": "Product Detail Specifications",
+    "props": {
+      "blockClass": "product__info--specifications"
+    }
+  },
+  "flex-layout.row#product__info--reviews": {
+    "title": "Product Detail Reviews Cont",
+    "children": [
+      "flex-layout.col#product__info--reviews"
+    ],
+    "props": {
+      "blockClass": "product__info--general-cont"
+    }
+  },
+  "flex-layout.col#product__info--reviews": {
+    "title": "Product Detail Reviews Cont Col",
+    "children": [
+      "flex-layout.row#product__info--reviews-title-cont",
+      "product-reviews#product__detail"
+    ],
+    "props": {
+      "blockClass": "product__info--general-cont-col"
+    }
+  },
+  "flex-layout.row#product__info--reviews-title-cont": {
+    "title": "Product Detail Reviews Title Cont",
+    "children": [
+      "flex-layout.col#product__info--reviews-icon-cont",
+      "rich-text#product__info--reviews-title"
+    ],
+    "props": {
+      "colGap": 5,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "product__info--general-title-cont"
+    }
+  },
+  "flex-layout.col#product__info--reviews-icon-cont": {
+    "title": "Product Detail Reviews Icon Cont",
+    "children": [
+      "icon#product__info--reviews-title"
+    ],
+    "props": {
+      "blockClass": "product__info--general-icon-cont"
+    }
+  },
+  "rich-text#product__info--reviews-title": {
+    "title": "Product Detail Reviews Title",
+    "props": {
+      "text": "Reseñas",
+      "blockClass": "product__info--general-title"
+    }
+  },
+  "icon#product__info--reviews-title": {
+    "title": "Product Detail Reviews Title Icon",
+    "props": {
+      "id": "speech-bubble",
+      "size": 31
+    }
+  },
+  "product-reviews#product__detail": {
+    "title": "Product Detail Reviews",
+    "props": {
+      "blockClass": "product__detail--reviews"
     }
   }
 }

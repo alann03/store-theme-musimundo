@@ -5,6 +5,8 @@
       "shelf.relatedProducts"
     ],
     "props": {
+      "marginTop": 8,
+      "marginBottom": 8,
       "blockClass": "product__related--cont"
     }
   },
@@ -17,7 +19,8 @@
       "recommendation": "view",
       "productList": {
         "titleText": "#TAMBIÉN PODRÍAN INTERESARTE",
-        "itemsPerPage": 3,
+        "itemsPerPage": 4,
+        "gap": "ph3",
         "blockClass": "product__related"
       }
     }

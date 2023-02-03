@@ -5,9 +5,7 @@
       "flex-layout.col#product__payment--installments"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 2,
-      "borderColor": "black",
+      "marginTop": 8,
       "blockClass": "product__payment--installments-cont"
     }
   },
@@ -19,9 +17,6 @@
       "flex-layout.row#product__payment--installments-price-cont"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "yellow",
       "blockClass": "product__payment--installments-cont-col"
     }
   },
@@ -32,9 +27,7 @@
       "rich-text#product__payment--installments-title"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "red",
+      "preventHorizontalStretch": true,
       "blockClass": "product__payment--installments-title"
     }
   },
@@ -42,15 +35,15 @@
     "title": "Product Detail Payment Installments Title Image",
     "props": {
       "src": "assets/img/product__detail--image-payments.jpg",
-      "maxHeight": 25,
-      "maxWidth": 25,
+      "maxHeight": 35,
+      "maxWidth": 28,
       "blockClass": "product__payment--installments-title-image"
     }
   },
   "rich-text#product__payment--installments-title": {
     "title": "Product Detail Payment Installments Title Text",
     "props": {
-      "text": "**COMPRA EN MUCHAS** \n **CUOTAS** \n CON TU TARJETA",
+      "text": "**COMPRA EN MUCHAS CUOTAS** \n CON TU TARJETA",
       "blockClass": "product__payment--installments-title-text"
     }
   },
@@ -60,9 +53,6 @@
       "flex-layout.col#product__payment--installments-inputs"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "red",
       "blockClass": "product__payment--installments-inputs-cont"
     }
   },
@@ -74,9 +64,6 @@
       "flex-layout.row#product__payment--installments-input-three"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "black",
       "blockClass": "product__payment--installments-inputs-col"
     }
   },
@@ -87,17 +74,16 @@
       "icon#product__payment--installments-input"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "black",
-      "blockClass": "product__payment--installments-input-one"
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-input"
     }
   },
   "rich-text#product__payment--installments-input-one": {
     "title": "Product Detail Payment Installments Input One Text",
     "props": {
       "text": "Visa",
-      "blockClass": "product__payment--installments-input-one-text"
+      "blockClass": "product__payment--installments-input-text"
     }
   },
   "flex-layout.row#product__payment--installments-input-two": {
@@ -107,17 +93,16 @@
       "icon#product__payment--installments-input"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "black",
-      "blockClass": "product__payment--installments-input-two"
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-input"
     }
   },
   "rich-text#product__payment--installments-input-two": {
     "title": "Product Detail Payment Installments Input Two Text",
     "props": {
       "text": "3 cuotas SIN INTERÉS",
-      "blockClass": "product__payment--installments-input-two-text"
+      "blockClass": "product__payment--installments-input-text"
     }
   },
   "flex-layout.row#product__payment--installments-input-three": {
@@ -126,24 +111,23 @@
       "rich-text#product__payment--installments-input-three"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "black",
-      "blockClass": "product__payment--installments-input-three"
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
+      "blockClass": "product__payment--installments-input"
     }
   },
   "rich-text#product__payment--installments-input-three": {
     "title": "Product Detail Payment Installments Input Three Text",
     "props": {
       "text": "3 cuotas",
-      "blockClass": "product__payment--installments-input-three-text"
+      "blockClass": "product__payment--installments-input-text"
     }
   },
   "icon#product__payment--installments-input": {
     "title": "Product Detail Payment Installments Input Arrow",
     "props": {
       "id": "nav-caret--down",
-      "size": 14
+      "size": 10
     }
   },
   "flex-layout.row#product__payment--installments-price-cont": {
@@ -152,9 +136,6 @@
       "flex-layout.col#product__payment--installments-price"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "red",
       "blockClass": "product__payment--installments-price-cont"
     }
   },
@@ -166,9 +147,6 @@
       "rich-text#product__payment--installments-percentages"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "yellow",
       "blockClass": "product__payment--installments-price-col"
     }
   },
@@ -179,9 +157,8 @@
       "product-selling-price#product__payment--installments"
     ],
     "props": {
-      "border": "all",
-      "borderWidth": 1,
-      "borderColor": "yellow",
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between",
       "blockClass": "product__payment--installments-total-price-cont"
     }
   },
@@ -209,7 +186,7 @@
   "rich-text#product__payment--installments-percentages": {
     "title": "Product Detail Installments Percentages",
     "props": {
-      "text": "**CFT: 0%** \n TNA: 0% TEA: 0%",
+      "text": "**CFT: 0%** \n TNA:0%TEA:0%",
       "blockClass": "product__payment--installments-percentages"
     }
   }

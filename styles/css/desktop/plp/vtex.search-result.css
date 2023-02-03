@@ -5,6 +5,9 @@
 .totalProducts--layout {
   align-items: center;
   display: flex;
+  padding-bottom: 0;
+  padding-top: 0;
+  color: #979899;
 }
 
 .orderByButton--desktop__searchresult--order-by {
@@ -17,4 +20,19 @@
 
 .gallery--desktop__searchresult--gallery {
   padding: 5% 0 10% 0;
+}
+
+.filterMessage--mobile__searchresult--filters {
+  display: none;
+}
+
+.galleryTitle--layout {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .galleryItem--desktop__searchresult--gallery {
+    margin-top: 8%;
+    min-height: 660px;
+  }
 }

@@ -7,7 +7,6 @@
     "props": {
       "blockClass": "home__section-1--global",
       "marginBottom": 7
-      /* "horizontalAlign": "center" */
     }
   },
   "flex-layout.col#home__section--global": {
@@ -17,7 +16,6 @@
       "image#home__image--global"
     ],
     "props": {
-      /* "width": "85%", */
       "rowGap": 1
     }
   }

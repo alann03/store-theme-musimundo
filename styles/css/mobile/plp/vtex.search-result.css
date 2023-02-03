@@ -1,0 +1,8 @@
+/* .totalProducts--layout {
+  padding: 0 0 0 30%;
+} */
+
+.orderByButton--mobile__searchresult--order-by {
+  justify-content: start;
+  background: white;
+}

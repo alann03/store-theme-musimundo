@@ -1,0 +1,113 @@
+.paragraph--product__detail--code {
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+.strong--product__specifications--text {
+  font-size: 12px;
+  color: #5D5D5D;
+}
+
+.paragraph--product__detail--tab-text {
+  font-size: 18px;
+  color: #5D5D5D;
+}
+
+.paragraph--product__detail--installments-text {
+  color: #ff4338;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container--product__detail--installments-text {
+  justify-content: center;
+}
+
+.paragraph--product__payment--installments-total-price-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1D1D1D;
+}
+
+.paragraph--product__payment--installments-input-text {
+  font-size: 14px;
+  color: #555555;
+}
+
+
+.paragraph--product__payment--installments-title-text {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.strong--product__payment--installments-title-text {
+  font-size: 14.4px;
+  font-weight: 800;
+  line-height: 0;
+}
+
+.wrapper--product__payment--installments-title-text {
+  margin-left: 6%;
+}
+
+.container--product__payment--installments-percentages {
+  justify-content: center;
+  margin: 2% 0;
+}
+
+.paragraph--product__payment--installments-percentages {
+  color: #ff4338;
+  font-size: 11.5px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1;
+}
+
+.strong--product__payment--installments-percentages {
+  font-size: 20px;
+}
+
+.paragraph--product__cards--shipping-card-text {
+  font-size: 12px;
+  color: #1D1D1D;
+  line-height: 1.1;
+  margin-left: 20px;
+}
+
+.strong--product__cards--shipping-card-text {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.paragraph--product__info--general-title {
+  font-size: 30px;
+  color: #1D1D1D;
+  font-family: 'Roboto-Light';
+}
+
+@media (max-width: 639px) {
+  .paragraph--product__payment--installments-title-text {
+    font-size: 15px;
+    width: 120%;
+  }
+
+  .strong--product__payment--installments-title-text {
+    font-size: 17px;
+  }
+
+  .paragraph--product__payment--installments-total-price-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 465px) {
+.paragraph--product__detail--tab-text {
+  font-size: 13px;
+}
+}
+
+@media (max-width: 360px) {
+.paragraph--product__detail--tab-text {
+  font-size: 11px;
+}
+}

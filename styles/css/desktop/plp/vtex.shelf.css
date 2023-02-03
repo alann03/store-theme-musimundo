@@ -1,0 +1,26 @@
+.title--searchresult__shelf {
+  justify-content: start;
+  font-size: 40px;
+  padding-top: 0;
+}
+
+.container--searchresult__shelf {
+  padding-bottom: 2%;
+}
+
+/* .arrowRight--searchresult__shelf {
+  background: #bcbcbc;
+  height: 14%;
+  align-items: center;
+  width: 8%;
+  right: -35px;
+  border-radius: 50px;
+}
+
+.caretIcon--searchresult__shelf {
+  color: white;
+}
+
+.sliderContainer--searchresult__shelf {
+  overflow: hidden;
+} */

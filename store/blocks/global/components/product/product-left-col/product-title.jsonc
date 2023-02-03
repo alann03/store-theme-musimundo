@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#product__title": {
+    "title": "Product Detail Title Cont",
+    "children": [
+      "flex-layout.col#product__title"
+    ],
+    "props": {
+      "paddingTop": 5,
+      "paddingBottom": 5,
+      "blockClass": "product__title--cont"
+    }
+  },
+  "flex-layout.col#product__title": {
+    "title": "Product Detail Title Cont Col",
+    "children": [
+      "product-brand#product__detail",
+      "product-name#product__detail",
+      "rich-text#product__detail--code"
+    ],
+    "props": {
+      "rowGap": 4,
+      "blockClass": "product__title--cont-col"
+    }
+  },
+  "product-brand#product__detail": {
+    "title": "Product Detail Brand",
+    "props": {
+      "blockClass": "product__detail--brand"
+    }
+  },
+  "product-name#product__detail": {
+    "title": "Product Detail Name",
+    "props": {
+      "blockClass": "product__detail--name"
+    }
+  },
+  "rich-text#product__detail--code": {
+    "title": "Product Detail Code",
+    "props": {
+      "text": "CODE00000000",
+      "blockClass": "product__detail--code"
+    }
+  }
+}

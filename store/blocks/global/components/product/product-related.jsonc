@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#product__related": {
+    "title": "Product Detail Related Cont",
+    "children": [
+      "shelf.relatedProducts"
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8,
+      "blockClass": "product__related--cont"
+    }
+  },
+  "shelf.relatedProducts": {
+    "title": "Product Detail Related",
+    "blocks": [
+      "product-summary.shelf#searchresult__summary--grid"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "#TAMBIÉN PODRÍAN INTERESARTE",
+        "itemsPerPage": 4,
+        "gap": "ph3",
+        "blockClass": "product__related"
+      }
+    }
+  }
+}

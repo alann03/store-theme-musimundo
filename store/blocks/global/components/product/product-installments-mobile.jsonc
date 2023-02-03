@@ -1,0 +1,31 @@
+{
+  "responsive-layout.mobile#product__installments": {
+    "title": "Product Detail Installments Label",
+    "children": [
+      "flex-layout.row#product__detail--installments-label"
+    ],
+    "props": {
+      "blockClass": "product__detail--installments-label"
+    }
+  },
+  "flex-layout.row#product__detail--installments-label": {
+    "title": "Product Detail Installments Label Row",
+    "children": [
+      "flex-layout.col#product__detail--installments-label"
+    ],
+    "props": {
+      "blockClass": "product__detail--installments-label-row"
+    }
+  },
+  "flex-layout.col#product__detail--installments-label": {
+    "title": "Product Detail Installments Label Col",
+    "children": [
+      "product-installments#product__detail",
+      "rich-text#product__detail--installments-text",
+      "buy-button#product__detail"
+    ],
+    "props": {
+      "blockClass": "product__detail--installments-label-col"
+    }
+  }
+}

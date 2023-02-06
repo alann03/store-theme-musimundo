@@ -1,7 +1,7 @@
 .trigger--header__desktop--overlay-trigger {
-  width: 19%;
-  height: 100%;
+  width  : 19%;
+  height : 100%;
   display: flex;
-  cursor: pointer;
+  cursor : pointer;
   z-index: 1;
 }

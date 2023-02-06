@@ -1,12 +1,12 @@
 .wishlistIconContainer--searchresult__product--button-wish {
-  width: fit-content;
+  width     : fit-content;
   align-self: flex-end;
 }
 
 .wishlistIconContainer--searchresult__list--product-button-wish {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right   : 0;
+  bottom  : 0;
 }
 
 .wishlistIconContainer--searchresult__list--product-button-wish :global(.vtex-button__label) {

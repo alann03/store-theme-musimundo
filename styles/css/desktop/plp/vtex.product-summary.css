@@ -1,5 +1,5 @@
 .container--desktop__searchresult--summary-shelf {
-  overflow: visible;
+  overflow  : visible;
   min-height: 580px;
 }
 
@@ -7,10 +7,12 @@
   .container--desktop__searchresult--summary-shelf {
     max-width: none !important;
   }
+
   .nameContainer--desktop__searchresult--product-name {
-    padding: 2% 0 3px 2% !important;
+    padding        : 2% 0 3px 2% !important;
     justify-content: start !important;
   }
+
   .productBrand--desktop__searchresult--product-name {
     font-size: 19px !important;
   }
@@ -18,8 +20,8 @@
 
 .containerNormal--desktop__searchresult--summary-shelf,
 .containerNormal--desktop__searchresult--summary-shelf-list {
-  background: #FFFFFF;
-  border: 1px solid #dadada;
+  background   : #FFFFFF;
+  border       : 1px solid #dadada;
   border-radius: 0;
 }
 
@@ -29,14 +31,14 @@
 }
 
 .element--desktop__searchresult--summary-shelf {
-  padding: 20px 15px;
-  position: relative;
+  padding    : 20px 15px;
+  position   : relative;
   padding-top: 20%;
 }
 
 .element--desktop__searchresult--summary-shelf :global(.vtex-button) {
   border-radius: 50px;
-  margin-top: 5%;
+  margin-top   : 5%;
 }
 
 .imageWrapper--desktop__searchresult--summary-img {
@@ -45,7 +47,7 @@
 }
 
 .imageContainer--desktop__searchresult--summary-img {
-  height: 100%;
+  height   : 100%;
   max-width: 50%;
 }
 
@@ -56,8 +58,8 @@
 .productBrand--desktop__searchresult--product-name,
 .brandName--desktop__searchresult--list-product-name {
   text-transform: uppercase;
-  color: #5d5d5d;
-  font-weight: 600;
+  color         : #5d5d5d;
+  font-weight   : 600;
 }
 
 .productBrand--desktop__searchresult--product-name {
@@ -73,19 +75,19 @@
 }
 
 .container--desktop__searchresult--summary-shelf-list {
-  height: 280px;
+  height   : 280px;
   max-width: none !important;
-  padding: 2%;
+  padding  : 2%;
 }
 
 .image--searchresult__summary--list-img {
-  width: 136px;
+  width : 136px;
   height: 136px;
 }
 
 .nameContainer--desktop__searchresult--list-product-name {
   justify-content: flex-start;
-  padding: 10px 0;
+  padding        : 10px 0;
 }
 
 .container--desktop__searchresult--summary-shelf-list {

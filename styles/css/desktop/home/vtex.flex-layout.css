@@ -4,16 +4,14 @@
 
 .flexRow--home__section-3--desktop :global(.vtex-store-components-3-x-container) {
     max-width: 1300px;
-    padding: 0;
+    padding  : 0;
 }
 
-.flexRow--home__section-4--desktop :global(.vtex-store-components-3-x-container){
-    padding: 0;
+.flexRow--home__section-4--desktop :global(.vtex-store-components-3-x-container) {
+    padding  : 0;
     max-width: 1300px;
 }
 
 .flexRowContent--row-cards-2 {
     margin-top: 0;
 }
-
-

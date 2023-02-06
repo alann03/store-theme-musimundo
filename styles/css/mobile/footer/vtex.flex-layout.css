@@ -4,9 +4,9 @@
 
 .flexRow--mobile__footer--container-row {
   padding-top: 5.5%;
-  background: #FFFFFF;
-  border-top: 1px grey solid;
-  margin-top: 5%;
+  background : #FFFFFF;
+  border-top : 1px grey solid;
+  margin-top : 5%;
 }
 
 .flexRow--footer__mobile--top-cont {
@@ -15,10 +15,10 @@
 
 .flexRowContent--footer__mobile--top-cont {
   flex-direction: column;
-  align-items: center;
+  align-items   : center;
 }
 
 .flexColChild--footer__mobile--middle-top-col {
-  padding: 2% 0 2% 0;
+  padding   : 2% 0 2% 0;
   border-top: 1px grey solid;
 }

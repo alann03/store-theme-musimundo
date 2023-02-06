@@ -1,13 +1,13 @@
 .form--footer__desktop--newsletter {
-  margin: 0;
-  max-width: none;
-  display: flex;
+  margin     : 0;
+  max-width  : none;
+  display    : flex;
   align-items: center;
 }
 
 .label--footer__desktop--newsletter {
-  font-size: 21px;
-  color: #ffffff;
+  font-size  : 21px;
+  color      : #ffffff;
   font-weight: bolder;
 }
 
@@ -16,14 +16,14 @@
 }
 
 .buttonContainer--footer__desktop--newsletter :global(.vtex-button) {
-  border-radius: 0 20px 20px 0px;
+  border-radius   : 0 20px 20px 0px;
   background-color: #5d5d5d;
-  border: none;
-  font-size: 14px;
-  font-weight: bolder;
-  min-height: auto;
-  padding: 0 15px;
-  height: 30px
+  border          : none;
+  font-size       : 14px;
+  font-weight     : bolder;
+  min-height      : auto;
+  padding         : 0 15px;
+  height          : 30px
 }
 
 .buttonContainer--footer__desktop--newsletter :global(.vtex-button) :global(.vtex-button__label) {
@@ -32,24 +32,24 @@
 
 .buttonContainer--footer__desktop--newsletter :global(.vtex-button):hover {
   background-color: #009ACC;
-  transition: 0.7s;
+  transition      : 0.7s;
 }
 
 .inputGroup--footer__desktop--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
 .inputGroup--footer__desktop--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) {
   border-radius: 0;
-  height: 30px;
-  border: none;
+  height       : 30px;
+  border       : none;
 }
 
-.inputGroup--footer__desktop--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
-  font-size: 14px;
+.inputGroup--footer__desktop--newsletter :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-size   : 14px;
   padding-left: 8px;
-  box-shadow: inset 2px 3px 10px -4px black;
+  box-shadow  : inset 2px 3px 10px -4px black;
 }
 
 .inputGroup--footer__desktop--newsletter {
   margin-left: 4%;
   padding-top: 0;
-  width: 54%;
+  width      : 54%;
 }

@@ -3,11 +3,11 @@
 }
 
 .totalProducts--layout {
-  align-items: center;
-  display: flex;
+  align-items   : center;
+  display       : flex;
   padding-bottom: 0;
-  padding-top: 0;
-  color: #979899;
+  padding-top   : 0;
+  color         : #979899;
 }
 
 .orderByButton--desktop__searchresult--order-by {

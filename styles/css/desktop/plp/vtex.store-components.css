@@ -1,11 +1,11 @@
 .imageElement--searchresult__product--image-cuotas {
   position: absolute;
-  top: 14%;
+  top     : 14%;
 }
 
 .imageElement--searchresult__product--list-image-cuotas {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position    : absolute;
+  left        : 0;
+  bottom      : 0;
   padding-left: 13%;
 }

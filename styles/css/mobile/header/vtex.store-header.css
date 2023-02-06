@@ -1,12 +1,12 @@
 .headerRowBackground--header__mobile--top {
   background-color: #FFFFFF;
 }
+
 .headerRowContentContainer--header__mobile-bottom {
   padding: 0;
-  height: 30px;
+  height : 30px;
 }
 
 .headerRowContainer--header__mobile-bottom {
   background-color: #FF4338;
 }
-

@@ -1,0 +1,21 @@
+.paragraph--about-us__text {
+  font-size: 13px;
+  color: #1D1D1D;
+  line-height: 1.1;
+}
+
+.strong--about-us__text {
+  font-size: 16px;
+  color: #1D1D1D;
+  font-weight: 500 !important;
+}
+
+.link--about-us__text {
+  text-decoration: none;
+  color: #5D5D5D;
+}
+
+.link--about-us__text:hover {
+  transition: 0.5s;
+  color: #1D1D1D;
+}

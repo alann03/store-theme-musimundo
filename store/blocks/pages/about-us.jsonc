@@ -1,0 +1,74 @@
+{
+  "store.custom#about-us": {
+    "title": "About Us Main",
+    "children": [
+      "responsive-layout.desktop#about-us",
+      "responsive-layout.mobile#about-us"
+    ]
+  },
+  "flex-layout.row#about-us__main--desktop": {
+    "title": "About Us Main Row",
+    "children": [
+      "flex-layout.col#about-us__main--col-desktop"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "about-us__main--row"
+    }
+  },
+  "flex-layout.col#about-us__main--col-desktop": {
+    "title": "About Us Main Col Desktop",
+    "children": [
+      "flex-layout.row#about-us__image--cont",
+      "rich-text#about-us__text"
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "about-us__main--col-desktop"
+    }
+  },
+  "flex-layout.row#about-us__main--mobile": {
+    "title": "About Us Main Row",
+    "children": [
+      "flex-layout.col#about-us__main--col-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "about-us__main--row"
+    }
+  },
+  "flex-layout.col#about-us__main--col-mobile": {
+    "title": "About Us Main Col Mobile",
+    "children": [
+      "flex-layout.row#about-us__image--cont",
+      "rich-text#about-us__text"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "about-us__main--col-mobile"
+    }
+  },
+  "flex-layout.row#about-us__image--cont": {
+    "title": "About Us Image Cont",
+    "children": [
+      "image#about-us__logo"
+    ],
+    "props": {
+      "blockClass": "about-us__image--cont"
+    }
+  },
+  "image#about-us__logo": {
+    "title": "About Us Logo",
+    "props": {
+      "src": "assets/img/musimundo-logo.jpg",
+      "blockClass": "about-us__logo"
+    }
+  },
+  "rich-text#about-us__text": {
+    "title": "About Us Text",
+    "props": {
+      "text": "<br> **La evolución no para.** \n **Por eso Musimundo, que nació de la música, ahora es experto en tecnología de la más avanzada.** \n <br> En www.musimundo.com te ofrecemos más de 599 puntos de retiro en todo el país, más un sitio web renovado para que encuentres la mayor variedad de electrodomésticos, tecno y entretenimiento en tu hogar. \n <br> Nuestro equipo de expertos está preparado para asesorarte y brindarte todos los días una experiencia de compra personalizada que se adapte a lo que buscás. También contamos con un servicio técnico especializado, con asistencia total en posventa para que disfrutes todos los días de tu producto como si fuera el primero. \n <br> Además, ofrecemos ofertas especiales, descuentos y planes de financiación para que accedas a eso que tanto querés al precio más accesible y con la mejor cuota. \n <br> [Televisores](), [Smart TV](), [Celulares libres](), [Notebooks](), [Tablets](), [Aires Acondicionados](), [Heladeras](), [Lavarropas](), y muchos productos en oferta \n <br> Disfrutá de la evolución que sólo te puede brindar Musimundo. \n <br> **¡Bienvenido a la Musievolución!**",
+      "blockClass": "about-us__text"
+    }
+  }
+}

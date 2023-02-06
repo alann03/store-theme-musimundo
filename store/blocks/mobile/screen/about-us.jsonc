@@ -1,0 +1,11 @@
+{
+  "responsive-layout.mobile#about-us": {
+    "title": "About Us Mobile",
+    "children": [
+      "flex-layout.row#about-us__main--mobile"
+    ],
+    "props": {
+      "blockClass": "about-us__mobile"
+    }
+  }
+}

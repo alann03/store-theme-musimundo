@@ -1,11 +1,11 @@
 .flexRow--home__section-1--global :global(.vtex-store-components-3-x-container) {
-  padding: 0;
+  padding  : 0;
   max-width: 1300px;
 }
 
 .flexRow--home__section-2--global :global(.vtex-store-components-3-x-container) {
-  padding: 0;
-  max-width: 1300px;
-  border: 1px solid #dadada;
+  padding   : 0;
+  max-width : 1300px;
+  border    : 1px solid #dadada;
   background: #FFFFFF;
 }

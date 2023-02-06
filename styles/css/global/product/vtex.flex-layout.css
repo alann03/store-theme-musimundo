@@ -1,4 +1,4 @@
-.flexRow--product__main--cont :global(.vtex-store-components-3-x-container){
+.flexRow--product__main--cont :global(.vtex-store-components-3-x-container) {
   max-width: 1160px;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .flexRow--product__images--cont {
-  border-bottom: 1px solid #929292;
+  border-bottom : 1px solid #929292;
   padding-bottom: 5%;
 }
 
@@ -24,7 +24,7 @@
 .flexRowContent--product__detail--tab-row,
 .flexRowContent--product__detail--tab-row-last {
   justify-content: center;
-  margin: 2% 0px;
+  margin         : 2% 0px;
 }
 
 .flexRowContent--product__detail--tab-row {
@@ -46,7 +46,7 @@
 }
 
 .flexRow--product__prices--cont {
-  border: 1px solid #d5d5d5;
+  border    : 1px solid #d5d5d5;
   min-height: 330px;
 }
 
@@ -59,8 +59,8 @@
 }
 
 .flexRow--product__prices {
-  height: 100%;
-  display: flex;
+  height       : 100%;
+  display      : flex;
   border-bottom: 2px solid #dadada;
 }
 
@@ -68,20 +68,20 @@
   height: 100%;
 }
 
-.flexColChild--product__prices--cont-col :global(.vtex-button){
+.flexColChild--product__prices--cont-col :global(.vtex-button) {
   border-radius: 50px;
-  padding: 2.5%;
+  padding      : 2.5%;
 }
 
 .flexCol--product__payment--installments-cont-col {
   background-color: #EDEDED;
-  padding: 6% 15%;
+  padding         : 6% 15%;
 }
 
 .flexRow--product__payment--installments-input {
-  background: white;
-  border: 1px solid #ccc;
-  padding: 1% 2%;
+  background   : white;
+  border       : 1px solid #ccc;
+  padding      : 1% 2%;
   margin-bottom: 5%;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .flexRowContent--product__cards--shipping-card {
-  align-items: center;
+  align-items  : center;
   margin-bottom: 7%;
 }
 
@@ -117,7 +117,7 @@
 
 .flexRowContent--product__info--general-cont {
   padding: 3%;
-  border: 1px solid #DADADA;
+  border : 1px solid #DADADA;
 }
 
 .flexRow--product__info--general-title-cont {
@@ -126,26 +126,26 @@
 
 .flexRow--product__breadcrumb--cont {
   background-color: #FFFFFF;
-  margin: -12px 0;
+  margin          : -12px 0;
 }
 
-.flexRow--product__breadcrumb--cont :global(.vtex-store-components-3-x-container){
-  max-width: 1300px;
+.flexRow--product__breadcrumb--cont :global(.vtex-store-components-3-x-container) {
+  max-width    : 1300px;
   border-bottom: 2px solid #DADADA;
 }
 
 .flexRow--product__related--cont {
   background-color: #FFFFFF;
-  margin-top: -6%;
+  margin-top      : -6%;
 }
 
-.flexRowContent--product__related--cont :global(.vtex-shelf-1-x-title){
-  font-size: 20px;
-  color: #1D1D1D;
+.flexRowContent--product__related--cont :global(.vtex-shelf-1-x-title) {
+  font-size      : 20px;
+  color          : #1D1D1D;
   justify-content: flex-start;
-  font-family: inherit;
-  font-weight: 800;
-  padding-left: 1%;
+  font-family    : inherit;
+  font-weight    : 800;
+  padding-left   : 1%;
 }
 
 .flexRow--product__detail--installments-label-row {
@@ -166,18 +166,18 @@
   }
 
   .flexCol--product__right--col {
-    margin-left: 0;
+    margin-left   : 0;
     flex-direction: column-reverse;
   }
 
   .flexRow--product__title--cont,
   .flexRow--product__specifications--cont {
-  padding-left: 3%;
+    padding-left: 3%;
   }
 
   .flexRowContent--product__detail--tab-row,
   .flexRowContent--product__detail--tab-row-last {
-    display: flex;
+    display    : flex;
     align-items: center;
   }
 
@@ -202,9 +202,9 @@
   }
 
   .flexCol--product__prices--col {
-    min-height: 80px !important;
+    min-height     : 80px !important;
     justify-content: flex-end;
-    margin-bottom: 3%;
+    margin-bottom  : 3%;
   }
 
   .flexRow--product__prices--cont {
@@ -218,22 +218,22 @@
 
   .flexColChild--product__detail--installments-label-col {
     justify-content: center;
-    display: flex;
+    display        : flex;
   }
 
   .flexRow--product__detail--installments-label-row {
-    display: block;
-    width: 100%;
-    z-index: 100;
+    display         : block;
+    width           : 100%;
+    z-index         : 100;
     background-color: #FFFFFF;
-    position: fixed;
-    bottom: 0;
-    box-shadow: 0 7px 11px 6px rgb(0 0 0 / 55%);
-    padding: 1% 10% 4% 10%;
+    position        : fixed;
+    bottom          : 0;
+    box-shadow      : 0 7px 11px 6px rgb(0 0 0 / 55%);
+    padding         : 1% 10% 4% 10%;
   }
 
-  .flexColChild--product__detail--installments-label-col :global(.vtex-button){
+  .flexColChild--product__detail--installments-label-col :global(.vtex-button) {
     border-radius: 50px;
-    padding: 2.5% 0%;
+    padding      : 2.5% 0%;
   }
 }

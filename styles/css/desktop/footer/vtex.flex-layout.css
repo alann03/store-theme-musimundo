@@ -1,13 +1,13 @@
 .flexRow--desktop__footer--container-row :global(.vtex-store-components-3-x-container) {
-  margin: 0;
-  padding: 0;
+  margin   : 0;
+  padding  : 0;
   max-width: none;
 }
 
 .flexRow--desktop__footer--container-row {
-  padding-top: 1.5%;
+  padding-top     : 1.5%;
   background-color: #FFFFFF;
-  border-top: 1px grey solid;
+  border-top      : 1px grey solid;
 }
 
 .flexCol--desktop__footer--container {
@@ -16,23 +16,24 @@
 
 .flexColChild--footer__desktop--middle-icon-cont,
 .flexColChild--footer__desktop--middle-icon-cont-last {
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  padding: 12px;
+  border-radius  : 30px;
+  display        : flex;
+  align-items    : center;
+  padding        : 12px;
   justify-content: center;
 }
 
 .flexColChild--footer__desktop--middle-icon-cont {
   border: 1px #706F6F solid;
 }
+
 .flexColChild--footer__desktop--middle-icon-cont-last {
   border: 3px #EB1721 solid;
 }
 
 .flexCol--footer__desktop--middle-icon-cont,
 .flexCol--footer__desktop--middle-icon-cont-last {
-  width: 61px !important;
+  width : 61px !important;
   height: 61px;
 }
 
@@ -42,8 +43,8 @@
 
 .flexRow--footer__desktop--middle-cont {
   justify-content: center;
-  display: flex;
-  padding-top: 1%;
+  display        : flex;
+  padding-top    : 1%;
 }
 
 .flexRowContent--footer__desktop--middle-cont {
@@ -52,18 +53,18 @@
 
 .flexRow--footer__desktop--top-cont {
   background-color: #FF4338;
-  display: flex;
-  justify-content: center;
-  height: 60px;
+  display         : flex;
+  justify-content : center;
+  height          : 60px;
 }
 
 .flexRowContent--footer__desktop--top-cont {
-  max-width: 1350px;
+  max-width  : 1350px;
   align-items: center;
 }
 
 .flexColChild--footer__desktop--middle-bottom-col {
-  height: auto !important;
+  height       : auto !important;
   margin-bottom: 5px;
 }
 
@@ -73,9 +74,9 @@
 
 .flexRow--footer__desktop--middle-cont-bottom {
   justify-content: center;
-  display: flex;
-  padding-top: 1%;
-  padding-left: 7%;
+  display        : flex;
+  padding-top    : 1%;
+  padding-left   : 7%;
 }
 
 .flexRow--footer__desktop--bottom-cont {

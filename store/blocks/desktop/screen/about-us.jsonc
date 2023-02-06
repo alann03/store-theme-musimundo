@@ -1,0 +1,11 @@
+{
+  "responsive-layout.desktop#about-us": {
+    "title": "About Us Desktop",
+    "children": [
+      "flex-layout.row#about-us__main--desktop"
+    ],
+    "props": {
+      "blockClass": "about-us__desktop"
+    }
+  }
+}

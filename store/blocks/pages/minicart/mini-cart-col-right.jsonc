@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#minicart__col--right": {
+    "title": "Mini Cart Col Right",
+    "children": [
+      "minicart-summary"
+    ],
+    "props": {
+      "blockClass": "minicart__col--right"
+    }
+  }
+}

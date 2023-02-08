@@ -1,0 +1,99 @@
+{
+  "flex-layout.col#minicart__col--left": {
+    "title": "Mini Cart Col Left",
+    "children": [
+      "flex-layout.row#minicart__col--left-top",
+      "flex-layout.row#minicart__col--left-middle",
+      "flex-layout.row#minicart__col--left-bottom"
+    ],
+    "props": {
+      "blockClass": "minicart__col--left"
+    }
+  },
+  "flex-layout.row#minicart__col--left-top": {
+    "title": "Mini Cart Col Left Top",
+    "children": [
+      "flex-layout.col#minicart__top--col-one",
+      "flex-layout.col#minicart__top--col-two",
+      "flex-layout.col#minicart__top--col-three"
+    ],
+    "props": {
+      "blockClass": "minicart__col--left-top"
+    }
+  },
+  "flex-layout.col#minicart__top--col-one": {
+    "title": "Mini Cart Top Title Cont",
+    "children": [
+      "rich-text#minicart__top--title"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "minicart__top--col-one"
+    }
+  },
+  "rich-text#minicart__top--title": {
+    "title": "Mini Cart Top Title",
+    "props": {
+      "text": "TU PEDIDO",
+      "blockClass": "minicart__top--title"
+    }
+  },
+  "flex-layout.col#minicart__top--col-two": {
+    "title": "Mini Cart Top Total Products Cont",
+    "children": [
+      "rich-text#minicart__top--total-products"
+    ],
+    "props": {
+      "blockClass": "minicart__top--col-two"
+    }
+  },
+  "rich-text#minicart__top--total-products": {
+    "title": "Mini Cart Top Total Products",
+    "props": {
+      "text": "Te estás llevando \n **x PRODUCTO**",
+      "blockClass": "minicart__top--total-products"
+    }
+  },
+  "flex-layout.col#minicart__top--col-three": {
+    "title": "Mini Cart Top Back Link Cont",
+    "children": [
+      "link#minicart__top--link"
+    ],
+    "props": {
+      "blockClass": "minicart__top--col-three"
+    }
+  },
+  "link#minicart__top--link": {
+    "title": "Mini Cart Top Back Link",
+    "props": {
+      "href": "#",
+      "label": "< Continuar comprando"
+    }
+  },
+  "flex-layout.row#minicart__col--left-middle": {
+    "title": "Mini Cart Col Left Middle",
+    "children": [
+      "minicart-product-list"
+    ],
+    "props": {
+      "blockClass": "minicart__col--left-middle"
+    }
+  },
+  "flex-layout.row#minicart__col--left-bottom": {
+    "title": "Mini Cart Col Left Bottom",
+    "children": [],
+    "props": {
+      "blockClass": "minicart__col--left-bottom"
+    }
+  }
+  /* "minicart-product-list": {
+    "children": [
+      "product-list-content-desktop"
+    ]
+  } */
+  /* "product-list-content": {
+    "children": [
+      "product-quantity-label"
+    ]
+  } */
+}

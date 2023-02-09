@@ -64,6 +64,8 @@
   "minicart.v2#mobile": {
     "title": "Mini Cart Mobile",
     "props": {
+      "variation": "link",
+      "linkVariationUrl": "cart",
       "blockClass": "mini-cart-mobile"
     }
   }

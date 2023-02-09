@@ -13,8 +13,8 @@
   "flex-layout.col#product__title": {
     "title": "Product Detail Title Cont Col",
     "children": [
-      "product-brand#product__detail",
-      "product-name#product__detail",
+      "vtex.store-components:product-brand#product__detail",
+      "vtex.store-components:product-name#product__detail",
       "rich-text#product__detail--code"
     ],
     "props": {
@@ -22,13 +22,13 @@
       "blockClass": "product__title--cont-col"
     }
   },
-  "product-brand#product__detail": {
+  "vtex.store-components:product-brand#product__detail": {
     "title": "Product Detail Brand",
     "props": {
       "blockClass": "product__detail--brand"
     }
   },
-  "product-name#product__detail": {
+  "vtex.store-components:product-name#product__detail": {
     "title": "Product Detail Name",
     "props": {
       "blockClass": "product__detail--name"

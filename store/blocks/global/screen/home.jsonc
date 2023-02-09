@@ -6,8 +6,8 @@
       "flex-layout.row#home__section--global-2",
       "responsive-layout.desktop#home__section-3",
       "responsive-layout.tablet#home__section-3",
-      "responsive-layout.phone#home__section-3"
-      /* "responsive-layout.mobile#phone__and__tablet" */
+      "responsive-layout.phone#home__section-3",
+      "whatsapp-button"
     ]
   }
 }

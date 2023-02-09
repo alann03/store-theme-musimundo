@@ -1,0 +1,11 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "+5491100000000",
+      "message": "¡Bienvenido a Musimundo!",
+      "width": 60,
+      "height": 60
+    }
+  }
+}

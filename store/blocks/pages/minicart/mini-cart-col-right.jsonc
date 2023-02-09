@@ -2,10 +2,67 @@
   "flex-layout.col#minicart__col--right": {
     "title": "Mini Cart Col Right",
     "children": [
-      "minicart-summary"
+      "minicart-summary",
+      "flex-layout.row#checkout__button",
+      "rich-text#minicart__col--right-one",
+      "rich-text#minicart__col--right-two"
     ],
     "props": {
+      "width": "33%",
       "blockClass": "minicart__col--right"
+    }
+  },
+  "minicart-summary": {
+    "title": "Mini Cart Summary",
+    "blocks": [
+      "checkout-summary"
+    ],
+    "props": {
+      "blockClass": "minicart__summary"
+    }
+  },
+  "checkout-summary": {
+    "title": "Mini Cart Summary Checkout",
+    "children": [
+      "summary-totalizers"
+    ],
+    "props": {
+      "blockClass": "minicart__summary--checkout"
+    }
+  },
+  "summary-totalizers": {
+    "title": "Mini Cart Summary Totalizers",
+    "props": {
+      "blockClass": "minicart__summary--totalizers"
+    }
+  },
+  "flex-layout.row#checkout__button": {
+    "title": "Mini Cart Checkout Button Cont",
+    "children": [
+      "minicart-checkout-button"
+    ],
+    "props": {
+      "blockClass": "minicart__checkout--button-cont"
+    }
+  },
+  "minicart-checkout-button": {
+    "title": "Mini Cart Checkout Button",
+    "props": {
+      "blockClass": "minicart__checkout--button"
+    }
+  },
+  "rich-text#minicart__col--right-one": {
+    "title": "Mini Cart Col Right Text One",
+    "props": {
+      "text": "**Verificación de disponibilidad** \n <br> Tené en cuenta que para procesar tu compra debemos corroborar la disponibilidad de los productos de acuerdo a tu ubicación",
+      "blockClass": "minicart__col--right-text-one"
+    }
+  },
+  "rich-text#minicart__col--right-two": {
+    "title": "Mini Cart Col Right Text Two",
+    "props": {
+      "text": "**IMPORTANTE:** \n <br> Recordá que el \n **Producto** \n <br> solo puede ser retirado por el \n **titular de la tarjeta** \n <br> con la tarjeta que se efectó la compra acompañado con su \n **DNI**",
+      "blockClass": "minicart__col--right-text-two"
     }
   }
 }

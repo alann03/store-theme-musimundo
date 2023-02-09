@@ -1,0 +1,102 @@
+.paragraph--minicart__product--remove-text {
+  color    : #9e9e9e;
+  font-size: 14px;
+}
+
+.container--minicart__product--remove-text {
+  display    : flex;
+  align-items: center;
+}
+
+.paragraph--minicart__product--code {
+  font-size: 12.6px;
+  color    : #9e9e9e;
+}
+
+.paragraph--minicart__product--unit-text,
+.strong--minicart__col--right-text-one,
+.strong--minicart__col--right-text-two,
+.paragraph--minicart__top--total-products {
+  font-size: 14px;
+  color    : #5D5D5D;
+}
+
+.paragraph--minicart__assurance--option-checkbox {
+  font-size  : 12.3px;
+  color      : #5D5D5D;
+  line-height: 1.1;
+}
+
+.container--minicart__product--unit-text {
+  display    : flex;
+  align-items: center;
+}
+
+.strong--minicart__assurance--option-checkbox {
+  font-size: 13.5px;
+}
+
+.paragraph--minicart__col--right-text-one {
+  font-size : 12px;
+  color     : #5D5D5D;
+  text-align: center;
+}
+
+.container--minicart__col--right-text-one {
+  margin: 5% 0;
+}
+
+.paragraph--minicart__col--right-text-two {
+  margin-top      : 5%;
+  background-color: #FFFF00;
+  padding         : 3% 3% 8% 3%;
+  font-size       : 12px;
+  color           : #5D5D5D;
+  text-align      : center;
+}
+
+.wrapper--minicart__col--right-text-two {
+  width: 100%;
+}
+
+.paragraph--minicart__top--title {
+  font-size   : 36px;
+  color       : #5D5D5D;
+  font-weight : 800;
+  padding     : 0 20px;
+  border-right: 1px solid #5d5d5d;
+}
+
+.strong--minicart__top--total-products {
+  font-size  : 20px;
+  font-weight: 800;
+}
+
+.paragraph--minicart__top--total-products {
+  margin-left: 35px;
+}
+
+@media (max-width: 1279px) {
+  .paragraph--minicart__top--title {
+    font-size: 20px;
+    padding: 0 14px;
+  }
+  
+  .paragraph--minicart__top--total-products {
+    margin-left: 20px;
+  }
+  .strong--minicart__top--total-products {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 639px) {
+  .paragraph--minicart__top--title {
+    font-size: 26px;
+  }
+
+  .paragraph--minicart__product--code,
+  .paragraph--minicart__product--unit-text {
+    font-size: 16px;
+  }
+}

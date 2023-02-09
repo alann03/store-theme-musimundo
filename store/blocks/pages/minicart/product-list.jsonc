@@ -1,0 +1,496 @@
+{
+  "product-list": {
+    "title": "Mini Cart Product List",
+    "blocks": [
+      "product-list-content-desktop",
+      "product-list-content-mobile"
+    ],
+    "props": {
+      "blockClass": "minicart__product--list"
+    }
+  },
+  "product-list-content-desktop": {
+    "title": "Mini Cart Desktop Product List",
+    "children": [
+      "flex-layout.row#list-row.desktop"
+    ],
+    "props": {
+      "blockClass": "minicart__desktop--product-list"
+    }
+  },
+  "flex-layout.row#list-row.desktop": {
+    "title": "Mini Cart Desktop Product List Row Main",
+    "children": [
+      "flex-layout.col#image.desktop",
+      "flex-layout.col#main-container.desktop",
+      "flex-layout.col#assurance-container.desktop"
+    ],
+    "props": {
+      "paddingBottom": 7,
+      "paddingTop": 6,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__desktop--product-list-row-main"
+    }
+  },
+  "flex-layout.col#image.desktop": {
+    "title": "Mini Cart Desktop Product List Image Cont",
+    "children": [
+      "product-list-image"
+    ],
+    "props": {
+      "marginRight": 6,
+      "width": "25%",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "minicart__desktop--product-list-image-cont"
+    }
+  },
+  "flex-layout.col#main-container.desktop": {
+    "title": "Mini Cart Desktop Product List Cont",
+    "children": [
+      "flex-layout.row#remove-button.desktop",
+      "flex-layout.row#info-product-container",
+      "flex-layout.row#message.desktop"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "minicart__desktop--product-list-cont"
+    }
+  },
+  "flex-layout.row#info-product-container": {
+    "title": "Mini Cart Desktop Product Info Cont Row",
+    "children": [
+      "flex-layout.col#info-product-container"
+    ],
+    "props": {
+      "blockClass": "minicart__product--info-cont-row"
+    }
+  },
+  "flex-layout.col#info-product-container": {
+    "title": "Mini Cart Desktop Product Info Cont Col",
+    "children": [
+      "vtex.product-list:product-brand",
+      "vtex.product-list:product-name",
+      "rich-text#minicart__product--code",
+      "unit-price",
+      "flex-layout.row#quantity-price-container"
+    ],
+    "props": {
+      "blockClass": "minicart__product--info-cont-col"
+    }
+  },
+  "vtex.product-list:product-brand": {
+    "title": "Mini Cart Product Brand",
+    "props": {
+      "blockClass": "minicart__product--brand"
+    }
+  },
+  "vtex.product-list:product-name": {
+    "title": "Mini Cart Product Name",
+    "props": {
+      "blockClass": "minicart__product--name"
+    }
+  },
+  "rich-text#minicart__product--code": {
+    "title": "Minicart Product Code Example",
+    "props": {
+      "text": "CODE00000000",
+      "blockClass": "minicart__product--code"
+    }
+  },
+  "flex-layout.row#quantity-price-container": {
+    "title": "Mini Cart Product Quantity and Price Cont",
+    "children": [
+      "flex-layout.col#quantity-container",
+      "price"
+    ],
+    "props": {
+      "width": "grow",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__product--quantity-price-cont"
+    }
+  },
+  "flex-layout.col#quantity-container": {
+    "title": "Mini Cart Product Quantity Cont Col",
+    "children": [
+      "flex-layout.row#quantity-container"
+    ],
+    "props": {
+      "blockClass": "minicart__product--quantity-cont-col"
+    }
+  },
+  "flex-layout.row#quantity-container": {
+    "title": "Mini Cart Product Quantity Cont Row",
+    "children": [
+      "rich-text#minicart__units",
+      "quantity-selector"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__product--quantity-cont-row"
+    }
+  },
+  "rich-text#minicart__units": {
+    "title": "Mini Cart Product Quantity Title",
+    "props": {
+      "text": "Unidades:",
+      "blockClass": "minicart__product--unit-text"
+    }
+  },
+  "quantity-selector": {
+    "title": "Mini Cart Product Quantity Selector",
+    "props": {
+      "blockClass": "minicart__product--quantity-selector"
+    }
+  },
+  "unit-price": {
+    "title": "Mini Cart Product Unit Price",
+    "props": {
+      "unitPriceDisplay": "always",
+      "blockClass": "minicart__product--unit-price"
+    }
+  },
+  "price": {
+    "title": "Mini Cart Product Price",
+    "props": {
+      "textAlign": "right",
+      "blockClass": "minicart__product--price"
+    }
+  },
+  "flex-layout.row#remove-button.desktop": {
+    "title": "Mini Cart Product Remove Button Cont",
+    "children": [
+      "rich-text#minicart__remove--button",
+      "remove-button"
+    ],
+    "props": {
+      "marginLeft": 6,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "verticalAlign": "middle",
+      "blockClass": "minicart__product--remove-button-cont"
+    }
+  },
+  "rich-text#minicart__remove--button": {
+    "title": "Mini Cart Product Remove Text",
+    "props": {
+      "text": "Eliminar",
+      "blockClass": "minicart__product--remove-text"
+    }
+  },
+  "remove-button": {
+    "title": "Mini Cart Product Remove Button",
+    "props": {
+      "blockClass": "minicart__product--remove-button"
+    }
+  },
+  "flex-layout.row#message.desktop": {
+    "title": "Mini Cart Product Message Cont",
+    "children": [
+      "message#desktop"
+    ],
+    "props": {
+      "marginTop": 4,
+      "blockClass": "minicart__product--message-cont"
+    }
+  },
+  "message#desktop": {
+    "title": "Mini Cart Product Message",
+    "props": {
+      "layout": "cols",
+      "blockClass": "minicart__product--message"
+    }
+  },
+  "flex-layout.col#assurance-container.desktop": {
+    "title": "Mini Cart Assurance Main Cont",
+    "children": [
+      "flex-layout.row#assurance__option--one",
+      "flex-layout.row#assurance__option--two",
+      "flex-layout.row#assurance__option--three",
+      "flex-layout.row#assurance__option--four",
+      "flex-layout.row#assurance__option--five"
+    ],
+    "props": {
+      "rowGap": 3,
+      "width": "25%",
+      "preventVerticalStretch": true,
+      "blockClass": "minicart__assurance--cont"
+    }
+  },
+  "flex-layout.row#assurance__option--one": {
+    "title": "Mini Cart Assurance Option One",
+    "children": [
+      "flex-layout.col#assurance__option--one-checkbox-cont",
+      "flex-layout.col#assurance__option--one-text-cont"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__assurance--option"
+    }
+  },
+  "flex-layout.col#assurance__option--one-checkbox-cont": {
+    "title": "Mini Cart Assurance Option One",
+    "children": [
+      "flex-layout.row#assurance__option--one-checkbox"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox-cont"
+    }
+  },
+  "flex-layout.col#assurance__option--one-text-cont": {
+    "title": "Mini Cart Assurance Option One",
+    "children": [
+      "rich-text#assurance__option--one"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-text"
+    }
+  },
+  "flex-layout.row#assurance__option--one-checkbox": {
+    "title": "Mini Cart Assurance Checkbox One",
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "rich-text#assurance__option--one": {
+    "title": "Mini Cart Assurance Text One",
+    "props": {
+      "text": "**GARANTÍA DE FÁBRICA** \n GRATIS",
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "flex-layout.row#assurance__option--two": {
+    "title": "Mini Cart Assurance Option Two",
+    "children": [
+      "flex-layout.col#assurance__option--two-checkbox-cont",
+      "flex-layout.col#assurance__option--two-text-cont"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__assurance--option"
+    }
+  },
+  "flex-layout.col#assurance__option--two-checkbox-cont": {
+    "title": "Mini Cart Assurance Option Two",
+    "children": [
+      "flex-layout.row#assurance__option--two-checkbox"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox-cont"
+    }
+  },
+  "flex-layout.col#assurance__option--two-text-cont": {
+    "title": "Mini Cart Assurance Option Two",
+    "children": [
+      "rich-text#assurance__option--two"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-text"
+    }
+  },
+  "flex-layout.row#assurance__option--two-checkbox": {
+    "title": "Mini Cart Assurance Checkbox two",
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "rich-text#assurance__option--two": {
+    "title": "Mini Cart Assurance Text Two",
+    "props": {
+      "text": "**2 AÑOS** \n X.XXX,XX $",
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "flex-layout.row#assurance__option--three": {
+    "title": "Mini Cart Assurance Option Three",
+    "children": [
+      "flex-layout.col#assurance__option--three-checkbox-cont",
+      "flex-layout.col#assurance__option--three-text-cont"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__assurance--option"
+    }
+  },
+  "flex-layout.col#assurance__option--three-checkbox-cont": {
+    "title": "Mini Cart Assurance Option Three",
+    "children": [
+      "flex-layout.row#assurance__option--three-checkbox"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox-cont"
+    }
+  },
+  "flex-layout.col#assurance__option--three-text-cont": {
+    "title": "Mini Cart Assurance Option Three",
+    "children": [
+      "rich-text#assurance__option--three"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-text"
+    }
+  },
+  "flex-layout.row#assurance__option--three-checkbox": {
+    "title": "Mini Cart Assurance Checkbox Three",
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "rich-text#assurance__option--three": {
+    "title": "Mini Cart Assurance Text Three",
+    "props": {
+      "text": "**3 AÑOS** \n X.XXX,XX $",
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "flex-layout.row#assurance__option--four": {
+    "title": "Mini Cart Assurance Option Four",
+    "children": [
+      "flex-layout.col#assurance__option--four-checkbox-cont",
+      "flex-layout.col#assurance__option--four-text-cont"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__assurance--option"
+    }
+  },
+  "flex-layout.col#assurance__option--four-checkbox-cont": {
+    "title": "Mini Cart Assurance Option Four",
+    "children": [
+      "flex-layout.row#assurance__option--four-checkbox"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox-cont"
+    }
+  },
+  "flex-layout.col#assurance__option--four-text-cont": {
+    "title": "Mini Cart Assurance Option Four",
+    "children": [
+      "rich-text#assurance__option--four"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-text"
+    }
+  },
+  "flex-layout.row#assurance__option--four-checkbox": {
+    "title": "Mini Cart Assurance Checkbox Four",
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "rich-text#assurance__option--four": {
+    "title": "Mini Cart Assurance Text Four",
+    "props": {
+      "text": "**4 AÑOS** \n XX.XXX,XX $",
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "flex-layout.row#assurance__option--five": {
+    "title": "Mini Cart Assurance Option five",
+    "children": [
+      "flex-layout.col#assurance__option--five-checkbox-cont",
+      "flex-layout.col#assurance__option--five-text-cont"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "minicart__assurance--option"
+    }
+  },
+  "flex-layout.col#assurance__option--five-checkbox-cont": {
+    "title": "Mini Cart Assurance Option five",
+    "children": [
+      "flex-layout.row#assurance__option--five-checkbox"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox-cont"
+    }
+  },
+  "flex-layout.col#assurance__option--five-text-cont": {
+    "title": "Mini Cart Assurance Option five",
+    "children": [
+      "rich-text#assurance__option--five"
+    ],
+    "props": {
+      "blockClass": "minicart__assurance--option-text"
+    }
+  },
+  "flex-layout.row#assurance__option--five-checkbox": {
+    "title": "Mini Cart Assurance Checkbox five",
+    "props": {
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "rich-text#assurance__option--five": {
+    "title": "Mini Cart Assurance Text five",
+    "props": {
+      "text": "**5 AÑOS** \n XX.XXX,XX $",
+      "blockClass": "minicart__assurance--option-checkbox"
+    }
+  },
+  "product-list-content-mobile": {
+    "title": "Mini Cart Mobile Product List Mobile",
+    "children": [
+      "flex-layout.row#list-row.mobile",
+      "flex-layout.row#checkout__button--mobile"
+    ],
+    "props": {
+      "blockClass": "minicart__desktop--product-list"
+    }
+  },
+  "flex-layout.row#list-row.mobile": {
+    "title": "Mini Cart Mobile Product List Row Mobile",
+    "children": [
+      "flex-layout.col#list-row.mobile"
+    ],
+    "props": {
+      "blockClass": "minicart__desktop--product-list-row"
+    }
+  },
+  "flex-layout.col#list-row.mobile": {
+    "title": "Mini Cart Mobile Product List Col Mobile",
+    "children": [
+      "flex-layout.row#remove-button.desktop",
+      "flex-layout.col#image.desktop",
+      "flex-layout.row#product__info--mobile",
+      "flex-layout.col#assurance-container.desktop"
+    ],
+    "props": {
+      "blockClass": "minicart__desktop--product-list-col"
+    }
+  },
+  "flex-layout.row#product__info--mobile": {
+    "title": "Mini Cart Mobile Product Info",
+    "children": [
+      "vtex.product-list:product-brand",
+      "vtex.product-list:product-name",
+      "rich-text#minicart__product--code",
+      "unit-price",
+      "flex-layout.row#quantity-price-container"
+    ],
+    "props": {
+      "blockClass": "minicart__mobile--product-info"
+    }
+  },
+  "flex-layout.row#checkout__button--mobile": {
+    "title": "Mini Cart Checkout Button Mobile Cont",
+    "children": [
+      "minicart-checkout-button#mobile__visible"
+    ],
+    "props": {
+      "blockClass": "minicart__checkout--button-mobile-cont"
+    }
+  },
+  "minicart-checkout-button#mobile__visible": {
+    "title": "Mini Cart Checkout Button Mobile",
+    "props": {
+      "blockClass": "minicart__checkout--button-mobile"
+    }
+  }
+}

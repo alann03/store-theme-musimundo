@@ -1,0 +1,118 @@
+{
+  "flex-layout.row#bullets-group": {
+    "title": "Bullets Group Container",
+    "children": [
+      "list-context.bullets-group"
+    ],
+    "props": {
+      "blockClass": "custom__components--container"
+    }
+  },
+  "list-context.bullets-group": {
+    "title": "Bullets Group",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/televisor__bullet--group.jpg",
+          "titleBullet": "Televisores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/celular__bullet--group.jpg",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/aire__bullet--group.jpg",
+          "titleBullet": "Aires",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/notebook__bullet--group.jpg",
+          "titleBullet": "Notebooks",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/heladera__bullet--group.jpg",
+          "titleBullet": "Heladeras",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/lavarropas__bullet--group.jpg",
+          "titleBullet": "Lavarropas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/tablet__bullet--group.jpg",
+          "titleBullet": "Tablets",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/rodados__bullet--group.jpg",
+          "titleBullet": "Rodados",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/ofertas__bullet--group.jpg",
+          "titleBullet": "Ofertas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/televisor__bullet--group.jpg",
+          "titleBullet": "Televisores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/celular__bullet--group.jpg",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/aire__bullet--group.jpg",
+          "titleBullet": "Aires",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "title": "Bullets Group Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "showPaginationDots": "never",
+      "centerMode": "center",
+      "blockClass": "slider__bullet--group"
+    }
+  }
+}

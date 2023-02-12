@@ -4,5 +4,8 @@
   },
   "store.custom#minicart": {
     "path": "/cart"
+  },
+  "store.custom#custom__components": {
+    "path": "/custom"
   }
 }

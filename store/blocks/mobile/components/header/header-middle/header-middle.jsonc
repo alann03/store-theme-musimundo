@@ -45,6 +45,7 @@
     }
   },
   "login#mobile": {
+    "title": "Login Mobile",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",

@@ -1,5 +1,6 @@
 {
   "menu#mobile__menu": {
+    "title": "Mobile Menu Items One",
     "children": [
       "menu-item#mobile__row--televisions",
       "menu-item#mobile__row--cellphones",
@@ -17,6 +18,7 @@
     }
   },
   "menu-item#mobile__row--televisions": {
+    "title": "Mobile Menu Item 1",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -34,6 +36,7 @@
     }
   },
   "menu-item#mobile__row--cellphones": {
+    "title": "Mobile Menu Item 2",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -51,6 +54,7 @@
     }
   },
   "menu-item#mobile__row--airs": {
+    "title": "Mobile Menu Item 3",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -68,6 +72,7 @@
     }
   },
   "menu-item#mobile__row--notebooks": {
+    "title": "Mobile Menu Item 4",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -85,6 +90,7 @@
     }
   },
   "menu-item#mobile__row--refrigerators": {
+    "title": "Mobile Menu Item 5",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -102,6 +108,7 @@
     }
   },
   "menu-item#mobile__row--washingmachine": {
+    "title": "Mobile Menu Item 6",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -119,6 +126,7 @@
     }
   },
   "menu-item#mobile__row--tablets": {
+    "title": "Mobile Menu Item 7",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -136,6 +144,7 @@
     }
   },
   "menu-item#mobile__row--rodados": {
+    "title": "Mobile Menu Item 8",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -153,6 +162,7 @@
     }
   },
   "menu-item#mobile__row--offers": {
+    "title": "Mobile Menu Item 9",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -170,6 +180,7 @@
     }
   },
   "menu#mobile__menu--2": {
+    "title": "Mobile Menu Items Two",
     "children": [
       "menu-item#mobile__row--carrito-de-compras",
       "menu-item#mobile__row--favoritos",
@@ -182,6 +193,7 @@
     }
   },
   "menu-item#mobile__row--carrito-de-compras": {
+    "title": "Mobile Menu Item 10",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -199,6 +211,7 @@
     }
   },
   "menu-item#mobile__row--favoritos": {
+    "title": "Mobile Menu Item 11",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -216,6 +229,7 @@
     }
   },
   "menu-item#mobile__row--sucursales": {
+    "title": "Mobile Menu Item 12",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",
@@ -233,6 +247,7 @@
     }
   },
   "menu-item#mobile__row--centro-de-atencion-al-cliente": {
+    "title": "Mobile Menu Item 13",
     "props": {
       "id": "menu-item-mobile",
       "type": "custom",

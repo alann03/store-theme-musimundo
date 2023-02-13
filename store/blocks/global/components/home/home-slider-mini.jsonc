@@ -23,6 +23,7 @@
     }
   },
   "slider-layout#home__slider--list2": {
+    "title": "Slider List 2",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

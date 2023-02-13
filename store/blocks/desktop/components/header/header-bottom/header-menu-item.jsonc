@@ -17,6 +17,7 @@
     }
   },
   "menu-item#desktop__row--televisions": {
+    "title": "Header Desktop Bottom Item 1",
     "props": {
       "id": "menu-item-televisions",
       "type": "custom",
@@ -36,6 +37,7 @@
     }
   },
   "menu-item#desktop__row--cellphones": {
+    "title": "Header Desktop Bottom Item 2",
     "props": {
       "id": "menu-item-celulares",
       "type": "custom",
@@ -55,6 +57,7 @@
     }
   },
   "menu-item#desktop__row--airs": {
+    "title": "Header Desktop Bottom Item 3",
     "props": {
       "id": "menu-item-aires",
       "type": "custom",
@@ -74,6 +77,7 @@
     }
   },
   "menu-item#desktop__row--notebooks": {
+    "title": "Header Desktop Bottom Item 4",
     "props": {
       "id": "menu-item-notebooks",
       "type": "custom",
@@ -93,6 +97,7 @@
     }
   },
   "menu-item#desktop__row--refrigerators": {
+    "title": "Header Desktop Bottom Item 5",
     "props": {
       "id": "menu-item-heladeras",
       "type": "custom",
@@ -112,6 +117,7 @@
     }
   },
   "menu-item#desktop__row--washingmachine": {
+    "title": "Header Desktop Bottom Item 6",
     "props": {
       "id": "menu-item-lavarropas",
       "type": "custom",
@@ -131,6 +137,7 @@
     }
   },
   "menu-item#desktop__row--tablets": {
+    "title": "Header Desktop Bottom Item 7",
     "props": {
       "id": "menu-item-tablets",
       "type": "custom",
@@ -150,6 +157,7 @@
     }
   },
   "menu-item#desktop__row--rodados": {
+    "title": "Header Desktop Bottom Item 8",
     "props": {
       "id": "menu-item-televisions",
       "type": "custom",
@@ -169,6 +177,7 @@
     }
   },
   "menu-item#desktop__row--offers": {
+    "title": "Header Desktop Bottom Item 9",
     "props": {
       "id": "menu-item-offers",
       "type": "custom",

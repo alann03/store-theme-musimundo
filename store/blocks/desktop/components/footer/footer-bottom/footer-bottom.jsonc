@@ -9,6 +9,7 @@
     ]
   },
   "menu#footer__desktop--bottom-menu": {
+    "title": "Desktop Footer Menu Item",
     "children": [
       "menu-item#desktop__footer--EMSA",
       "menu-item#desktop__footer--terminos-condiciones",
@@ -21,6 +22,7 @@
     }
   },
   "menu-item#desktop__footer--EMSA": {
+    "title": "Desktop Footer Item 1",
     "props": {
       "id": "footer-menu-item-EMSA",
       "type": "custom",
@@ -43,6 +45,7 @@
     }
   },
   "menu-item#desktop__footer--terminos-condiciones": {
+    "title": "Desktop Footer Item 2",
     "props": {
       "id": "footer-menu-item-EMSA",
       "type": "custom",
@@ -58,6 +61,7 @@
     }
   },
   "menu-item#desktop__footer--bases": {
+    "title": "Desktop Footer Item 3",
     "props": {
       "id": "footer-menu-item-bases",
       "type": "custom",
@@ -73,6 +77,7 @@
     }
   },
   "menu-item#desktop__footer--politicas": {
+    "title": "Desktop Footer Item 4",
     "props": {
       "id": "footer-menu-item-politicas",
       "type": "custom",
@@ -88,6 +93,7 @@
     }
   },
   "menu-item#desktop__footer--CARSA": {
+    "title": "Desktop Footer Item 5",
     "props": {
       "id": "footer-menu-item-EMSA",
       "type": "custom",

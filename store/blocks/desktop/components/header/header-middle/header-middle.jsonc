@@ -30,14 +30,8 @@
       "blockClass": "searchbar-desktop"
     }
   },
-  /* "rich-text#header__desktop--middle-login-title": {
-    "title": "Header Desktop Title Login",
-    "props": {
-      "text": "**Hola** , Inicia tu sesión",
-      "blockClass": "header__desktop--middle-login-title"
-    }
-  }, */
   "login#header__desktop": {
+    "title": "Header Desktop Login",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -58,6 +52,7 @@
     }
   },
   "flex-layout.row#desktop__icon--favorites": {
+    "title": "Header Desktop Icon Favs Cont",
     "children": [
       "icon#header__desktop--middle-favorites"
     ],

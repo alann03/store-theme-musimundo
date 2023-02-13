@@ -206,6 +206,7 @@
     ]
   },
   "rich-text#footer__desktop--middle-text-5": {
+    "title": "Desktop Middle Top Title Item 5",
     "props": {
       "text": "**Botón de arrepentimiento** \n Hacé click acá",
       "blockClass": "footer__desktop--middle-text"

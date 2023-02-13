@@ -9,6 +9,7 @@
     }
   },
   "flex-layout.col#home__section--global-2": {
+    "title": "Global Section 2 Col",
     "children": [
       "shelf#home__section--global",
       "list-context.image-list#home__slider--list-mini",

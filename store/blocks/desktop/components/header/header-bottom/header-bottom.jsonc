@@ -2,7 +2,6 @@
   "header-row#header__desktop--bottom": {
     "title": "Header Desktop Bottom",
     "children": [
-      /* "overlay-trigger#header__desktop--mega-menu", */
       "rich-text#header__desktop--mega-menu-title",
       "flex-layout.row#header__desktop--mega-menu",
       "flex-layout.row#mega-menu",
@@ -20,6 +19,7 @@
     }
   },
   "flex-layout.row#header__desktop--mega-menu": {
+    "title": "Desktop Mega Menu Cont",
     "children": [
       "flex-layout.col#trigger-mega-menu"
     ],
@@ -28,17 +28,20 @@
     }
   },
   "flex-layout.row#mega-menu": {
+    "title": "Desktop Mega Menu Cont Row",
     "children": [
       "mega-menu#desktop"
     ]
   },
   "mega-menu#desktop": {
+    "title": "Desktop Mega Menu",
     "props": {
       "openOnly": "horizontal",
       "blockClass": "mega-menu__desktop"
     }
   },
   "flex-layout.col#trigger-mega-menu": {
+    "title": "Desktop Mega Menu Trigger",
     "props": {
       "verticalAlign": "middle"
     },
@@ -47,6 +50,7 @@
     ]
   },
   "mega-menu-trigger-btn": {
+    "title": "Desktop Mega Menu Trigger Button",
     "props": {
       "Drawer": "drawer",
       "id": "nav-caret--down",
@@ -54,34 +58,3 @@
     }
   }
 }
-/* "overlay-trigger#header__desktop--mega-menu": {
-    "title": "Overlay Trigger MegaMenu Cont",
-    "children": [
-      "rich-text#header__desktop--mega-menu-title",
-      "overlay-layout#header__desktop--mega-menu"
-    ],
-    "props": {
-      "trigger": "hover",
-      "blockClass": "header__desktop--overlay-trigger"
-    }
-  },
-  "rich-text#header__desktop--mega-menu-title": {
-    "title": "MegaMenu Title",
-    "props": {
-      "text": "Comprar por \n **Categorias**",
-      "blockClass": "header__desktop--text-trigger"
-    }
-  },
-  "overlay-layout#header__desktop--mega-menu": {
-    "title": "Overlay layout MegaMenu Cont",
-    "children": [
-      "flex-layout.row#header__desktop--mega-menu-cont"
-    ],
-    "props": {
-      "placement": "bottom",
-      "offsets": {
-        "skidding": -7,
-        "distance": 0
-      }
-    }
-  } */

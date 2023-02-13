@@ -2,7 +2,7 @@
   "flex-layout.row#product__related": {
     "title": "Product Detail Related Cont",
     "children": [
-      "shelf.relatedProducts"
+      "shelf.relatedProducts#pdp"
     ],
     "props": {
       "marginTop": 8,
@@ -10,7 +10,7 @@
       "blockClass": "product__related--cont"
     }
   },
-  "shelf.relatedProducts": {
+  "shelf.relatedProducts#pdp": {
     "title": "Product Detail Related",
     "blocks": [
       "product-summary.shelf#searchresult__summary--grid"

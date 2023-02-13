@@ -4,20 +4,20 @@
 }
 
 .sellingPriceValue--product__detail--selling-price {
-  font-size: 16.8px;
+  font-size  : 16.8px;
   font-weight: 600;
 }
 
 .sellingPrice--product__detail--selling-price,
 .sellingPriceValue--product__detail--selling-price,
 .listPrice--product__detail--list-price {
-  color: #1D1D1D;
+  color       : #1D1D1D;
   padding-left: 5%;
 }
 
 .installments--product__detail--installments {
-  color: #ff4338;
-  font-size: 36px;
+  color       : #ff4338;
+  font-size   : 36px;
   padding-left: 5%;
 }
 
@@ -26,33 +26,33 @@
 }
 
 .sellingPrice--product__payment--installments-total-price-value {
-  font-size: 12px;
+  font-size  : 12px;
   font-weight: 600;
-  color: #1D1D1D;
-  display: flex;
+  color      : #1D1D1D;
+  display    : flex;
   align-items: center;
 }
 
 .installments--product__payment--installments-value {
-  color: #ff4338;
-  font-size: 19px;
+  color      : #ff4338;
+  font-size  : 19px;
   font-weight: 600;
 }
 
 .savings--product__detail--savings-price {
   background-color: #ff4338;
-  width: 85%;
-  font-size: 14px;
-  color: #FFFFFF;
-  padding: 1%;
-  font-weight: 600;
-  display: inline-block;
-  border-radius: 3px;
-  padding-left: 5%;
+  width           : 85%;
+  font-size       : 14px;
+  color           : #FFFFFF;
+  padding         : 1%;
+  font-weight     : 600;
+  display         : inline-block;
+  border-radius   : 3px;
+  padding-left    : 5%;
 }
 
 .listPriceValue--product__detail--list-price {
-  font-weight: 600;
+  font-weight : 600;
   padding-left: 2%;
 }
 
@@ -68,7 +68,7 @@
   .listPrice--product__detail--list-price,
   .sellingPrice--product__detail--selling-price {
     padding: 0 2%;
-    width: 95%;
+    width  : 95%;
   }
 
   .installments--product__detail--installments {
@@ -77,7 +77,7 @@
 
   .savings--product__detail--savings-price {
     padding: 1% 2%;
-    width: 95%;
+    width  : 95%;
   }
 
   .listPriceValue--product__detail--list-price {

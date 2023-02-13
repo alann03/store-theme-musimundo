@@ -12,6 +12,7 @@
     }
   },
   "link#header__desktop--sucursales": {
+    "title": "Header Desktop Link 1",
     "props": {
       "href": "#",
       "label": "Sucursales",
@@ -29,6 +30,7 @@
     }
   },
   "link#header__desktop--atencion-cliente": {
+    "title": "Header Desktop Link 2",
     "props": {
       "href": "#",
       "label": "Centro de atención al cliente",

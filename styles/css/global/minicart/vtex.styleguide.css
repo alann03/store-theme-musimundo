@@ -1,0 +1,9 @@
+.container {
+  border          : 1px #bdbdbd solid;
+  background-color: #FFFFFF;
+  border-radius   : 0;
+}
+
+.container :global(.vtex-dropdown__arrow) {
+  color: black;
+}

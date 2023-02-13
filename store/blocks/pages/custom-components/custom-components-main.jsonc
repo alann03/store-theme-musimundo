@@ -1,0 +1,8 @@
+{
+  "store.custom#custom__components": {
+    "title": "Custom Components Container",
+    "children": [
+      "flex-layout.row#bullets-group"
+    ]
+  }
+}

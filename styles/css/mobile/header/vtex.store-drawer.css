@@ -1,7 +1,7 @@
 .drawer--drawer__mobile {
   background-color: #FFFFFF;
-  height: 88%;
-  max-width: 100% !important;
+  height          : 88%;
+  max-width       : 100% !important;
 }
 
 .closeIconContainer--drawer__mobile {
@@ -9,12 +9,11 @@
 }
 
 .childrenContainer--drawer__mobile {
-  /* margin-left: 4%; */
   flex-direction: column;
 }
 
 .drawer--drawer__mobile-2 {
-  height: 50%;
+  height   : 50%;
   max-width: 100% !important;
-  top: 20%;
+  top      : 20%;
 }

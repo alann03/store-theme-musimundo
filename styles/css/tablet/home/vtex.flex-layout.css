@@ -1,8 +1,8 @@
 .flexRowContent--home__section-3--tablet {
     background-color: #FFFFFF;
-    margin-top: 5%;
-    padding-top: 4%;
-    padding-bottom: 8%; 
+    margin-top      : 5%;
+    padding-top     : 4%;
+    padding-bottom  : 8%;
 }
 
 .flexColChild--col-cards-left {
@@ -13,6 +13,6 @@
     margin-left: 3%;
 }
 
-.flexColChild--col-cards-2 :global(.vtex-store-components-3-x-infoCardContainer--info-card__section-4){
+.flexColChild--col-cards-2 :global(.vtex-store-components-3-x-infoCardContainer--info-card__section-4) {
     height: 100%;
 }

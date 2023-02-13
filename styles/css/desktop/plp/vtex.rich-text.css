@@ -1,6 +1,6 @@
 .container--desktop__searchresult--text-brand {
   justify-content: center;
-  margin-top: 5%;
+  margin-top     : 5%;
 }
 
 .paragraph--desktop__searchresult--text-brand,
@@ -28,19 +28,19 @@
 }
 
 .paragraph--searchresult__product--share-label-text {
-  color: #FFFFFF;
-  font-size: 9.5px;
+  color         : #FFFFFF;
+  font-size     : 9.5px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight   : 700;
 }
 
 .strong--searchresult__product--share-label-text {
-  font-size: 13px;
+  font-size  : 13px;
   font-weight: 800;
 }
 
 .container--searchresult__product--share-label-text {
-  align-items: center;
+  align-items    : center;
   justify-content: center;
 }
 
@@ -52,9 +52,11 @@
   .container--desktop__searchresult--text-code {
     margin-bottom: 4% !important;
   }
+
   .paragraph--desktop__searchresult--text-code {
     font-size: 17.5px !important;
   }
+
   .paragraph--desktop__searchresult--text-brand {
     font-size: 14px !important;
   }

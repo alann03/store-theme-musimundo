@@ -1,0 +1,37 @@
+{
+  "store.custom#minicart": {
+    "title": "Mini Cart Main",
+    "children": [
+      "flex-layout.row#minicart"
+    ]
+  },
+  "flex-layout.row#minicart": {
+    "title": "Mini Cart Main Cont",
+    "children": [
+      "minicart.v2#static-page"
+    ],
+    "props": {
+      "blockClass": "minicart__main--cont"
+    }
+  },
+  "minicart.v2#static-page": {
+    "title": "Mini Cart Static Page",
+    "children": [
+      "flex-layout.row#minicart__cont"
+    ],
+    "props": {
+      "variation": "block",
+      "blockClass": "minicart__cont"
+    }
+  },
+  "flex-layout.row#minicart__cont": {
+    "title": "Mini Cart Cont Row",
+    "children": [
+      "flex-layout.col#minicart__col--left",
+      "flex-layout.col#minicart__col--right"
+    ],
+    "props": {
+      "blockClass": "minicart__cont--row"
+    }
+  }
+}

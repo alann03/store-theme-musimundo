@@ -3,87 +3,10 @@
     "title": "Mini Cart Desktop",
     "props": {
       "blockClass": "mini-cart-desktop",
-      "variation": "popup",
+      "variation": "link",
       "itemCountMode": "total",
       "quantityDisplay": "always",
-      "openOnHover": true
-      /*  "linkVariationUrl": "#" */
-    },
-    "children": [
-      "minicart-base-content#desktop"
-    ]
-  },
-  "minicart-base-content#desktop": {
-    "title": "Mini Cart Base Desktop",
-    "blocks": [
-      "minicart-empty-state"
-    ],
-    "children": [
-      "minicart-product-list",
-      "flex-layout.row#minicart__footer"
-    ],
-    "props": {
-      "blockClass": "mini-cart-base-desktop"
-    }
-  },
-  "minicart-empty-state": {
-    "title": "Mini Cart Empty Desktop",
-    "children": [
-      "flex-layout.row#minicart__empty"
-    ],
-    "props": {
-      "blockClass": "mini-cart-empty-desktop"
-    }
-  },
-  "flex-layout.row#minicart__empty": {
-    "title": "Mini Cart Row Desktop",
-    "children": [
-      "flex-layout.col#minicart__empty"
-    ],
-    "props": {
-      "blockClass": "mini-cart-empty-row-desktop"
-    }
-  },
-  "flex-layout.col#minicart__empty": {
-    "title": "Mini Cart Col Desktop",
-    "children": [
-      "icon-cart#minicart__empty--icon",
-      "rich-text#minicart__empty--text"
-    ],
-    "props": {
-      "blockClass": "mini-cart-empty-col-desktop"
-    }
-  },
-  "icon-cart#minicart__empty--icon": {
-    "title": "Mini Cart Icon Desktop",
-    "props": {
-      "size": 100,
-      "blockClass": "mini-cart-icon-desktop"
-    }
-  },
-  "flex-layout.row#minicart__footer": {
-    "title": "Mini Cart Footer Desktop",
-    "children": [
-      "minicart-summary",
-      /* "rich-text#promo", */
-      "minicart-checkout-button"
-    ],
-    "props": {
-      "blockClass": "mini-cart-footer-desktop"
-    }
-  },
-  /* "rich-text#promo": {
-    "props": {
-      "text": "No olvides participar en las promos"
-    }
-  }, */
-  "rich-text#minicart__empty--text": {
-    "title": "Mini Cart Empty Text Desktop",
-    "props": {
-      "text": "Hola, el carrito se encuentra vacío",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "mini-cart-empty-text-desktop"
+      "linkVariationUrl": "cart"
     }
   }
 }

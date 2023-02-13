@@ -45,6 +45,7 @@
     }
   },
   "login#mobile": {
+    "title": "Login Mobile",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -64,6 +65,8 @@
   "minicart.v2#mobile": {
     "title": "Mini Cart Mobile",
     "props": {
+      "variation": "link",
+      "linkVariationUrl": "cart",
       "blockClass": "mini-cart-mobile"
     }
   }

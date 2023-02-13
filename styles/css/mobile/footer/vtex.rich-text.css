@@ -1,6 +1,6 @@
 .container--footer__mobile--middle-top-item {
   justify-content: center;
-  text-align: center;
+  text-align     : center;
 }
 
 .paragraph--footer__mobile--middle-top-item {
@@ -13,7 +13,7 @@
 
 .container--footer__mobile--middle-disclosure-title {
   justify-content: center;
-  color: #FFFFFF;
-  font-weight: bold;
-  padding: 1% 0 1% 0;
+  color          : #FFFFFF;
+  font-weight    : bold;
+  padding        : 1% 0 1% 0;
 }

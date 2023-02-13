@@ -1,0 +1,11 @@
+.link--minicart__top--col-three-link {
+  text-decoration: none;
+  font-size      : 14px;
+  color          : #5D5D5D;
+}
+
+@media (max-width: 1279px) {
+  .label--minicart__top--col-three-link {
+    font-size: 13px;
+  }
+}

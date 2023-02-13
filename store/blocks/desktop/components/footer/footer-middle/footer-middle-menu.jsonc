@@ -15,13 +15,14 @@
     }
   },
   "menu-item#desktop__footer--acerca": {
+    "title": "Desktop Middle Item 1",
     "props": {
       "id": "footer-menu-item-acerca-de",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "sobre-nosotros",
         "noFollow": false,
         "tagTitle": "Acerca de",
         "text": "Acerca de"
@@ -30,6 +31,7 @@
     }
   },
   "menu-item#desktop__footer--terminos": {
+    "title": "Desktop Middle Item 2",
     "props": {
       "id": "footer-menu-item-terminos",
       "type": "custom",
@@ -45,6 +47,7 @@
     }
   },
   "menu-item#desktop__footer--promociones": {
+    "title": "Desktop Middle Item 3",
     "props": {
       "id": "footer-menu-item-promo",
       "type": "custom",
@@ -60,6 +63,7 @@
     }
   },
   "menu-item#desktop__footer--nosotros": {
+    "title": "Desktop Middle Item 4",
     "props": {
       "id": "footer-menu-item-trabaja",
       "type": "custom",
@@ -75,6 +79,7 @@
     }
   },
   "menu-item#desktop__footer--proovedor": {
+    "title": "Desktop Middle Item 5",
     "props": {
       "id": "footer-menu-item-proovedor",
       "type": "custom",
@@ -90,6 +95,7 @@
     }
   },
   "menu-item#desktop__footer--realidad": {
+    "title": "Desktop Middle Item 6",
     "props": {
       "id": "footer-menu-item-realidad-aumentada",
       "type": "custom",
@@ -117,6 +123,7 @@
     }
   },
   "menu-item#desktop__footer--credito": {
+    "title": "Desktop Middle Item 7",
     "props": {
       "id": "footer-menu-item-credito",
       "type": "custom",
@@ -132,6 +139,7 @@
     }
   },
   "menu-item#desktop__footer--servicios": {
+    "title": "Desktop Middle Item 8",
     "props": {
       "id": "footer-menu-item-servicios",
       "type": "custom",
@@ -147,6 +155,7 @@
     }
   },
   "menu-item#desktop__footer--ventas": {
+    "title": "Desktop Middle Item 9",
     "props": {
       "id": "footer-menu-item-ventas",
       "type": "custom",
@@ -174,6 +183,7 @@
     }
   },
   "menu-item#desktop__footer--sucursales": {
+    "title": "Desktop Middle Item 10",
     "props": {
       "id": "footer-menu-item-sucursales",
       "type": "custom",
@@ -189,6 +199,7 @@
     }
   },
   "menu-item#desktop__footer--preguntas": {
+    "title": "Desktop Middle Item 11",
     "props": {
       "id": "footer-menu-item-preguntas",
       "type": "custom",
@@ -204,6 +215,7 @@
     }
   },
   "menu-item#desktop__footer--planes": {
+    "title": "Desktop Middle Item 12",
     "props": {
       "id": "footer-menu-item-planes",
       "type": "custom",
@@ -233,6 +245,7 @@
     }
   },
   "menu-item#desktop__footer--hot-sale": {
+    "title": "Desktop Middle Item 13",
     "props": {
       "id": "footer-menu-item-hot-sale",
       "type": "custom",
@@ -248,6 +261,7 @@
     }
   },
   "menu-item#desktop__footer--cyber-monday": {
+    "title": "Desktop Middle Item 14",
     "props": {
       "id": "footer-menu-item-cyber-monday",
       "type": "custom",
@@ -263,6 +277,7 @@
     }
   },
   "menu-item#desktop__footer--fans": {
+    "title": "Desktop Middle Item 15",
     "props": {
       "id": "footer-menu-item-fans",
       "type": "custom",
@@ -278,6 +293,7 @@
     }
   },
   "menu-item#desktop__footer--black-friday": {
+    "title": "Desktop Middle Item 16",
     "props": {
       "id": "footer-menu-item-black-friday",
       "type": "custom",
@@ -293,6 +309,7 @@
     }
   },
   "menu-item#desktop__footer--responsables": {
+    "title": "Desktop Middle Item 17",
     "props": {
       "id": "footer-menu-item-responsables",
       "type": "custom",

@@ -19,5 +19,6 @@
     "props": {
       "blockClass": "mobile__footer--container"
     }
-  }
+  },
+  "flex-layout.row#footer__mobile--bottom": {}
 }

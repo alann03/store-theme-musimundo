@@ -15,7 +15,7 @@
       "flex-layout.row#product__price",
       "product-installments#product__detail",
       "rich-text#product__detail--installments-text",
-      "buy-button#product__detail",
+      "add-to-cart-button#product__detail",
       "image#product__detail--installments-24"
     ],
     "props": {
@@ -78,9 +78,10 @@
       "blockClass": "product__detail--installments-text"
     }
   },
-  "buy-button#product__detail": {
-    "title": "Product Detail Buy Button",
+  "add-to-cart-button#product__detail": {
+    "title": "Product Detail Add To Cart Button",
     "props": {
+      "text": "AGREGAR AL CARRO",
       "blockClass": "product__detail--buy-button"
     }
   },

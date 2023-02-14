@@ -22,7 +22,7 @@
     "children": [
       "product-installments#product__detail",
       "rich-text#product__detail--installments-text",
-      "buy-button#product__detail"
+      "add-to-cart-button#product__detail"
     ],
     "props": {
       "blockClass": "product__detail--installments-label-col"

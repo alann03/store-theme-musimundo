@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#pdf-reader": {
+    "title": "Pdf Reader Container",
+    "children": [
+      "pdf-reader"
+    ],
+    "props": {
+      "blockClass": "pdf__reader--container"
+    }
+  },
+  "pdf-reader": {
+    "title": "Pdf Reader",
+    "props": {
+      "pdfUrl": "assets/documents/Sample_PDF.pdf",
+      "width": 500,
+      "height": 500,
+      "blockClass": "pdf__reader"
+    }
+  }
+}

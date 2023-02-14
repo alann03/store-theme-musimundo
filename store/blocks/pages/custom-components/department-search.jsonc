@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#custom-department-search": {
+    "title": "Department Search Container",
+    "children": [
+      "department-search"
+    ],
+    "props": {
+      "blockClass": "department__search--container"
+    }
+  }
+}

@@ -53,19 +53,5 @@
       "text": "Estoy navegando desde: Buenos Aires",
       "blockClass": "header__desktop--top-text"
     }
-  },
-  "rich-text#header__desktop--top-2": {
-    "title": "Header Top Text 2",
-    "props": {
-      "text": "Sucursales",
-      "blockClass": "header__desktop--top-text"
-    }
-  },
-  "rich-text#header__desktop--top-3": {
-    "title": "Header Top Text 3",
-    "props": {
-      "text": "Centro de atención al cliente",
-      "blockClass": "header__desktop--top-text"
-    }
   }
 }

@@ -1,0 +1,9 @@
+.imageElement--custom__grid--image-small {
+  height: 50%;
+  width: 100%;
+}
+
+.imageElement--custom__grid--image-big {
+  height: -webkit-fill-available;
+  width: 100%;
+}

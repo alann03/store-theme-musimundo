@@ -5,7 +5,8 @@
       "flex-layout.row#bullets-group",
       "flex-layout.row#custom-department-search",
       "flex-layout.row#pdf-reader",
-      "flex-layout.row#quick-order"
+      "flex-layout.row#quick-order",
+      "flex-layout.row#custom-grid"
     ]
   }
 }

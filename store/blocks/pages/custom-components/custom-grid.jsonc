@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#custom-grid": {
+    "title": "Custom Grid Container",
+    "children": [
+      "custom-grid"
+    ],
+    "props": {
+      "blockClass": "custom__grid--container"
+    }
+  },
+  "custom-grid": {
+    "title": "Custom Grid",
+    "children": [
+      "image#custom__grid--1",
+      "image#custom__grid--2",
+      "image#custom__grid--3",
+      "image#custom__grid--4",
+      "image#custom__grid--5"
+    ]
+  },
+  "image#custom__grid--1": {
+    "title": "Custom Grid Image 1",
+    "props": {
+      "src": "assets/img/home__infocard-1.jpg",
+      "blockClass": "custom__grid--image-big"
+    }
+  },
+  "image#custom__grid--2": {
+    "title": "Custom Grid Image 2",
+    "props": {
+      "src": "assets/img/home__infocard-2.jpg",
+      "blockClass": "custom__grid--image-small"
+    }
+  },
+  "image#custom__grid--3": {
+    "title": "Custom Grid Image 3",
+    "props": {
+      "src": "assets/img/home__infocard-3.jpg",
+      "blockClass": "custom__grid--image-small"
+    }
+  },
+  "image#custom__grid--4": {
+    "title": "Custom Grid Image 4",
+    "props": {
+      "src": "assets/img/home__infocard-4.jpg",
+      "blockClass": "custom__grid--image-small"
+    }
+  },
+  "image#custom__grid--5": {
+    "title": "Custom Grid Image 5",
+    "props": {
+      "src": "assets/img/home__infocard-9.jpg",
+      "blockClass": "custom__grid--image-small"
+    }
+  }
+}

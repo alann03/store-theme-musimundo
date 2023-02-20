@@ -134,17 +134,55 @@
   "flex-layout.row#minicart__row--left-middle": {
     "title": "Mini Cart Row Left Middle",
     "children": [
-      "minicart-product-list"
+      "responsive-layout.desktop#minicart__product--list",
+      "responsive-layout.tablet#minicart__product--list",
+      "responsive-layout.phone#minicart__product--list"
     ],
     "props": {
       "horizontalAlign": "left",
       "blockClass": "minicart__row--left-middle"
     }
   },
-  "minicart-product-list": {
+  "responsive-layout.desktop#minicart__product--list": {
+    "title": "Mini Cart Product List Desktop",
+    "children": [
+      "minicart-product-list#desktop"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "responsive-layout.tablet#minicart__product--list": {
+    "title": "Mini Cart Product List Tablet",
+    "children": [
+      "minicart-product-list#desktop"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "responsive-layout.phone#minicart__product--list": {
+    "title": "Mini Cart Product List Phone",
+    "children": [
+      "minicart-product-list#phone"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "minicart-product-list#desktop": {
     "title": "Mini Cart Product List Cont",
     "blocks": [
-      "product-list"
+      "product-list#desktop"
+    ],
+    "props": {
+      "blockClass": "minicart__product--list-cont"
+    }
+  },
+  "minicart-product-list#phone": {
+    "title": "Mini Cart Product List Cont",
+    "blocks": [
+      "product-list#phone"
     ],
     "props": {
       "blockClass": "minicart__product--list-cont"

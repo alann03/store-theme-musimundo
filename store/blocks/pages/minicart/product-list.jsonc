@@ -1,8 +1,16 @@
 {
-  "product-list": {
-    "title": "Mini Cart Product List",
+  "product-list#desktop": {
+    "title": "Mini Cart Product List Desktop",
     "blocks": [
-      "product-list-content-desktop",
+      "product-list-content-desktop"
+    ],
+    "props": {
+      "blockClass": "minicart__product--list"
+    }
+  },
+  "product-list#phone": {
+    "title": "Mini Cart Product List Phone",
+    "blocks": [
       "product-list-content-mobile"
     ],
     "props": {

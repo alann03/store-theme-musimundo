@@ -71,6 +71,11 @@
 
 .flexRowContent--minicart__row--left-middle :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   justify-content: flex-start;
+  width: 100% !important;
+}
+
+.flexRowContent--minicart__row--left-middle {
+  flex-direction: column;
 }
 
 .flexRowContent--minicart__row--left-top {
